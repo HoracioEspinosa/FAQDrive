@@ -1,0 +1,103 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .navbar {
+      background: url('/assets/img/search-banner.jpg');
+      min-height: 300px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      h1 {
+          color: #666666;
+          font-size: 24px;
+          text-align: center;
+      }
+
+      .example-form {
+        min-width: 150px;
+        max-width: 400px;
+        width: 100%;
+    
+        mat-autocomplete {
+            width: 380px;
+        }
+    
+        .example-full-width {
+            width: 100%;
+            input {
+                padding: 10px !important;
+                background: white;
+                color: #999999 !important;
+                min-height: 25px;
+                ::-ms-input-placeholder {
+                    color: red;
+                }
+        
+            }
+            mat-icon {
+                background: white;
+                color: #999999;
+                padding: 10px;
+                min-height: 25px;
+            }
+          }
+        
+        
+          .placeholder{
+            padding-top: 0;
+            color: #999999;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin-top: 10px;
+          }
+      }
+          
+  }
+
+  .sidenavMenu {
+    border: 1px solid red;
+    li {
+      padding: 10px;
+      background: #f2f2f2;
+    }
+  }
+
+
+  #sidenav {
+    width: 350px;
+    background: #fff;
+    padding: 15px 10px;
+
+    li {
+      background: #f5dc00;
+    }
+  }
+
+  mat-expansion-panel {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    border: solid 1px #e7e7e7;
+    &.mat-expanded {
+        background: #f7f7f7 !important;
+    }
+  
+    mat-expansion-panel-header {
+      //height: 48px !important;
+    }
+  }

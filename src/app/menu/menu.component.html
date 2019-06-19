@@ -1,0 +1,9 @@
+
+    <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <b>{{ item.title.text }}</b>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
+    </mat-expansion-panel>

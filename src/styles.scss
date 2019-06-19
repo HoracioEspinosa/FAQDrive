@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.example-form { 
+    .mat-form-field-appearance-legacy .mat-form-field-underline {
+        height: 0px !important;
+        width: 100% !important;
+    }
+  }
+
+
+  ::ng-deep .mat-form-field-placeholder{
+
+    color:red;
+  }
+  
+  ::ng-deep .mat-focused .mat-form-field-placeholder{
+  
+    color:red;
+  }
+
+  ::ng-deep .mat-form-field-label{
+    color:#000 !important;
+}
+
+.mat-expansion-panel-body {
+  padding: 0 !important;
+}
+mat-expansion-panel {
+  margin: 0 !important;
+}
+
+mat-expansion-panel {
+  box-shadow: none !important;
+  border-radius: 4px !important;
+  border: solid 1px #e7e7e7;
+  &.mat-expanded {
+      background: #f7f7f7 !important;
+  }
+
+  mat-expansion-panel-header {
+    //height: 48px !important;
+  }
+}

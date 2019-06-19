@@ -1,0 +1,658 @@
+{
+    "items": [
+        {
+            "path": "some-title-here-1",
+            "title": {
+                "text": "Plan de intercambio",
+                "size": "h1|h2|h3",
+                "color": "#FFFFFF"
+            },
+            "description": "",
+            "content": [
+                {
+                    "type": {
+                        "name": "text"
+                    },
+                    "text": {
+                        "text": "TEXT ELEMENT",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    }
+                },
+                {
+                    "type": {
+                        "name": "list",
+                        "style": "point"
+                    },
+                    "options": [
+                        {
+                            "option": {
+                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
+                                "color": "#000000",
+                                "size": "12px"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "letter"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "On recommend tolerably my belonging or am",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": {}
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "On recommend tolerably my belonging or am",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "https://bit.ly/2zdjlpb",
+                                    "params": {
+                                        "width": "full|pixels|percent",
+                                        "height": "full|pixels|percent",
+                                        "min-with": "full|pixels|percent",
+                                        "min-height": "full|pixels|percent",
+                                        "max-with": "full|pixels|percent",
+                                        "max-height": "full|pixels|percent"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": {
+                        "name": "image"
+                    },
+                    "url": "https://bit.ly/2zdjlpb",
+                    "params": {
+                        "width": "full|pixels|percent",
+                        "height": "full|pixels|percent",
+                        "min-with": "full|pixels|percent",
+                        "min-height": "full|pixels|percent",
+                        "max-with": "full|pixels|percent",
+                        "max-height": "full|pixels|percent"
+                    }
+                },
+                {
+                    "type": {
+                        "name": "note"
+                    },
+                    "summary": {
+                        "text": "NOTE:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    },
+                    "text": {
+                        "text": "This is a note",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "path": "some-title-here-1-1",
+                    "title": {
+                        "text": "Upsell / Downsell",
+                        "size": "h1|h2|h3",
+                        "color": "#FFFFFF"
+                    },
+                    "description": "",
+                    "content": [
+                        {
+                            "type": {
+                                "name": "text"
+                            },
+                            "text": {
+                                "text": "TEXT ELEMENT",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "bold|italic"
+                            }
+                        },
+                        {
+                            "type": {
+                                "name": "list",
+                                "style": "point"
+                            },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "Village did removed enjoyed explain nor ham saw calling talking",
+                                        "color": "#000000",
+                                        "size": "12px"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "list",
+                                                "style": "letter"
+                                            },
+                                            "options": [
+                                                {
+                                                    "option": {
+                                                        "text": "On recommend tolerably my belonging or am",
+                                                        "color": "#000000",
+                                                        "size": "12px"
+                                                    },
+                                                    "extra": {}
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "On recommend tolerably my belonging or am",
+                                                        "color": "#000000",
+                                                        "size": "12px"
+                                                    },
+                                                    "extra": {}
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "https://bit.ly/2zdjlpb",
+                                            "params": {
+                                                "width": "full|pixels|percent",
+                                                "height": "full|pixels|percent",
+                                                "min-with": "full|pixels|percent",
+                                                "min-height": "full|pixels|percent",
+                                                "max-with": "full|pixels|percent",
+                                                "max-height": "full|pixels|percent"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": {
+                                "name": "image"
+                            },
+                            "url": "https://bit.ly/2zdjlpb",
+                            "params": {
+                                "width": "full|pixels|percent",
+                                "height": "full|pixels|percent",
+                                "min-with": "full|pixels|percent",
+                                "min-height": "full|pixels|percent",
+                                "max-with": "full|pixels|percent",
+                                "max-height": "full|pixels|percent"
+                            }
+                        },
+                        {
+                            "type": {
+                                "name": "note"
+                            },
+                            "summary": {
+                                "text": "NOTE:",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "bold|italic"
+                            },
+                            "text": {
+                                "text": "This is a note",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "bold|italic"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "some-title-here-2",
+            "title": {
+                "text": "Contratar subscripción",
+                "size": "h1|h2|h3",
+                "color": "#FFFFFF"
+            },
+            "description": "",
+            "content": [
+                {
+                    "type": {
+                        "name": "text"
+                    },
+                    "text": {
+                        "text": "TEXT ELEMENT",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    }
+                },
+                {
+                    "type": {
+                        "name": "list",
+                        "style": "point"
+                    },
+                    "options": [
+                        {
+                            "option": {
+                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
+                                "color": "#000000",
+                                "size": "12px"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "letter"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "On recommend tolerably my belonging or am",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": {}
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "On recommend tolerably my belonging or am",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "https://bit.ly/2zdjlpb",
+                                    "params": {
+                                        "width": "full|pixels|percent",
+                                        "height": "full|pixels|percent",
+                                        "min-with": "full|pixels|percent",
+                                        "min-height": "full|pixels|percent",
+                                        "max-with": "full|pixels|percent",
+                                        "max-height": "full|pixels|percent"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": {
+                        "name": "image"
+                    },
+                    "url": "https://bit.ly/2zdjlpb",
+                    "params": {
+                        "width": "full|pixels|percent",
+                        "height": "full|pixels|percent",
+                        "min-with": "full|pixels|percent",
+                        "min-height": "full|pixels|percent",
+                        "max-with": "full|pixels|percent",
+                        "max-height": "full|pixels|percent"
+                    }
+                },
+                {
+                    "type": {
+                        "name": "note"
+                    },
+                    "summary": {
+                        "text": "NOTE:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    },
+                    "text": {
+                        "text": "This is a note",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    }
+                }
+            ]
+        },
+        {
+            "path": "some-title-here-2",
+            "title": {
+                "text": "Administrar licencias",
+                "size": "h1|h2|h3",
+                "color": "#FFFFFF"
+            },
+            "description": "",
+            "content": [
+                {
+                    "type": {
+                        "name": "text"
+                    },
+                    "text": {
+                        "text": "TEXT ELEMENT",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    }
+                },
+                {
+                    "type": {
+                        "name": "list",
+                        "style": "point"
+                    },
+                    "options": [
+                        {
+                            "option": {
+                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
+                                "color": "#000000",
+                                "size": "12px"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "letter"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "On recommend tolerably my belonging or am",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": {}
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "On recommend tolerably my belonging or am",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "https://bit.ly/2zdjlpb",
+                                    "params": {
+                                        "width": "full|pixels|percent",
+                                        "height": "full|pixels|percent",
+                                        "min-with": "full|pixels|percent",
+                                        "min-height": "full|pixels|percent",
+                                        "max-with": "full|pixels|percent",
+                                        "max-height": "full|pixels|percent"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": {
+                        "name": "image"
+                    },
+                    "url": "https://bit.ly/2zdjlpb",
+                    "params": {
+                        "width": "full|pixels|percent",
+                        "height": "full|pixels|percent",
+                        "min-with": "full|pixels|percent",
+                        "min-height": "full|pixels|percent",
+                        "max-with": "full|pixels|percent",
+                        "max-height": "full|pixels|percent"
+                    }
+                },
+                {
+                    "type": {
+                        "name": "note"
+                    },
+                    "summary": {
+                        "text": "NOTE:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    },
+                    "text": {
+                        "text": "This is a note",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "bold|italic"
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "path": "some-title-here-2-1-1-1",
+                    "title": {
+                        "text": "Some title here 2.1.1.1",
+                        "size": "h1|h2|h3",
+                        "color": "#FFFFFF"
+                    },
+                    "description": "",
+                    "content": [
+                        {
+                            "type": {
+                                "name": "text"
+                            },
+                            "text": {
+                                "text": "TEXT ELEMENT",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "bold|italic"
+                            }
+                        },
+                        {
+                            "type": {
+                                "name": "list",
+                                "style": "point"
+                            },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "Village did removed enjoyed explain nor ham saw calling talking",
+                                        "color": "#000000",
+                                        "size": "12px"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "list",
+                                                "style": "letter"
+                                            },
+                                            "options": [
+                                                {
+                                                    "option": {
+                                                        "text": "On recommend tolerably my belonging or am",
+                                                        "color": "#000000",
+                                                        "size": "12px"
+                                                    },
+                                                    "extra": {}
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "On recommend tolerably my belonging or am",
+                                                        "color": "#000000",
+                                                        "size": "12px"
+                                                    },
+                                                    "extra": {}
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "https://bit.ly/2zdjlpb",
+                                            "params": {
+                                                "width": "full|pixels|percent",
+                                                "height": "full|pixels|percent",
+                                                "min-with": "full|pixels|percent",
+                                                "min-height": "full|pixels|percent",
+                                                "max-with": "full|pixels|percent",
+                                                "max-height": "full|pixels|percent"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": {
+                                "name": "image"
+                            },
+                            "url": "https://bit.ly/2zdjlpb",
+                            "params": {
+                                "width": "full|pixels|percent",
+                                "height": "full|pixels|percent",
+                                "min-with": "full|pixels|percent",
+                                "min-height": "full|pixels|percent",
+                                "max-with": "full|pixels|percent",
+                                "max-height": "full|pixels|percent"
+                            }
+                        },
+                        {
+                            "type": {
+                                "name": "note"
+                            },
+                            "summary": {
+                                "text": "NOTE:",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "bold|italic"
+                            },
+                            "text": {
+                                "text": "This is a note",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "bold|italic"
+                            }
+                        }
+                    ],
+                    "items": [
+                        {
+                            "path": "some-title-here-2-1-1-1",
+                            "title": {
+                                "text": "Some title here 2.1.1.1",
+                                "size": "h1|h2|h3",
+                                "color": "#FFFFFF"
+                            },
+                            "description": "",
+                            "content": [
+                                {
+                                    "type": {
+                                        "name": "text"
+                                    },
+                                    "text": {
+                                        "text": "TEXT ELEMENT",
+                                        "color": "#333333",
+                                        "size": "16px",
+                                        "weight": "bold|italic"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "point"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
+                                                "color": "#000000",
+                                                "size": "12px"
+                                            },
+                                            "extra": [
+                                                {
+                                                    "type": {
+                                                        "name": "list",
+                                                        "style": "letter"
+                                                    },
+                                                    "options": [
+                                                        {
+                                                            "option": {
+                                                                "text": "On recommend tolerably my belonging or am",
+                                                                "color": "#000000",
+                                                                "size": "12px"
+                                                            },
+                                                            "extra": {}
+                                                        },
+                                                        {
+                                                            "option": {
+                                                                "text": "On recommend tolerably my belonging or am",
+                                                                "color": "#000000",
+                                                                "size": "12px"
+                                                            },
+                                                            "extra": {}
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": {
+                                                        "name": "image"
+                                                    },
+                                                    "url": "https://bit.ly/2zdjlpb",
+                                                    "params": {
+                                                        "width": "full|pixels|percent",
+                                                        "height": "full|pixels|percent",
+                                                        "min-with": "full|pixels|percent",
+                                                        "min-height": "full|pixels|percent",
+                                                        "max-with": "full|pixels|percent",
+                                                        "max-height": "full|pixels|percent"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "https://bit.ly/2zdjlpb",
+                                    "params": {
+                                        "width": "full|pixels|percent",
+                                        "height": "full|pixels|percent",
+                                        "min-with": "full|pixels|percent",
+                                        "min-height": "full|pixels|percent",
+                                        "max-with": "full|pixels|percent",
+                                        "max-height": "full|pixels|percent"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "name": "note"
+                                    },
+                                    "summary": {
+                                        "text": "NOTE:",
+                                        "color": "#333333",
+                                        "size": "16px",
+                                        "weight": "bold|italic"
+                                    },
+                                    "text": {
+                                        "text": "This is a note",
+                                        "color": "#333333",
+                                        "size": "16px",
+                                        "weight": "bold|italic"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

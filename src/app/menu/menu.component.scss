@@ -1,0 +1,16 @@
+li {
+    
+    &.tiene {
+        background: yellowgreen;
+    }
+    &.notiene {
+        background: yellow;
+    }
+}
+
+
+
+
+mat-expansion-panel-header {
+    padding-left: 45px;
+}
