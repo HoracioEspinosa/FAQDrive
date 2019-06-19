@@ -32,16 +32,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 mat-expansion-panel {
   margin: 0 !important;
 }
-
-mat-expansion-panel {
-  box-shadow: none !important;
-  border-radius: 4px !important;
-  border: solid 1px #e7e7e7;
-  &.mat-expanded {
-      background: #f7f7f7 !important;
-  }
-
-  mat-expansion-panel-header {
-    //height: 48px !important;
+mat-accordion {
+  border:1px solid #f7f7f7 !important;
+  mat-expansion-panel {
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    border-left: 1px solid #f7f7f7 !important;
+    border-right: 1px solid #f7f7f7 !important;
+    &.mat-expanded {
+        background: #f7f7f7 !important;
+    }
+    &:first-child {
+      border-top: 2px solid #f7f7f7;
+    }
   }
 }
