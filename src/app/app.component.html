@@ -26,14 +26,14 @@
 
 <div id="sidenav">
     <mat-accordion multi>
-        <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <b>{{ item.title.text }}</b>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
+      <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items" [attr.data-title]="item.path">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b>{{ item.title.text }}</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
 
-          <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
-        </mat-expansion-panel>
-      </mat-accordion>
+        <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
+      </mat-expansion-panel>
+    </mat-accordion>
 </div>

@@ -1,5 +1,5 @@
 
-    <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items">
+    <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items" [attr.data-title]="item.path">
       <mat-expansion-panel-header>
         <mat-panel-title>
           <b>{{ item.title.text }}</b>
