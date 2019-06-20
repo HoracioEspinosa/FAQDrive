@@ -31,7 +31,7 @@
         [attr.data-title]="item.path">
         <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*">
           <mat-panel-title>
-            <b>{{ item.title.text }}</b>
+            <b>{{ item.title.text }}</b> <button mat-button (click)="searchContent(item)">CLICK</button>
           </mat-panel-title>
         </mat-expansion-panel-header>
 
@@ -41,7 +41,6 @@
     </mat-accordion>
   </div>
   <div id="content">
-    {{ SelectedContent | json }}
-    <app-content></app-content>
+    <app-content [SelectedContent]="SelectedContent"></app-content>
   </div>
 </div>

@@ -1,166 +1,96 @@
 {
     "items": [
         {
+            "path": "some-title-here-2",
             "title": {
                 "text": "Plan de intercambio",
                 "size": "35px",
                 "color": "#333333"
             },
             "description": "",
-            "content": [
-                {
-                    "type": {
-                        "name": "text"
-                    },
-                    "text": {
-                        "text": "TEXT ELEMENT",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    }
-                },
-                {
-                    "type": {
-                        "name": "list",
-                        "style": "point"
-                    },
-                    "options": [
-                        {
-                            "option": {
-                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
-                                "color": "#000000",
-                                "size": "12px"
-                            },
-                            "extra": [
-                                {
-                                    "type": {
-                                        "name": "list",
-                                        "style": "letter"
-                                    },
-                                    "options": [
-                                        {
-                                            "option": {
-                                                "text": "On recommend tolerably my belonging or am",
-                                                "color": "#000000",
-                                                "size": "12px"
-                                            },
-                                            "extra": {}
-                                        },
-                                        {
-                                            "option": {
-                                                "text": "On recommend tolerably my belonging or am",
-                                                "color": "#000000",
-                                                "size": "12px"
-                                            },
-                                            "extra": {}
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": {
-                                        "name": "image"
-                                    },
-                                    "url": "https://bit.ly/2zdjlpb",
-                                    "params": {
-                                        "width": "full|pixels|percent",
-                                        "height": "full|pixels|percent",
-                                        "min-with": "full|pixels|percent",
-                                        "min-height": "full|pixels|percent",
-                                        "max-with": "full|pixels|percent",
-                                        "max-height": "full|pixels|percent"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": {
-                        "name": "image"
-                    },
-                    "url": "https://bit.ly/2zdjlpb",
-                    "params": {
-                        "width": "full|pixels|percent",
-                        "height": "full|pixels|percent",
-                        "min-with": "full|pixels|percent",
-                        "min-height": "full|pixels|percent",
-                        "max-with": "full|pixels|percent",
-                        "max-height": "full|pixels|percent"
-                    }
-                },
-                {
-                    "type": {
-                        "name": "note"
-                    },
-                    "summary": {
-                        "text": "NOTE:",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    },
-                    "text": {
-                        "text": "This is a note",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    }
-                }
-            ],
             "items": [
                 {
-                    "path": "upsell-downsell",
+                    "path": "some-title-here-2-1-1-1",
                     "title": {
                         "text": "Upsell / Downsell",
-                        "size": "h1|h2|h3",
-                        "color": "#FFFFFF"
+                        "size": "35px",
+                        "color": "#333333"
                     },
                     "description": "",
                     "content": [
                         {
                             "type": {
-                                "name": "text"
-                            },
-                            "text": {
-                                "text": "TEXT ELEMENT",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "bold|italic"
-                            }
-                        },
-                        {
-                            "type": {
                                 "name": "list",
-                                "style": "point"
+                                "style": "decimal"
                             },
                             "options": [
                                 {
                                     "option": {
-                                        "text": "Village did removed enjoyed explain nor ham saw calling talking",
-                                        "color": "#000000",
-                                        "size": "12px"
+                                        "text": "Iniciar sesión en el Panel de Control Cloud en la URL <a href='https://cp.cloud.telmex.com'>https://cp.cloud.telmex.com.</a> con usuario Partner.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/4-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "352px"
+                                            }
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "option": {
+                                        "text": "Realizar la búsqueda por ID de cuenta del usuario al que se desea realizar el ajuste de su actual Paquete Infinitum Negocio en la ruta:",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
                                     },
                                     "extra": [
                                         {
                                             "type": {
                                                 "name": "list",
-                                                "style": "letter"
+                                                "style": "lower-alpha"
                                             },
                                             "options": [
                                                 {
                                                     "option": {
-                                                        "text": "On recommend tolerably my belonging or am",
-                                                        "color": "#000000",
-                                                        "size": "12px"
-                                                    },
-                                                    "extra": {}
+                                                        "text": "Facturación",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
                                                 },
                                                 {
                                                     "option": {
-                                                        "text": "On recommend tolerably my belonging or am",
-                                                        "color": "#000000",
-                                                        "size": "12px"
-                                                    },
-                                                    "extra": {}
+                                                        "text": "Clientes",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "ID de la Cuenta",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Hacer clic en Buscar",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
                                                 }
                                             ]
                                         },
@@ -168,50 +98,275 @@
                                             "type": {
                                                 "name": "image"
                                             },
-                                            "url": "https://bit.ly/2zdjlpb",
-                                            "params": {
-                                                "width": "full|pixels|percent",
-                                                "height": "full|pixels|percent",
-                                                "min-with": "full|pixels|percent",
-                                                "min-height": "full|pixels|percent",
-                                                "max-with": "full|pixels|percent",
-                                                "max-height": "full|pixels|percent"
+                                            "url": "/upsell-downsell/10-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar el Nombre de la cuenta.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/11-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la pestaña Suscripciones.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/12-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la suscripción de Claro Drive Negocio.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/13-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar Plan de intercambio.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/14-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Habilitar el plan de Claro Drive Negocio que le corresponda según el Paquete Infinitum Negocio contratado, hacer clic en Seleccionar plan de servicio.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/3-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Habilitar Desde la fecha de inicio de la suscripción actual y hacer clic en Siguiente.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/2-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Hacer clic en el botón Confirmar.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    }
+                                },
+                                {
+                                    "option": {
+                                        "text": "Inmediatamente después aparecerá el UG confirmando el cambio realizado",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/upsell-downsell/1-image@3x.png",
+
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        },
+                                        {
+                                            "type": {
+                                                "name": "note"
+                                            },
+                                            "summary": {
+                                                "text": "NOTA:",
+                                                "style": {
+                                                    "color": "#333333",
+                                                    "font-size": "16px",
+                                                    "font-weight": "bold"
+                                                }
+                                            },
+                                            "text": {
+                                                "text": "Para que el usuario final vea reflejado este cambio en su usuario de Claro Drive, debe entrar al panel de control y realizar la actualización de la capacidad de almacenamiento, ver el manual de Claro Drive – Administrar licencias UPGRADE o DOWNGRADE según sea necesario.",
+                                                "style": {
+                                                    "color": "#333333",
+                                                    "font-size": "16px",
+                                                    "font-weight": "lighter",
+                                                    "padding-bottom": "20px",
+                                                    "padding-top":"20px"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": {
+                                                "name": "text"
+                                            },
+                                            "text": {
+                                                "text": "Anexo",
+                                                "color": "#333333",
+                                                "size": "20px",
+                                                "weight": "bold"
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upsell-downsell/5-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "60%",
+                                                "padding-bottom": "20px"
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upsell-downsell/6-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "60%",
+                                                "padding-bottom": "20px"
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upsell-downsell/7-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "60%",
+                                                "padding-bottom": "20px"
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upsell-downsell/8-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "60%",
+                                                "padding-bottom": "20px"
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upsell-downsell/9-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "60%",
+                                                "padding-bottom": "20px"
                                             }
                                         }
                                     ]
                                 }
                             ]
-                        },
-                        {
-                            "type": {
-                                "name": "image"
-                            },
-                            "url": "https://bit.ly/2zdjlpb",
-                            "params": {
-                                "width": "full|pixels|percent",
-                                "height": "full|pixels|percent",
-                                "min-with": "full|pixels|percent",
-                                "min-height": "full|pixels|percent",
-                                "max-with": "full|pixels|percent",
-                                "max-height": "full|pixels|percent"
-                            }
-                        },
-                        {
-                            "type": {
-                                "name": "note"
-                            },
-                            "summary": {
-                                "text": "NOTE:",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "bold|italic"
-                            },
-                            "text": {
-                                "text": "This is a note",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "bold|italic"
-                            }
                         }
                     ]
                 }
@@ -221,287 +376,310 @@
             "path": "some-title-here-2",
             "title": {
                 "text": "Contratar subscripción",
-                "size": "h1|h2|h3",
-                "color": "#FFFFFF"
+                "size": "35px",
+                "color": "#333333"
             },
             "description": "",
             "content": [
                 {
                     "type": {
-                        "name": "text"
-                    },
-                    "text": {
-                        "text": "TEXT ELEMENT",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    }
-                },
-                {
-                    "type": {
                         "name": "list",
-                        "style": "point"
+                        "style": "decimal"
                     },
                     "options": [
                         {
                             "option": {
-                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
-                                "color": "#000000",
-                                "size": "12px"
-                            },
-                            "extra": [
-                                {
-                                    "type": {
-                                        "name": "list",
-                                        "style": "letter"
-                                    },
-                                    "options": [
-                                        {
-                                            "option": {
-                                                "text": "On recommend tolerably my belonging or am",
-                                                "color": "#000000",
-                                                "size": "12px"
-                                            },
-                                            "extra": {}
-                                        },
-                                        {
-                                            "option": {
-                                                "text": "On recommend tolerably my belonging or am",
-                                                "color": "#000000",
-                                                "size": "12px"
-                                            },
-                                            "extra": {}
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": {
-                                        "name": "image"
-                                    },
-                                    "url": "https://bit.ly/2zdjlpb",
-                                    "params": {
-                                        "width": "full|pixels|percent",
-                                        "height": "full|pixels|percent",
-                                        "min-with": "full|pixels|percent",
-                                        "min-height": "full|pixels|percent",
-                                        "max-with": "full|pixels|percent",
-                                        "max-height": "full|pixels|percent"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": {
-                        "name": "image"
-                    },
-                    "url": "https://bit.ly/2zdjlpb",
-                    "params": {
-                        "width": "full|pixels|percent",
-                        "height": "full|pixels|percent",
-                        "min-with": "full|pixels|percent",
-                        "min-height": "full|pixels|percent",
-                        "max-with": "full|pixels|percent",
-                        "max-height": "full|pixels|percent"
-                    }
-                },
-                {
-                    "type": {
-                        "name": "note"
-                    },
-                    "summary": {
-                        "text": "NOTE:",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    },
-                    "text": {
-                        "text": "This is a note",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    }
-                }
-            ]
-        },
-        {
-            "path": "some-title-here-2",
-            "title": {
-                "text": "Administrar licencias",
-                "size": "h1|h2|h3",
-                "color": "#FFFFFF"
-            },
-            "description": "",
-            "content": [
-                {
-                    "type": {
-                        "name": "text"
-                    },
-                    "text": {
-                        "text": "TEXT ELEMENT",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    }
-                },
-                {
-                    "type": {
-                        "name": "list",
-                        "style": "point"
-                    },
-                    "options": [
-                        {
-                            "option": {
-                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
-                                "color": "#000000",
-                                "size": "12px"
-                            },
-                            "extra": [
-                                {
-                                    "type": {
-                                        "name": "list",
-                                        "style": "letter"
-                                    },
-                                    "options": [
-                                        {
-                                            "option": {
-                                                "text": "On recommend tolerably my belonging or am",
-                                                "color": "#000000",
-                                                "size": "12px"
-                                            },
-                                            "extra": {}
-                                        },
-                                        {
-                                            "option": {
-                                                "text": "On recommend tolerably my belonging or am",
-                                                "color": "#000000",
-                                                "size": "12px"
-                                            },
-                                            "extra": {}
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": {
-                                        "name": "image"
-                                    },
-                                    "url": "https://bit.ly/2zdjlpb",
-                                    "params": {
-                                        "width": "full|pixels|percent",
-                                        "height": "full|pixels|percent",
-                                        "min-with": "full|pixels|percent",
-                                        "min-height": "full|pixels|percent",
-                                        "max-with": "full|pixels|percent",
-                                        "max-height": "full|pixels|percent"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": {
-                        "name": "image"
-                    },
-                    "url": "https://bit.ly/2zdjlpb",
-                    "params": {
-                        "width": "full|pixels|percent",
-                        "height": "full|pixels|percent",
-                        "min-with": "full|pixels|percent",
-                        "min-height": "full|pixels|percent",
-                        "max-with": "full|pixels|percent",
-                        "max-height": "full|pixels|percent"
-                    }
-                },
-                {
-                    "type": {
-                        "name": "note"
-                    },
-                    "summary": {
-                        "text": "NOTE:",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    },
-                    "text": {
-                        "text": "This is a note",
-                        "color": "#333333",
-                        "size": "16px",
-                        "weight": "bold|italic"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "path": "some-title-here-2-1-1-1",
-                    "title": {
-                        "text": "Some title here 2.1.1.1",
-                        "size": "h1|h2|h3",
-                        "color": "#FFFFFF"
-                    },
-                    "description": "",
-                    "content": [
-                        {
-                            "type": {
-                                "name": "text"
-                            },
-                            "text": {
-                                "text": "TEXT ELEMENT",
+                                "text": "En un navegador Web abrir la dirección URL <a href='https://telmex.com/web/negocios/clarodrive'>https://telmex.com/web/negocios/clarodrive</a> y hacer clic en <b class='textBlue'>Contrata ahora</b>.",
                                 "color": "#333333",
-                                "size": "16px",
-                                "weight": "bold|italic"
-                            }
-                        },
-                        {
-                            "type": {
-                                "name": "list",
-                                "style": "point"
+                                "size": "20px",
+                                "weight": "normal"
                             },
-                            "options": [
+                            "extra": [
                                 {
-                                    "option": {
-                                        "text": "Village did removed enjoyed explain nor ham saw calling talking",
-                                        "color": "#000000",
-                                        "size": "12px"
+                                    "type": {
+                                        "name": "image"
                                     },
-                                    "extra": [
+                                    "url": "/contratar-subscripcion/17-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "100%"
+                                    }
+                                }
+                            ]
+                        }, 
+                        {
+                            "option": {
+                                "text": "En la siguiente ventana puedes.",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "disc"
+                                    },
+                                    "options": [
                                         {
-                                            "type": {
-                                                "name": "list",
-                                                "style": "letter"
+                                            "option": {
+                                                "text": "Cambiar entre usuario HOGAR y NEGOCIO.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Iniciar sesión con cuenta Mi Telmex.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
                                             },
-                                            "options": [
+                                            "extra": [
                                                 {
-                                                    "option": {
-                                                        "text": "On recommend tolerably my belonging or am",
-                                                        "color": "#000000",
-                                                        "size": "12px"
+                                                    "type": {
+                                                        "name": "list",
+                                                        "style": "-"
                                                     },
-                                                    "extra": {}
-                                                },
-                                                {
-                                                    "option": {
-                                                        "text": "On recommend tolerably my belonging or am",
-                                                        "color": "#000000",
-                                                        "size": "12px"
-                                                    },
-                                                    "extra": {}
+                                                    "options": [
+                                                        {
+                                                            "option": {
+                                                                "text": "Ingresar correo electrónico, contraseña y dar clic en Continuar.",
+                                                                "color": "#333333",
+                                                                "size": "16px",
+                                                                "weight": "normal"
+                                                            }
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },
                                         {
-                                            "type": {
-                                                "name": "image"
+                                            "option": {
+                                                "text": "Recuperar la contraseña al hacer clic en ¿Olvidaste tu contraseña?",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Crear cuenta si aún no tienes cuenta Mi Telmex.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Para este ejercicio seleccionaremos NEGOCIO y crear cuenta.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/contratar-subscripcion/16-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "338px"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "option": {
+                                "text": "Es necesario ingresar los datos solicitados en el siguiente formulario:",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "disc"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "Nombre.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Apellido paterno.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Apellido materno.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Numero Telmex a 10 dígitos.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Celular de contacto.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Correo electrónico.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Contraseña (Debe tener mínimo de 8 caracteres, iniciar con una letra e incluir al menos un número, puedes utilizar signos)",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Activar recibo Telmex sin papel (Opcional)",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Recibe ofertas y promociones vía correo electrónico (Opcional)",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Verificar la prueba reCAPTCHA.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Hacer clic en Registrar.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        }
+                                        
+                                    ]
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/contratar-subscripcion/18-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "80%"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "option": {
+                                "text": "En la siguiente ventana es necesario:",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "disc"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "Elegir el plan sin costo asociado al paquete infinitum negocio contratado.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
                                             },
-                                            "url": "https://bit.ly/2zdjlpb",
-                                            "params": {
-                                                "width": "full|pixels|percent",
-                                                "height": "full|pixels|percent",
-                                                "min-with": "full|pixels|percent",
-                                                "min-height": "full|pixels|percent",
-                                                "max-with": "full|pixels|percent",
-                                                "max-height": "full|pixels|percent"
+                                            "extra":[
+                                                {
+                                                    "type": {
+                                                        "name": "image"
+                                                    },
+                                                    "url": "/contratar-subscripcion/19-image@3x.png",
+                                                    "parentStyle": {
+                                                        "text-align": "center"
+                                                    },
+                                                    "style": {
+                                                        "width": "255px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Elegir un plan con renta mensual.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            },
+                                            "extra":[
+                                                {
+                                                    "type": {
+                                                        "name": "image"
+                                                    },
+                                                    "url": "/contratar-subscripcion/15-image@3x.png",
+                                                    "parentStyle": {
+                                                        "text-align": "center"
+                                                    },
+                                                    "style": {
+                                                        "width": "255px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Hacer clic en CONTRATAR.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
                                             }
                                         }
                                     ]
@@ -509,108 +687,300 @@
                             ]
                         },
                         {
-                            "type": {
-                                "name": "image"
-                            },
-                            "url": "https://bit.ly/2zdjlpb",
-                            "params": {
-                                "width": "full|pixels|percent",
-                                "height": "full|pixels|percent",
-                                "min-with": "full|pixels|percent",
-                                "min-height": "full|pixels|percent",
-                                "max-with": "full|pixels|percent",
-                                "max-height": "full|pixels|percent"
-                            }
-                        },
-                        {
-                            "type": {
-                                "name": "note"
-                            },
-                            "summary": {
-                                "text": "NOTE:",
+                            "option": {
+                                "text": "Para crear el usuario del servicio es importante ingresar los datos solicitados en el siguiente formulario:",
                                 "color": "#333333",
-                                "size": "16px",
-                                "weight": "bold|italic"
+                                "size": "20px",
+                                "weight": "normal"
                             },
-                            "text": {
-                                "text": "This is a note",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "bold|italic"
-                            }
-                        }
-                    ],
-                    "items": [
-                        {
-                            "path": "some-title-here-2-1-1-1",
-                            "title": {
-                                "text": "Some title here 2.1.1.1",
-                                "size": "h1|h2|h3",
-                                "color": "#FFFFFF"
-                            },
-                            "description": "",
-                            "content": [
-                                {
-                                    "type": {
-                                        "name": "text"
-                                    },
-                                    "text": {
-                                        "text": "TEXT ELEMENT",
-                                        "color": "#333333",
-                                        "size": "16px",
-                                        "weight": "bold|italic"
-                                    }
-                                },
+                            "extra": [
                                 {
                                     "type": {
                                         "name": "list",
-                                        "style": "point"
+                                        "style": "disc"
                                     },
                                     "options": [
                                         {
                                             "option": {
-                                                "text": "Village did removed enjoyed explain nor ham saw calling talking",
-                                                "color": "#000000",
-                                                "size": "12px"
+                                                "text": "Nombre.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Apellidos.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Correo electrónico (Usuario del servicio, debe ser una cuenta de correo valida y disponible)",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Contraseña (Del servicio Claro Drive), y.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            }
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Hacer clic en Validar usuario y posteriormente en Confirmar.",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            },
+                                            "extra":[
+                                                {
+                                                    "type": {
+                                                        "name": "image"
+                                                    },
+                                                    "url": "/contratar-subscripcion/20-image@3x.png",
+                                                    "parentStyle": {
+                                                        "text-align": "center"
+                                                    },
+                                                    "style": {
+                                                        "width": "255px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "option": {
+                                "text": "Al finalizar el proceso de contratación se mostrará el mensaje ¡Felicidades!, hacer clic en Ir a Claro Drive para acceder al servicio.",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/contratar-subscripcion/21-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "255px"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "option": {
+                                "text": "También puedes abrir la dirección URL <a href='https://www.clarodrive.com/microsite/mexico/claronegocio'>https://www.clarodrive.com/microsite/mexico/claronegocio</a> e iniciar sesión con el usuario y contraseña previamente creado.",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/contratar-subscripcion/22-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "100%",
+                                        "padding-bottom":"20px"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/contratar-subscripcion/23-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "100%"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "some-title-here-2",
+            "title": {
+                "text": "Administrar licenciass",
+                "size": "35px",
+                "color": "#333333"
+            },
+            "description": "",
+            "content": [
+                {
+                    "type": {
+                        "name": "list",
+                        "style": "decimal"
+                    },
+                    "options": [
+                        {
+                            "option": {
+                                "text": "Iniciar sesión en el Panel de Control Cloud en la URL <a href='https://cp.cloud.telmex.com'>https://cp.cloud.telmex.com.</a>",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/administrar-licencias/4-image.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "339px"
+                                    }
+                                }
+                            ]
+                        }, 
+                        {
+                            "option": {
+                                "text": "Después de colocar correctamente el usuario y la contraseña se puede observar la vista principal del Panel de Control Cloud.",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/administrar-licencias/27-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "100%"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "option": {
+                                "text": "En el menú del lado izquierdo seleccionar Claro drive negocio.",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "image"
+                                    },
+                                    "url": "/administrar-licencias/26-image@3x.png",
+
+                                    "parentStyle": {
+                                        "text-align": "center"
+                                    },
+                                    "style": {
+                                        "width": "283px"
+                                    }
+                                }
+                            ]
+                        },
+
+                        {
+                            "option": {
+                                "text": "La vista principal muestra información general de:",
+                                "color": "#333333",
+                                "size": "20px",
+                                "weight": "normal"
+                            },
+                            "extra": [
+                                {
+                                    "type": {
+                                        "name": "list",
+                                        "style": "disc"
+                                    },
+                                    "options": [
+                                        {
+                                            "option": {
+                                                "text": "Cuenta",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
                                             },
                                             "extra": [
                                                 {
                                                     "type": {
                                                         "name": "list",
-                                                        "style": "letter"
+                                                        "style": "-"
                                                     },
                                                     "options": [
                                                         {
                                                             "option": {
-                                                                "text": "On recommend tolerably my belonging or am",
-                                                                "color": "#000000",
-                                                                "size": "12px"
-                                                            },
-                                                            "extra": {}
+                                                                "text": "Nombre del contratante del servicio.",
+                                                                "color": "#333333",
+                                                                "size": "16px",
+                                                                "weight": "normal"
+                                                            }
                                                         },
                                                         {
                                                             "option": {
-                                                                "text": "On recommend tolerably my belonging or am",
-                                                                "color": "#000000",
-                                                                "size": "12px"
-                                                            },
-                                                            "extra": {}
+                                                                "text": "Usuario Administrador del servicio",
+                                                                "color": "#333333",
+                                                                "size": "16px",
+                                                                "weight": "normal"
+                                                            }
                                                         }
                                                     ]
-                                                },
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "option": {
+                                                "text": "Planes y suscripciones",
+                                                "color": "#333333",
+                                                "size": "16px",
+                                                "weight": "normal"
+                                            },
+                                            "extra": [
                                                 {
                                                     "type": {
-                                                        "name": "image"
+                                                        "name": "list",
+                                                        "style": "-"
                                                     },
-                                                    "url": "https://bit.ly/2zdjlpb",
-                                                    "params": {
-                                                        "width": "full|pixels|percent",
-                                                        "height": "full|pixels|percent",
-                                                        "min-with": "full|pixels|percent",
-                                                        "min-height": "full|pixels|percent",
-                                                        "max-with": "full|pixels|percent",
-                                                        "max-height": "full|pixels|percent"
-                                                    }
+                                                    "options": [
+                                                        {
+                                                            "option": {
+                                                                "text": "Licencias asignadas.",
+                                                                "color": "#333333",
+                                                                "size": "16px",
+                                                                "weight": "normal"
+                                                            }
+                                                        },
+                                                        {
+                                                            "option": {
+                                                                "text": "Plan contratado.",
+                                                                "color": "#333333",
+                                                                "size": "16px",
+                                                                "weight": "normal"
+                                                            }
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }
@@ -620,34 +990,814 @@
                                     "type": {
                                         "name": "image"
                                     },
-                                    "url": "https://bit.ly/2zdjlpb",
-                                    "params": {
-                                        "width": "full|pixels|percent",
-                                        "height": "full|pixels|percent",
-                                        "min-with": "full|pixels|percent",
-                                        "min-height": "full|pixels|percent",
-                                        "max-with": "full|pixels|percent",
-                                        "max-height": "full|pixels|percent"
-                                    }
-                                },
-                                {
-                                    "type": {
-                                        "name": "note"
+                                    "url": "/administrar-licencias/29-image@3x.png",
+                                    "parentStyle": {
+                                        "text-align": "center"
                                     },
-                                    "summary": {
-                                        "text": "NOTE:",
-                                        "color": "#333333",
-                                        "size": "16px",
-                                        "weight": "bold|italic"
-                                    },
-                                    "text": {
-                                        "text": "This is a note",
-                                        "color": "#333333",
-                                        "size": "16px",
-                                        "weight": "bold|italic"
+                                    "style": {
+                                        "width": "100%"
                                     }
                                 }
                             ]
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "path": "some-title-here-2-1-1-1",
+                    "title": {
+                        "text": "Asignar licencias",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "content": [
+                        {
+                            "type": {
+                                "name": "list",
+                                "style": "decimal"
+                            },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el mosaico PLANES Y SUSCRIPCIONES hacer clic en ASIGNAR LICENCIA.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "image"
+                                            },
+                                            "url": "/asignar-licencia/24-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "339px"
+                                            }
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "option": {
+                                        "text": "Es necesario ingresar los datos solicitados en el siguiente formulario:",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "list",
+                                                "style": "disc"
+                                            },
+                                            "options": [
+                                                {
+                                                    "option": {
+                                                        "text": "Nombre.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Apellido paterno.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Correo electrónico (Como inicio de sesión)",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Contraseña.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Hacer clic en ENVIAR.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    },
+                                                    "extra": [
+                                                        {
+                                                            "type": {
+                                                                "name": "image"
+                                                            },
+                                                            "url": "/asignar-licencia/25-image@3x.png",
+                                                            "parentStyle": {
+                                                                "text-align": "center"
+                                                            },
+                                                            "style": {
+                                                                "width": "100%"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "text": "Habilitar / Deshabilitar usuario",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "description": "",
+                    "content": [
+                        {
+                            "type": { "name": "list", "style": "decimal" },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el menú Claro drive negocio, seleccionar Usuarios.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/habilitar-deshabilitar-usuario/31-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "283px"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la vista Lista, habilitar mediante la casilla verificadora el usuario que se desea habilitar o deshabilitar y posteriormente hacer clic en el botón HABILITAR o DESHABILITAR según sea necesario.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/habilitar-deshabilitar-usuario/30-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Al actualizar la página de usuarios se mostrarán los cambios realizados.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/habilitar-deshabilitar-usuario/32-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%",
+                                                "margin-bottom": "27px"
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/habilitar-deshabilitar-usuario/33-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "text": "Borrar usuario",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "content": [
+                        {
+                            "type": { "name": "list", "style": "decimal" },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el menú Claro drive negocio, seleccionar Usuarios.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/borrar-usuario/31-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "283px"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la vista Lista, habilitar mediante la casilla verificadora el usuario que se desea borrar y posteriormente hacer clic en el botón BORRAR.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/borrar-usuario/34-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Al actualizar la página de usuarios se mostrarán los cambios realizados.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/borrar-usuario/35-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%",
+                                                "margin-bottom": "27px"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "text": "Cambiar límites de recursos",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "content": [
+                        {
+                            "type": { "name": "list", "style": "decimal" },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el menú del lado izquierdo seleccionar Cuenta.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/cambiar-limites-de-recursos/38-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "281px"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "En el menú Cuenta, seleccionar Suscripciones.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/cambiar-limites-de-recursos/39-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "283px"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la cuenta Claro Drive Negocio contratada, en caso de ser necesario se puede realizar una búsqueda de la suscripción.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/cambiar-limites-de-recursos/40-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar CAMBIAR LÍMITES DE LOS RECURSOS.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/cambiar-limites-de-recursos/41-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Aumentar o disminuir el número de licencias, así como su capacidad de almacenamiento posteriormente hacer clic en ACEPTAR.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/cambiar-limites-de-recursos/37-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "El nuevo límite de recursos se verá reflejado automáticamente.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/cambiar-limites-de-recursos/36-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "text": "Upgrade",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "content": [
+                        {
+                            "type": { "name": "list", "style": "decimal" },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el menú Claro drive negocio, seleccionar Usuarios.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upgrade/43-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "281px"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la vista Mosaico y posteriormente hacer clic en EDITAR sobre el usuario al que se desea aumentar la capacidad de almacenamiento.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upgrade/44-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "La siguiente ventana muestra la disponibilidad de licencias con mayor capacidad de almacenamiento que se puede asignar al usuario. Seleccionar la capacidad deseada y hacer clic en ENVIAR.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "note"
+                                            },
+                                            "summary": {
+                                                "text": "NOTA:",
+                                                "style": {
+                                                    "color": "#333333",
+                                                    "font-size": "16px",
+                                                    "font-weight": "bold"
+                                                }
+                                            },
+                                            "text": {
+                                                "text": "En caso de no tener licencias disponibles vea CAMBIAR LIMITES DE RECURSOS.",
+                                                "style": {
+                                                    "color": "#333333",
+                                                    "font-size": "16px",
+                                                    "font-weight": "lighter",
+                                                    "padding-bottom": "20px"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upgrade/42-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "El nuevo límite de almacenamiento se verá reflejado automáticamente.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/upgrade/45-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "text": "Downgrade",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "content": [
+                        {
+                            "type": { "name": "list", "style": "decimal" },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el menú Claro drive negocio, seleccionar Usuarios.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/downgrade/47-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "281px"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "Seleccionar la vista Mosaico y posteriormente hacer clic en EDITAR sobre el usuario al que se desea aumentar la capacidad de almacenamiento.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/downgrade/48-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "La siguiente ventana muestra la disponibilidad de licencias con mayor capacidad de almacenamiento que se puede asignar al usuario. Seleccionar la capacidad deseada y hacer clic en ENVIAR.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "note"
+                                            },
+                                            "summary": {
+                                                "text": "NOTA:",
+                                                "style": {
+                                                    "color": "#333333",
+                                                    "font-size": "16px",
+                                                    "font-weight": "bold"
+                                                }
+                                            },
+                                            "text": {
+                                                "text": "En caso de no tener licencias disponibles vea CAMBIAR LIMITES DE RECURSOS.",
+                                                "style": {
+                                                    "color": "#333333",
+                                                    "font-size": "16px",
+                                                    "font-weight": "lighter",
+                                                    "padding-bottom": "20px"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/downgrade/46-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "option": {
+                                        "text": "El nuevo límite de almacenamiento se verá reflejado automáticamente.",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": { "name": "image" },
+                                            "url": "/downgrade/49-image@3x.png",
+                                            "parentStyle": {
+                                                "text-align": "center"
+                                            },
+                                            "style": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "text": "Gráficas",
+                        "size": "35px",
+                        "color": "#333333"
+                    },
+                    "content": [
+                        {
+                            "type": { "name": "list", "style": "decimal" },
+                            "options": [
+                                {
+                                    "option": {
+                                        "text": "En el menú Claro drive negocio, al seleccionar Tu Claro drive el administrador puede ver mediante una grafica el uso del servicio y realizar los siguientes filtros:",
+                                        "color": "#333333",
+                                        "size": "20px",
+                                        "weight": "normal"
+                                    },
+                                    "extra": [
+                                        {
+                                            "type": {
+                                                "name": "list",
+                                                "style": "disc"
+                                            },
+                                            "options": [
+                                                {
+                                                    "option": {
+                                                        "text": "Espacio usado.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Archivos compartidos.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Carpetas compartidas.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Ligas creadas.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    }
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Periodo de tiempo.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    },
+                                                    "extra": [
+                                                        {
+                                                            "type": {
+                                                                "name": "list",
+                                                                "style": "-"
+                                                            },
+                                                            "options": [
+                                                                {
+                                                                    "option": {
+                                                                        "text": "Última semana.",
+                                                                        "color": "#333333",
+                                                                        "size": "16px",
+                                                                        "weight": "normal"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "option": {
+                                                                        "text": "Último mes.",
+                                                                        "color": "#333333",
+                                                                        "size": "16px",
+                                                                        "weight": "normal"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "option": {
+                                                                        "text": "- Los últimos 3 meses.",
+                                                                        "color": "#333333",
+                                                                        "size": "16px",
+                                                                        "weight": "normal"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "option": {
+                                                                        "text": "Los últimos 6 meses.",
+                                                                        "color": "#333333",
+                                                                        "size": "16px",
+                                                                        "weight": "normal"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "option": {
+                                                        "text": "Agrupar.",
+                                                        "color": "#333333",
+                                                        "size": "16px",
+                                                        "weight": "normal"
+                                                    },
+                                                    "extra": [
+                                                        {
+                                                            "type": {
+                                                                "name": "list",
+                                                                "style": "-"
+                                                            },
+                                                            "options": [
+                                                                {
+                                                                    "option": {
+                                                                        "text": "Usuario, o.",
+                                                                        "color": "#333333",
+                                                                        "size": "16px",
+                                                                        "weight": "normal"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "option": {
+                                                                        "text": "Grupo.",
+                                                                        "color": "#333333",
+                                                                        "size": "16px",
+                                                                        "weight": "normal"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": { "name": "image" },
+                            "url": "/graficas/50-image@3x.png",
+                            "parentStyle": {
+                                "text-align": "center"
+                            },
+                            "style": {
+                                "width": "100%"
+                            }
                         }
                     ]
                 }

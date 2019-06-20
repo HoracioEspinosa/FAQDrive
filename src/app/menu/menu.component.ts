@@ -18,8 +18,8 @@ export class MenuComponent implements OnInit {
 
   }
 
-  searchContent(content) {
-    this.SelectedContentEvent.emit(content);
+  searchContent(item) {
+    this.SelectedContentEvent.emit(item);
   }
 
 }

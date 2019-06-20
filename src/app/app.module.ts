@@ -10,12 +10,16 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
 import { ContentComponent } from './content/content.component';
+import { ImageComponent } from './image/image.component';
+import { ContentContainerComponent } from './content-container/content-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    ContentComponent
+    ContentComponent,
+    ImageComponent,
+    ContentContainerComponent
   ],
   imports: [
     MatCardModule,

@@ -1,0 +1,9 @@
+.customListStyle {
+    list-style: none !important;
+    
+    li:before {
+        content: '\2014';
+        position: absolute;
+        margin-left: -20px;
+    }
+}

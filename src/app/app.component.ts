@@ -25,7 +25,7 @@ export class AppComponent implements OnInit{
   }
 
   searchContent(content) {
-    console.log(content);
+    this.SelectedContent = content;
   }
 
 

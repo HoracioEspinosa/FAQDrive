@@ -1,0 +1,25 @@
+<ng-template [ngIf]="ExtraOptions.options">
+    <ul [ngStyle]="{'list-style': ExtraOptions.type.style, 'padding-left': '20px' }" [ngClass]="(ExtraOptions.type.style == '-') ? 'customListStyle' : ''">
+      <li *ngFor="let opt of ExtraOptions.options" [ngStyle]="{ 'font-size':  opt.option.size , 'color': opt.option.color, 'font-weight': opt.option.weight }">
+        <p [innerHTML]="opt.option.text"></p>
+        <ng-template [ngIf]="opt.extra" *ngFor="let extra of opt.extra">
+          <ng-template [ngIf]="extra.type.name === 'image'">
+              <app-image [ExtraImage]="extra"></app-image>
+          </ng-template>
+          <ng-template [ngIf]="extra.type.name === 'note'">
+            <div [ngStyle]="extra.text.style">
+              <span [ngStyle]="extra.summary.style">{{ extra.summary.text }}</span> 
+              {{ extra.text.text }}
+            </div>
+          </ng-template>
+          <ng-template [ngIf]="extra.type.name === 'list'">
+              <app-content-container [ExtraOptions]="extra"></app-content-container>
+          </ng-template>
+
+          <ng-template [ngIf]="extra.type.name == 'text'">
+              <p [ngStyle]="{ 'font-size':  extra.text.size , 'color': extra.text.color, 'font-weight': extra.text.weight }">{{ extra.text.text }} </p>
+            </ng-template>
+        </ng-template>
+      </li>
+    </ul>
+  </ng-template>
