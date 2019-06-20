@@ -1,11 +1,10 @@
 {
     "items": [
         {
-            "path": "some-title-here-1",
             "title": {
                 "text": "Plan de intercambio",
-                "size": "h1|h2|h3",
-                "color": "#FFFFFF"
+                "size": "35px",
+                "color": "#333333"
             },
             "description": "",
             "content": [
@@ -109,7 +108,7 @@
             ],
             "items": [
                 {
-                    "path": "some-title-here-1-1",
+                    "path": "upsell-downsell",
                     "title": {
                         "text": "Upsell / Downsell",
                         "size": "h1|h2|h3",

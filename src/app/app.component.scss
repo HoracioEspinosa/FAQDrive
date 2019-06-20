@@ -107,3 +107,11 @@
       //height: 48px !important;
     }
   }
+
+  .container {
+    display: inline-flex;
+
+    #content {
+      padding: 30px 24px;
+    }
+  }

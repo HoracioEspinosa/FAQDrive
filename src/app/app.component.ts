@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
@@ -16,6 +16,7 @@ export class AppComponent implements OnInit{
   options: string[] = ['One', 'Two', 'Three'];
   filteredOptions: Observable<string[]>;
   items: {};
+  SelectedContent = { name: "Horacio" };
 
   constructor(
     private faqService: FaqService
@@ -23,11 +24,25 @@ export class AppComponent implements OnInit{
     this.getData();
   }
 
+  searchContent(content) {
+    console.log(content);
+  }
+
+
+
+  getSelectedContent($event) {
+    this.SelectedContent = $event;
+  }
+
+  showContent(event) {
+    console.log(event.target.getAttribute('data-title'));
+  }
+
   async getData() {
     const data = await this.faqService.getJSON();
     this.items = data;
-    console.log(this.items);
   }
+
   async ngOnInit() {
     const self = this;
     this.filteredOptions = this.myControl.valueChanges.pipe(

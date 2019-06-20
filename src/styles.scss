@@ -47,3 +47,15 @@ mat-accordion {
     }
   }
 }
+
+.mat-expansion-panel-header {
+  display: flex;
+  flex-direction: row;
+  height: 48px !important;
+  align-items: center;
+  padding: 0 24px;
+
+  &.mat-expanded {
+    height: 48px !important;
+  }
+}

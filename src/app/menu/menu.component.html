@@ -1,9 +1,13 @@
 
-    <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items" [attr.data-title]="item.path">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          <b>{{ item.title.text }}</b>
+    <mat-expansion-panel 
+    *ngFor="let item of items; let i = index" 
+    [hideToggle]="!item.items" 
+    [attr.data-title]="item.path" 
+    [@.disabled]="true">
+      <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" [attr.data-title]="item.path">
+        <mat-panel-title [attr.data-title]="item.path">
+          <b>{{ item.title.text }} <button mat-button (click)="searchContent(item.content)" >CLICK</button> </b>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
+      <app-menu *ngIf="item.items" [items]="item.items" ></app-menu>
     </mat-expansion-panel>

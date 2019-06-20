@@ -24,16 +24,24 @@
 </mat-toolbar>
 <router-outlet></router-outlet>
 
-<div id="sidenav">
-    <mat-accordion multi>
-      <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items" [attr.data-title]="item.path">
-        <mat-expansion-panel-header>
+<div class="container">
+  <div id="sidenav">
+    <mat-accordion>
+      <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items"
+        [attr.data-title]="item.path">
+        <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*">
           <mat-panel-title>
             <b>{{ item.title.text }}</b>
           </mat-panel-title>
         </mat-expansion-panel-header>
 
-        <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
+        <app-menu *ngIf="item.items" [items]="item.items" (SelectedContentEvent)="getSelectedContent($event)">
+        </app-menu>
       </mat-expansion-panel>
     </mat-accordion>
+  </div>
+  <div id="content">
+    {{ SelectedContent | json }}
+    <app-content></app-content>
+  </div>
 </div>
