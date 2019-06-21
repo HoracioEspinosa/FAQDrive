@@ -23,17 +23,17 @@ export class MenuComponent implements OnInit {
   searchContent(item, $event) {
     this.SelectedItem = item.path;
     this.SelectedContentEvent.emit(item);
-    let parent = (this.filterTitle(this.DATA.items, item.parent));
+    let parent = (this.filterTitle(this.DATA['items'], item.parent));
     if(parent.length > 0) {
       parent = parent[0];
     }
 
     let breadParent = {
-      name: parent.title.text
+      name: parent['title'].text
     };
 
-    if (parent.content) {
-      breadParent.content = parent.content;
+    if (parent['content']) {
+      breadParent['content'] = parent['content'];
     }
 
     let breads = [];

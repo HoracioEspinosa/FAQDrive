@@ -59,7 +59,7 @@ export class AppComponent implements OnInit{
 
   async getData() {
     const data = await this.faqService.getJSON();
-    this.items = data.items;
+    this.items = data['items'];
     this.DATA = data;
   }
 
