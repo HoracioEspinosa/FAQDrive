@@ -63,13 +63,17 @@ mat-accordion {
   letter-spacing: normal;
   color: #333333;
 
+  .mat-expansion-indicator::after {
+    color: #0078bf !important;
+  }
   
   &.mat-expanded {
-    height: 48px !important;
-    background: #49abeb !important;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
 
     .mat-expansion-panel-header-title {
-      color: white !important;
+      color: #333333 !important;
       font-weight: 500 !important;
       font-size: 16px;
     }
@@ -80,4 +84,10 @@ mat-accordion {
 .textBlue {
   color: #0279cb;
   text-decoration: underline;
+}
+
+.menuIcon {
+  width: 16px;
+  height: 16px;
+  padding: 0 15px 0 0;
 }
