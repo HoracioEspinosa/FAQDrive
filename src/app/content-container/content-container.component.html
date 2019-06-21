@@ -1,5 +1,5 @@
 <ng-template [ngIf]="ExtraOptions.options">
-    <ul [ngStyle]="{'list-style': ExtraOptions.type.style, 'padding-left': '20px' }" [ngClass]="(ExtraOptions.type.style == '-') ? 'customListStyle' : ''">
+    <ul [ngStyle]="{'list-style': ExtraOptions.type.style, 'padding-left': (ExtraOptions.type.padleft) ? ExtraOptions.type.padleft : '20px' }" [ngClass]="(ExtraOptions.type.style == '-') ? 'customListStyle' : ''" >
       <li *ngFor="let opt of ExtraOptions.options" [ngStyle]="{ 'font-size':  opt.option.size , 'color': opt.option.color, 'font-weight': opt.option.weight }">
         <p [innerHTML]="opt.option.text"></p>
         <ng-template [ngIf]="opt.extra" *ngFor="let extra of opt.extra">
