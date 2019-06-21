@@ -9,13 +9,11 @@ export class ContentComponent implements OnInit {
   @Input() SelectedContent: {};
 
   constructor() {
-    console.log(this.SelectedContent);
   }
 
   ngOnInit() {
   }
   getSelectedContent($event) {
     this.SelectedContent = $event;
-    console.log(this.SelectedContent);
   }
 }

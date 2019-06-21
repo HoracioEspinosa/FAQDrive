@@ -16,10 +16,14 @@
     </form>
   </mat-toolbar-row>
 
-  <mat-toolbar-row>
-    <span>Second Line</span>
-    <span class="example-spacer"></span>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+  <mat-toolbar-row class="breadcumb">
+    <span *ngFor="let bread of Breadcumb; let i = index" >
+      <ng-template [ngIf]="((Breadcumb.length) > i) && (i !== 0)">&nbsp;>&nbsp;</ng-template>
+      <ng-template
+        [ngIf]="(((Breadcumb.length - 1) === i) && ((Breadcumb.length) !== 1)) && !(((Breadcumb.length) > i) && (i !== 0))">
+        &nbsp;>&nbsp;</ng-template>
+      {{ bread.name }}
+    </span>
   </mat-toolbar-row>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 </mat-toolbar>
 <router-outlet></router-outlet>
@@ -29,13 +33,13 @@
     <mat-accordion>
       <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items"
         [attr.data-title]="item.path">
-        <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*">
+        <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" (click)="searchContent(item)">
           <mat-panel-title>
-            <b>{{ item.title.text }}</b> <button mat-button (click)="searchContent(item)">CLICK</button>
+            {{ item.title.text }}
           </mat-panel-title>
         </mat-expansion-panel-header>
-
-        <app-menu *ngIf="item.items" [items]="item.items" (SelectedContentEvent)="getSelectedContent($event)">
+        <app-menu *ngIf="item.items" [items]="item.items" [DATA]="DATA"
+          (BreadcumbEvent)="setBreadcumbContent($event)" (SelectedContentEvent)="getSelectedContent($event)">
         </app-menu>
       </mat-expansion-panel>
     </mat-accordion>

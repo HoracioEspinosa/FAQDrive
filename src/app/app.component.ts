@@ -16,7 +16,13 @@ export class AppComponent implements OnInit{
   options: string[] = ['One', 'Two', 'Three'];
   filteredOptions: Observable<string[]>;
   items: {};
+  DATA: {};
   SelectedContent = { name: "Horacio" };
+  Breadcumb = [
+    {
+      name: 'Centro de ayuda'
+    }
+  ];
 
   constructor(
     private faqService: FaqService
@@ -25,7 +31,9 @@ export class AppComponent implements OnInit{
   }
 
   searchContent(content) {
-    this.SelectedContent = content;
+    if (content.content) {
+      this.SelectedContent = content;
+    }
   }
 
 
@@ -34,13 +42,25 @@ export class AppComponent implements OnInit{
     this.SelectedContent = $event;
   }
 
+  setBreadcumbContent($event) {
+    let bread = this.Breadcumb[0];
+    let breads = [];
+    breads.push(bread);
+    $event.forEach(element => {
+      breads.push(element);
+    });
+
+    this.Breadcumb = breads;
+  }
+
   showContent(event) {
-    console.log(event.target.getAttribute('data-title'));
+
   }
 
   async getData() {
     const data = await this.faqService.getJSON();
-    this.items = data;
+    this.items = data.items;
+    this.DATA = data;
   }
 
   async ngOnInit() {
@@ -55,5 +75,23 @@ export class AppComponent implements OnInit{
     const filterValue = value.toLowerCase();
 
     return this.options.filter(option => option.toLowerCase().indexOf(filterValue) === 0);
+  }
+
+  filterTitle(arr, term) {
+    let matches = [];
+    if (!Array.isArray(arr)) { return matches; }
+
+    arr.forEach(function (i) {
+      if (i.path.includes(term)) {
+        matches.push(i);
+      } else {
+        const childResults = this.filterTitle(i.items, term);
+        if (childResults.length) {
+          matches.push(Object.assign({}, i));
+        }
+      }
+    });
+
+    return matches;
   }
 }

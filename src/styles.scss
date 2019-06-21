@@ -54,9 +54,25 @@ mat-accordion {
   height: 48px !important;
   align-items: center;
   padding: 0 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  color: #333333;
 
+  
   &.mat-expanded {
     height: 48px !important;
+    background: #49abeb !important;
+
+    .mat-expansion-panel-header-title {
+      color: white !important;
+      font-weight: 500 !important;
+      font-size: 16px;
+    }
   }
 }
 

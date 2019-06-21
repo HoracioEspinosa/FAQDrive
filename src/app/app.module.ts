@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatCardModule } from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatToolbarModule, MatIconModule, MatAutocompleteModule, MatFormFieldModule, MatInputModule, MatPlaceholder, MatExpansionModule } from '@angular/material';
+// tslint:disable-next-line:max-line-length
+import { MatButtonModule, MatToolbarModule, MatIconModule, MatAutocompleteModule, MatFormFieldModule, MatInputModule, MatPlaceholder, MatExpansionModule, MatTabsModule } from '@angular/material';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
@@ -35,7 +36,8 @@ import { ContentContainerComponent } from './content-container/content-container
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTabsModule
   ],
   exports: [
     MatButtonModule

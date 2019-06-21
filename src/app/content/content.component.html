@@ -1,25 +1,67 @@
-  <h1 *ngIf="SelectedContent.title" [ngStyle]="{ 'font-size':  SelectedContent.title.size , 'color': SelectedContent.title.color , 'font-weight': 'lighter' }">{{ SelectedContent.title.text }}</h1>
-  <div class="content" *ngIf="SelectedContent.content">
-    <div *ngFor="let content of SelectedContent.content; let i = index">
-      <ng-template [ngIf]="content.type.name == 'text'">
-        <p [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }">{{ content.text.text }} </p>
-      </ng-template>
-
-      <ng-template [ngIf]="content.type.name == 'list'">
-          <ng-template [ngIf]="content.options">
-            <app-content-container [ExtraOptions]="content"></app-content-container>
+<ng-template [ngIf]="SelectedContent.devices && !SelectedContent.content">
+  <mat-tab-group>
+    <mat-tab [label]="device.name" *ngFor="let device of SelectedContent.devices">
+      <h1 *ngIf="SelectedContent.title"
+        [ngStyle]="{ 'font-size':  SelectedContent.title.size , 'color': SelectedContent.title.color , 'font-weight': 'lighter' }">
+        {{ SelectedContent.title.text }}</h1>
+      <div class="content" *ngIf="device.content">
+        <div *ngFor="let content of device.content; let i = index">
+          <ng-template [ngIf]="content.type.name == 'text'">
+            <p
+              [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }">
+              {{ content.text.text }} </p>
           </ng-template>
-        </ng-template>
 
-        <ng-template [ngIf]="content.type.name === 'note'">
+          <ng-template [ngIf]="content.type.name == 'list'">
+            <ng-template [ngIf]="content.options">
+              <app-content-container [ExtraOptions]="content"></app-content-container>
+            </ng-template>
+          </ng-template>
+
+          <ng-template [ngIf]="content.type.name === 'note'">
             <div [ngStyle]="content.text.style">
-              <span [ngStyle]="content.summary.style">{{ content.summary.text }}</span> 
+              <span [ngStyle]="content.summary.style">{{ content.summary.text }}</span>
               {{ content.text.text }}
             </div>
           </ng-template>
 
-        <ng-template [ngIf]="content.type.name === 'image'">
+          <ng-template [ngIf]="content.type.name === 'image'">
             <app-image [ExtraImage]="content"></app-image>
-        </ng-template>
-    </div>
+          </ng-template>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</ng-template>
+
+<ng-template [ngIf]="SelectedContent.content">
+<h1 *ngIf="SelectedContent.title"
+  [ngStyle]="{ 'font-size':  SelectedContent.title.size , 'color': SelectedContent.title.color , 'font-weight': 'lighter' }">
+  {{ SelectedContent.title.text }}</h1>
+<div class="content" *ngIf="SelectedContent.content">
+  <div *ngFor="let content of SelectedContent.content; let i = index">
+    <ng-template [ngIf]="content.type.name == 'text'">
+      <p
+        [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }">
+        {{ content.text.text }} </p>
+    </ng-template>
+
+    <ng-template [ngIf]="content.type.name == 'list'">
+      <ng-template [ngIf]="content.options">
+        <app-content-container [ExtraOptions]="content"></app-content-container>
+      </ng-template>
+    </ng-template>
+
+    <ng-template [ngIf]="content.type.name === 'note'">
+      <div [ngStyle]="content.text.style">
+        <span [ngStyle]="content.summary.style">{{ content.summary.text }}</span>
+        {{ content.text.text }}
+      </div>
+    </ng-template>
+
+    <ng-template [ngIf]="content.type.name === 'image'">
+      <app-image [ExtraImage]="content"></app-image>
+    </ng-template>
   </div>
+</div>
+</ng-template>

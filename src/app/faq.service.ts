@@ -16,7 +16,7 @@ export class FaqService {
       this.http.get('./assets/data/options.json').subscribe(data => {
         if (data.hasOwnProperty('items')){
           try {
-            resolve(data['items']);
+            resolve(data);
           }catch(e){}
         }
       });
