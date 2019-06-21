@@ -1,6 +1,7 @@
 {
     "items": [
-    {
+      {
+        "icon":"/icons/ic-user.svg",
         "parent": "centro-de-ayuda",
         "path": "registro-e-inicio-de-sesion",
         "title": {
@@ -8,453 +9,894 @@
           "size": "35px",
           "color": "#333333"
         },
-        "items": [{
-          "parent": "plan-de-intercambio",
-          "path": "cuenta-telmex",
-          "title": {
-            "text": "Cuenta Telmex",
-            "size": "35px",
-            "color": "#333333"
-          },
-          "devices": [
+        "items": [
+          {
+            "parent": "registro-e-inicio-de-sesion",
+            "path": "cuenta-telmex",
+            "title": {
+              "text": "Cuenta Telmex",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
               {
-                  "name": "WEB",
-                  "content": [
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
                       {
-                        "type": {
-                            "name": "text"
-                        },
-                        "text": {
-                            "text": "¿Cómo me registro en Claro drive?",
-                            "color": "#333333",
-                            "size": "28px",
-                            "weight": "bold"
-                          }
+                        "option": {
+                          "text": "Crea una cuenta en <a href='https://clarodrive.com'>clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
                       },
                       {
-                        "type": {
-                            "name": "text"
-                        },
-                        "text": {
-                            "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
-                            "color": "#333333",
-                            "size": "20px",
-                            "weight": "500"
-                          }
+                        "option": {
+                          "text": "Escribe tu número Telmex a 10 dígitos y tu dirección de correo electrónico (tu número Telmex es el nombre de usuario de tu cuenta Claro drive).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
                       },
                       {
-                        "type": {
-                          "name": "list",
-                          "style": "disc"
-                        },
-                        "options": [
-                            {
-                            "option": {
-                              "text": "Crea una cuenta en <a href='https://clarodrive.com'>clarodrive.com</a>",
-                              "color": "#333333",
-                              "size": "16px",
-                              "weight": "normal"
-                            }
-                          },
-                          {
-                            "option": {
-                              "text": "Escribe tu número Telmex a 10 dígitos y tu dirección de correo electrónico (tu número Telmex es el nombre de usuario de tu cuenta Claro drive).",
-                              "color": "#333333",
-                              "size": "16px",
-                              "weight": "normal"
-                            }
-                          },
-                          {
-                            "option": {
-                                "text": "Si estás conectado a la red de internet de ese número Telmex, la red realizara una validación automática de tus datos, o bien, sólo debes ingresar el número de teléfono para concluir tu registro.",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                          },
-                          {
-                            "option": {
-                                "text": "Ingresa una contraseña única.",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                          },
-                          {
-                            "option": {
-                                "text": "Da clic en Registrarme.",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              } 
-                          },
-                          {
-                            "option": {
-                                "text": "En la selección del plan sin costo por se cliente infinitum puede ser 25GB ó 75GB ó 150GB según el paquete contratado.",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                          },
-                          {
-                            "option": {
-                                "text": "La selección del plan de 25GB llevará a concluir con la configuración de la cuenta, sin embargo, los usuarios Telmex pueden elegir un nuevo plan con cargo a su recibo Telmex.",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                          }
-                        ]
+                        "option": {
+                          "text": "Si estás conectado a la red de internet de ese número Telmex, la red realizara una validación automática de tus datos, o bien, sólo debes ingresar el número de teléfono para concluir tu registro.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresa una contraseña única.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Registrarme.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "En la selección del plan sin costo por se cliente infinitum puede ser 25GB ó 75GB ó 150GB según el paquete contratado.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "La selección del plan de 25GB llevará a concluir con la configuración de la cuenta, sin embargo, los usuarios Telmex pueden elegir un nuevo plan con cargo a su recibo Telmex.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
                       }
+                    ]
+                  }
                 ]
               },
               {
                 "name": "MÓVIL",
-                "content": [{
-                  "type": {
-                    "name": "list",
-                    "style": "decimal"
-                  },
-                  "options": [{
-                      "option": {
-                        "text": "Iniciar sesión en el Panel de Control Cloud en la URL <a href='https://cp.cloud.telmex.com'>https://cp.cloud.telmex.com.</a> con usuario Partner.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/4-image@3x.png",
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "352px"
-                        }
-                      }]
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
                     },
-                    {
-                      "option": {
-                        "text": "Realizar la búsqueda por ID de cuenta del usuario al que se desea realizar el ajuste de su actual Paquete Infinitum Negocio en la ruta:",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                          "type": {
-                            "name": "list",
-                            "style": "lower-alpha"
-                          },
-                          "options": [{
-                              "option": {
-                                "text": "Facturación",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                            },
-                            {
-                              "option": {
-                                "text": "Clientes",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                            },
-                            {
-                              "option": {
-                                "text": "ID de la Cuenta",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                            },
-                            {
-                              "option": {
-                                "text": "Hacer clic en Buscar",
-                                "color": "#333333",
-                                "size": "16px",
-                                "weight": "normal"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/10-image@3x.png",
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "100%"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "option": {
-                        "text": "Seleccionar el Nombre de la cuenta.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/11-image@3x.png",
-  
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "100%"
-                        }
-                      }]
-                    },
-                    {
-                      "option": {
-                        "text": "Seleccionar la pestaña Suscripciones.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/12-image@3x.png",
-  
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "100%"
-                        }
-                      }]
-                    },
-                    {
-                      "option": {
-                        "text": "Seleccionar la suscripción de Claro Drive Negocio.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/13-image@3x.png",
-  
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "100%"
-                        }
-                      }]
-                    },
-                    {
-                      "option": {
-                        "text": "Seleccionar Plan de intercambio.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/14-image@3x.png",
-  
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "100%"
-                        }
-                      }]
-                    },
-                    {
-                      "option": {
-                        "text": "Habilitar el plan de Claro Drive Negocio que le corresponda según el Paquete Infinitum Negocio contratado, hacer clic en Seleccionar plan de servicio.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/3-image@3x.png",
-  
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "100%"
-                        }
-                      }]
-                    },
-                    {
-                      "option": {
-                        "text": "Habilitar Desde la fecha de inicio de la suscripción actual y hacer clic en Siguiente.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                        "type": {
-                          "name": "image"
-                        },
-                        "url": "/upsell-downsell/2-image@3x.png",
-  
-                        "parentStyle": {
-                          "text-align": "center"
-                        },
-                        "style": {
-                          "width": "100%"
-                        }
-                      }]
-                    },
-                    {
-                      "option": {
-                        "text": "Hacer clic en el botón Confirmar.",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      }
-                    },
-                    {
-                      "option": {
-                        "text": "Inmediatamente después aparecerá el UG confirmando el cambio realizado",
-                        "color": "#333333",
-                        "size": "20px",
-                        "weight": "normal"
-                      },
-                      "extra": [{
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/1-image@3x.png",
-  
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "100%"
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "note"
-                          },
-                          "summary": {
-                            "text": "NOTA:",
-                            "style": {
-                              "color": "#333333",
-                              "font-size": "16px",
-                              "font-weight": "bold"
-                            }
-                          },
-                          "text": {
-                            "text": "Para que el usuario final vea reflejado este cambio en su usuario de Claro Drive, debe entrar al panel de control y realizar la actualización de la capacidad de almacenamiento, ver el manual de Claro Drive – Administrar licencias UPGRADE o DOWNGRADE según sea necesario.",
-                            "style": {
-                              "color": "#333333",
-                              "font-size": "16px",
-                              "font-weight": "lighter",
-                              "padding-bottom": "20px",
-                              "padding-top": "20px"
-                            }
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "text"
-                          },
-                          "text": {
-                            "text": "Anexo",
-                            "color": "#333333",
-                            "size": "20px",
-                            "weight": "bold"
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/5-image@3x.png",
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "60%",
-                            "padding-bottom": "20px"
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/6-image@3x.png",
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "60%",
-                            "padding-bottom": "20px"
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/7-image@3x.png",
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "60%",
-                            "padding-bottom": "20px"
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/8-image@3x.png",
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "60%",
-                            "padding-bottom": "20px"
-                          }
-                        },
-                        {
-                          "type": {
-                            "name": "image"
-                          },
-                          "url": "/upsell-downsell/9-image@3x.png",
-                          "parentStyle": {
-                            "text-align": "center"
-                          },
-                          "style": {
-                            "width": "60%",
-                            "padding-bottom": "20px"
-                          }
-                        }
-                      ]
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
                     }
-                  ]
-                }]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Crea una cuenta en app Android o iOS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telmex a 10 dígitos y tu dirección de correo electrónico (tu número Telmex es el nombre de usuario de tu cuenta Claro drive).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Si estás conectado a la red de internet de ese número Telmex, la red realizara una validación automática de tus datos, o bien, sólo debes ingresar el número de teléfono para concluir tu registro.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresa una contraseña única.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Registrarme.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "En la selección del plan sin costo por se cliente infinitum puede ser 25GB ó 75GB ó 150GB según el paquete contratado.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "La selección del plan de 25GB llevará a concluir con la configuración de la cuenta, sin embargo, los usuarios Telmex pueden elegir un nuevo plan con cargo a su recibo Telmex.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
               }
-          ]
-        }]
-    }
+            ]
+          },
+          {
+            "parent": "registro-e-inicio-de-sesion",
+            "path": "cuenta-telcel",
+            "title": {
+              "text": "Cuenta Telcel",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Crea una cuenta en <a href='https://clarodrive.com'>clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telcel a 10 dígitos  (tu número Telcel es el nombre de usuario de tu cuenta Claro drive).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Siguiente.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Recibirás tu contraseña a través de un SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe la contraseña incluida en el SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Aceptar.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se otorgarán 25GB de forma gratuita al concluir el registro; puedes aumentar el espacio de tu almacenamiento seleccionando uno de los planes Claro drive. El método de pago será con cargo directo a tu número Telcel.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                        {
+                          "option": {
+                            "text": "Crea una cuenta en app Android o iOS.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Escribe tu número Telcel a 10 dígitos  (tu número Telcel es el nombre de usuario de tu cuenta Claro drive).",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Da clic en Siguiente.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Recibirás tu contraseña a través de un SMS.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Escribe la contraseña incluida en el SMS.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Da clic en Aceptar.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Se otorgarán 25GB de forma gratuita al concluir el registro; puedes aumentar el espacio de tu almacenamiento seleccionando uno de los planes Claro drive. El método de pago será con cargo directo a tu número Telcel.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "registro-e-inicio-de-sesion",
+            "path": "cuenta-claro-video-claro-musica",
+            "title": {
+              "text": "Cuenta Claro video | Claro música",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "El registro se omite. Utiliza los accesos con los cuales ya cuentas para accesar a Claro video o Claro música (correo electrónico y contraseña).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Al momento que inicies sesión, en automático se abrirá tu perfil Claro drive con un almacenamiento de 25 GB. No tendrás posibilidad de comprar ningún plan diferente.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                        {
+                          "option": {
+                            "text": "El registro se omite. Utiliza los accesos con los cuales ya cuentas para accesar a Claro video o Claro música (correo electrónico y contraseña).",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Al momento que inicies sesión, en automático se abrirá tu perfil Claro drive con un almacenamiento de 25 GB. No tendrás posibilidad de comprar ningún plan diferente.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "registro-e-inicio-de-sesion",
+            "path": "cuenta-con-correo",
+            "title": {
+              "text": "Cuenta con correo",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Crea una cuenta en <a href='https://clarodrive.com'>clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu dirección de correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe una contraseña única.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Una vez creado el registro puedes ingresar tu número Telmex para poder obtener el almacenamiento gratuito de 25GB, si no cuentas con un número Telmex activo, podrás seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                        {
+                          "option": {
+                            "text": "Crea una cuenta en app Android o iOS.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Escribe tu dirección de correo electrónico.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Escribe una contraseña única.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Una vez creado el registro puedes ingresar tu número Telmex para poder obtener el almacenamiento gratuito de 25GB, si no cuentas con un número Telmex activo, podrás seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "registro-e-inicio-de-sesion",
+            "path": "restablecer-contrasena",
+            "title": {
+              "text": "Restablecer contraseña",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo restauro mi contraseña de Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telmex",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en ¿Olvidaste tu contraseña?",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresará el correo registrado.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Te enviaremos un email con instrucciones para restablecer tu contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telcel",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en “Reenviar código”.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telcel a 10 digitos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Te enviaremos el nuevo código por SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Claro video | Claro música",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Si necesitas recuperar o modificar tu contraseña es necesario te pongas en contacto con tu proveedor Claro o escríbenos a <a href='mailto:soporte@clarodrive.com'>soporte@clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuenta con correo electrónico",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px", "padleft":"50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en ¿Olvidaste tu contraseña?",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresar el correo electrónico a donde te enviaran tu nueva contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc", "padleft":"50px"
+                    },
+                    "options": [
+                        {
+                          "option": {
+                            "text": "Crea una cuenta en app Android o iOS.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Escribe tu dirección de correo electrónico.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Escribe una contraseña única.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Una vez creado el registro puedes ingresar tu número Telmex para poder obtener el almacenamiento gratuito de 25GB, si no cuentas con un número Telmex activo, podrás seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ]
   }

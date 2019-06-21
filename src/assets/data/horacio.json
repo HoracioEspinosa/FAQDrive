@@ -1,0 +1,698 @@
+{
+    "items":[
+       {
+          "icon":"/icons/ic-selfie.svg",
+          "parent":"centro-de-ayuda",
+          "path":"pagos-y-facturas",
+          "title":{
+             "text":"Pagos y Facturas",
+             "size":"35px",
+             "color":"#333333"
+          },
+          "items":[
+             {
+                "parent":"pagos-y-facturas",
+                "path":"metodo-de-pago",
+                "title":{
+                   "text":"Método de pago",
+                   "size":"35px",
+                   "color":"#333"
+                },
+                "devices":[
+                   {
+                      "name":"WEB",
+                      "content":[
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Para clientes Telmex",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"El cargo se realizará directo en tu recibo Telmex.",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Si el usuario no cuenta con número TELMEX activo podrá seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               }
+                            ]
+                         },
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Para clientes Telcel",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"El cargo se realizará directo en tu cuenta Telcel.",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Si el usuario no cuenta con saldo suficiente en su línea Telcel no permitirá realizar el cambio de plan y le mandara un SMS notificando el rechazo del cambio",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               }
+                            ]
+                         }
+                      ]
+                   },
+                   {
+                      "name":"MÓVIL",
+                      "content":[
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Para clientes Telmex",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"El cargo se realizará directo en tu recibo Telmex.",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Si el usuario no cuenta con número TELMEX activo podrá seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               }
+                            ]
+                         },
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Para clientes Telcel",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"El cargo se realizará directo en tu cuenta Telcel.",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Si el usuario no cuenta con saldo suficiente en su línea Telcel no permitirá realizar el cambio de plan y le mandara un SMS notificando el rechazo del cambio",
+                                     "color":"#333333",
+                                     "size":"20px",
+                                     "weight":"normal"
+                                  }
+                               }
+                            ]
+                         }
+                      ]
+                   }
+                ]
+             },
+             {
+                "parent":"pagos-y-facturas",
+                "path":"cambio-de-plan",
+                "title":{
+                   "text":"Cambio de plan",
+                   "size":"35px",
+                   "color":"#333"
+                },
+                "devices":[
+                   {
+                      "name":"WEB",
+                      "content":[
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Para cambiar tu plan en clarodrive.com, sigue estos pasos:",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"Inicia sesión en <a href='https://clarodrive.com'>clarodrive.com</a>.",
+                                     "color":"#333333",
+                                     "size":"16px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Haz clic en tu avatar (imagen de perfil) en la esquina superior derecha.",
+                                     "color":"#333333",
+                                     "size":"16px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                "option":{
+                                   "text":"Selecciona la opción Configuraciones.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Haz clic en información de pago.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Haz clic en el plan que requieras.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Se mostrará un mensaje que estás a punto de cambiar de plan.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Dar clic en confirmar.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             }
+                               
+                            ]
+                         },
+                         {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/pagos-y-facturas/10-plan-almacenamiento@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "100%"
+                            }
+                          }
+                      ]
+                   },
+                   {
+                      "name":"IOS",
+                      "content":[
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"En dispositivos iOS no es posible cambiar tu plan, deberas de ingresar desde la plataforma WEB para poder realizar la cancelacion del servicio.",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de informción no supere la cuota del plan seleccionado.",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         }
+                      ]
+                   },
+                   {
+                    "name":"WEB",
+                    "content":[
+                       {
+                          "type":{
+                             "name":"text"
+                          },
+                          "text":{
+                             "text":"Para cambiar tu plan en Android, sigue estos pasos:",
+                             "color":"#333333",
+                             "size":"20px",
+                             "weight":"500"
+                          }
+                       },
+                       {
+                          "type":{
+                             "name":"list",
+                             "style":"disc",
+                             "padleft":"50px"
+                          },
+                          "options":[
+                             {
+                                "option":{
+                                   "text":"Inicia sesión en la aplicación.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Ingresa al menú de servicio.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                              "option":{
+                                 "text":"Selecciona la opción Configuraciones",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Haz clic en aumenta tu espacio.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Selecciona el plan que requieras.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Se mostrará un mensaje de que estás apunto de cambiar de plan.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Dar clic en confirmar.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           }
+                             
+                          ]
+                       }
+                    ]
+                 }
+                ]
+             },
+             {
+                "parent":"pagos-y-facturas",
+                "path":"cancelacion-de-plan",
+                "title":{
+                    "custom": "Cancelar subscripcion",
+                   "text":"¿Cómo cancelar tu suscripción?",
+                   "size":"35px",
+                   "color":"#333"
+                },
+                "devices":[
+                   {
+                      "name":"WEB",
+                      "content":[
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Para cancelar tu suscripción en <a href='https://clarodrive.com'>https://clarodrive.com.</a>, sigue estos pasos:",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"Inicia sesión en clarodrive.com.",
+                                     "color":"#333333",
+                                     "size":"16px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Da clic en tu imagen de perfil en la esquina superior derecha.",
+                                     "color":"#333333",
+                                     "size":"16px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                "option":{
+                                   "text":"Selecciona la opción Configuraciones.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Haz clic en información de pago.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"En la parte inferior del plan contratado, da clic en Cancelar plan.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Se mostrará un mensaje para confirmar tu cancelación.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Da clic en Confirmar.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             }
+                               
+                            ]
+                         },
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"¿Perderé mis archivos si cancelo mi suscripción a Claro drive?",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Sí. Todos los archivos y las carpetas se eliminan al cancelar tu suscripción.",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"list",
+                               "style":"disc",
+                               "padleft":"50px"
+                            },
+                            "options":[
+                               {
+                                  "option":{
+                                     "text":"Inicia sesión en clarodrive.com.",
+                                     "color":"#333333",
+                                     "size":"16px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                  "option":{
+                                     "text":"Da clic en tu imagen de perfil en la esquina superior derecha.",
+                                     "color":"#333333",
+                                     "size":"16px",
+                                     "weight":"normal"
+                                  }
+                               },
+                               {
+                                "option":{
+                                   "text":"Selecciona la opción Configuraciones.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Haz clic en información de pago.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"En la parte inferior del plan contratado, da clic en Cancelar plan.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Se mostrará un mensaje para confirmar tu cancelación.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Da clic en Confirmar.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             }
+                               
+                            ]
+                         },
+                         {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/pagos-y-facturas/10-plan-almacenamiento@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "100%"
+                            }
+                          }
+                      ]
+                   },
+                   {
+                      "name":"IOS",
+                      "content":[
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"En dispositivos iOS no es posible cambiar tu plan, deberas de ingresar desde la plataforma WEB para poder realizar la cancelacion del servicio.",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         },
+                         {
+                            "type":{
+                               "name":"text"
+                            },
+                            "text":{
+                               "text":"Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de informción no supere la cuota del plan seleccionado.",
+                               "color":"#333333",
+                               "size":"20px",
+                               "weight":"500"
+                            }
+                         }
+                      ]
+                   },
+                   {
+                    "name":"WEB",
+                    "content":[
+                       {
+                          "type":{
+                             "name":"text"
+                          },
+                          "text":{
+                             "text":"Para cambiar tu plan en Android, sigue estos pasos:",
+                             "color":"#333333",
+                             "size":"20px",
+                             "weight":"500"
+                          }
+                       },
+                       {
+                          "type":{
+                             "name":"list",
+                             "style":"disc",
+                             "padleft":"50px"
+                          },
+                          "options":[
+                             {
+                                "option":{
+                                   "text":"Inicia sesión en la aplicación.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                                "option":{
+                                   "text":"Ingresa al menú de servicio.",
+                                   "color":"#333333",
+                                   "size":"16px",
+                                   "weight":"normal"
+                                }
+                             },
+                             {
+                              "option":{
+                                 "text":"Selecciona la opción Configuraciones",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Haz clic en aumenta tu espacio.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Selecciona el plan que requieras.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Se mostrará un mensaje de que estás apunto de cambiar de plan.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           },
+                           {
+                              "option":{
+                                 "text":"Dar clic en confirmar.",
+                                 "color":"#333333",
+                                 "size":"16px",
+                                 "weight":"normal"
+                              }
+                           }
+                             
+                          ]
+                       }
+                    ]
+                 }
+                ]
+             }
+          ]
+       }
+    ]
+ }
