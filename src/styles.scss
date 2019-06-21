@@ -4,26 +4,32 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-.example-form { 
-    .mat-form-field-appearance-legacy .mat-form-field-underline {
-        height: 0px !important;
-        width: 100% !important;
+.example-form {
+  .mat-form-field-appearance-legacy .mat-form-field-underline {
+    height: 0 !important;
+    width: 100% !important;
+  }
+}
+
+
+::ng-deep .mat-form-field-placeholder {
+  color:red;
+}
+
+::ng-deep .mat-focused .mat-form-field-placeholder {
+  color:red;
+}
+
+::ng-deep .mat-form-field-label {
+  color:#000 !important;
+}
+
+mat-toolbar.mat-toolbar {
+  mat-toolbar-row {
+    &.breadcumb {
+      background: #FFF;
     }
   }
-
-
-  ::ng-deep .mat-form-field-placeholder{
-
-    color:red;
-  }
-  
-  ::ng-deep .mat-focused .mat-form-field-placeholder{
-  
-    color:red;
-  }
-
-  ::ng-deep .mat-form-field-label{
-    color:#000 !important;
 }
 
 .mat-expansion-panel-body {
@@ -115,5 +121,16 @@ mat-tab-group {
   &.mat-primary .mat-ink-bar {
     background-color: #0078BF !important;
     height: 3px;
+  }
+
+  .mat-tab-body-wrapper {
+    mat-tab-body.mat-tab-body {
+      a {
+        border-bottom: 2px solid #0279C5;
+        color: #0279C5;
+        padding-bottom: 2px;
+        text-decoration: none;
+      }
+    }
   }
 }
