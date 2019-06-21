@@ -33,32 +33,6 @@ export class AppComponent implements OnInit{
   searchContent(content) {
     if (content.content) {
       this.SelectedContent = content;
-      
-
-      let item = content;
-
-      let parent = (this.filterTitle(this.DATA, item.parent));
-
-      console.log(parent);
-      if(parent.length > 0) {
-        parent = parent[0];
-      }
-
-      let breadParent = {
-        name: parent['title'].text
-      };
-
-      if (parent['content']) {
-        breadParent['content'] = parent['content'];
-      }
-
-      let breads = [];
-      let current = { name: item.title.text, content: item };
-      breads.push(breadParent);
-      breads.push(current);
-
-      this.Breadcumb = breads;
-
     }
   }
 

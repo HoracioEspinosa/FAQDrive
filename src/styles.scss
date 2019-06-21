@@ -95,6 +95,7 @@ mat-toolbar.mat-toolbar {
       background: #FFF;
       display: inline-block;
       height: auto;
+      padding: 40px 16px 25px;
       white-space: normal;
 
       span {
@@ -177,6 +178,14 @@ mat-accordion {
   }
 
   #content {
+    padding: 15px 24px !important;
+
+    app-content {
+     h1 {
+       margin-top: 0 !important;
+     }
+    }
+
     a {
       border-bottom: 2px solid #0279C5;
       color: #0279C5;
@@ -190,6 +199,7 @@ mat-accordion {
 mat-tab-group {
   mat-tab-header.mat-tab-header {
     border: none;
+    margin-bottom: 30px;
 
     .mat-tab-label-container {
       .mat-tab-list {
