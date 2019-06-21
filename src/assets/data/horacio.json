@@ -393,8 +393,8 @@
                 "parent":"pagos-y-facturas",
                 "path":"cancelacion-de-plan",
                 "title":{
-                    "custom": "Cancelar subscripcion",
-                   "text":"¿Cómo cancelar tu suscripción?",
+                    "custom": "¿Cómo cancelar tu suscripción?",
+                   "text":"Cancelación de plan",
                    "size":"35px",
                    "color":"#333"
                 },
@@ -407,7 +407,7 @@
                                "name":"text"
                             },
                             "text":{
-                               "text":"Para cancelar tu suscripción en <a href='https://clarodrive.com'>https://clarodrive.com.</a>, sigue estos pasos:",
+                               "text":"Para cancelar tu suscripción en <a href='https://clarodrive.com'>clarodrive.com</a>, sigue estos pasos:",
                                "color":"#333333",
                                "size":"20px",
                                "weight":"500"
@@ -502,76 +502,23 @@
                             }
                          },
                          {
-                            "type":{
-                               "name":"list",
-                               "style":"disc",
-                               "padleft":"50px"
-                            },
-                            "options":[
-                               {
-                                  "option":{
-                                     "text":"Inicia sesión en clarodrive.com.",
-                                     "color":"#333333",
-                                     "size":"16px",
-                                     "weight":"normal"
-                                  }
-                               },
-                               {
-                                  "option":{
-                                     "text":"Da clic en tu imagen de perfil en la esquina superior derecha.",
-                                     "color":"#333333",
-                                     "size":"16px",
-                                     "weight":"normal"
-                                  }
-                               },
-                               {
-                                "option":{
-                                   "text":"Selecciona la opción Configuraciones.",
-                                   "color":"#333333",
-                                   "size":"16px",
-                                   "weight":"normal"
-                                }
-                             },
-                             {
-                                "option":{
-                                   "text":"Haz clic en información de pago.",
-                                   "color":"#333333",
-                                   "size":"16px",
-                                   "weight":"normal"
-                                }
-                             },
-                             {
-                                "option":{
-                                   "text":"En la parte inferior del plan contratado, da clic en Cancelar plan.",
-                                   "color":"#333333",
-                                   "size":"16px",
-                                   "weight":"normal"
-                                }
-                             },
-                             {
-                                "option":{
-                                   "text":"Se mostrará un mensaje para confirmar tu cancelación.",
-                                   "color":"#333333",
-                                   "size":"16px",
-                                   "weight":"normal"
-                                }
-                             },
-                             {
-                                "option":{
-                                   "text":"Da clic en Confirmar.",
-                                   "color":"#333333",
-                                   "size":"16px",
-                                   "weight":"normal"
-                                }
-                             }
-                               
-                            ]
-                         },
-                         {
                             "type": {
                               "name": "image"
                             },
-                            "url": "/pagos-y-facturas/10-plan-almacenamiento@3x.png",
+                            "url": "/pagos-y-facturas/9-cancelar-suscripcion@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "20px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/pagos-y-facturas/9-cancelar-suscripcion-1@3x.png",
                             "parentStyle": {
                               "text-align": "center"
                             },
