@@ -81,3 +81,39 @@ mat-accordion {
   color: #0279cb;
   text-decoration: underline;
 }
+
+mat-tab-group {
+  mat-tab-header.mat-tab-header {
+    border: none;
+
+    .mat-tab-label-container {
+      .mat-tab-list {
+        .mat-tab-labels {
+          .mat-tab-label {
+            height: 26px;
+            min-width: 70px;
+            opacity: 1;
+            padding: 0 10px;
+
+            .mat-tab-label-content {
+              color: #717171;
+              font-size: 12px;
+              font-weight: normal;
+            }
+
+            &.mat-tab-label-active {
+              .mat-tab-label-content {
+                color: #0078BF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.mat-primary .mat-ink-bar {
+    background-color: #0078BF !important;
+    height: 3px;
+  }
+}
