@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-width: 320px;
+}
 
 
 .example-form {
@@ -25,56 +28,62 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 mat-toolbar.mat-toolbar {
-  mat-toolbar-row.navbar {
-    form.example-form {
-      max-width: 100% !important;
-      min-width: 100% !important;
-      text-align: center;
+  mat-toolbar-row {
+    &.navbar {
+      form.example-form {
+        max-width: 100% !important;
+        min-width: 100% !important;
+        text-align: center;
 
-      h1 {
-        color: #333 !important;
-        font-size: 35px !important;
-        font-weight: lighter;
-        line-height: 48px;
-        white-space: normal;
-      }
+        h1 {
+          color: #333 !important;
+          font-size: 35px !important;
+          font-weight: lighter;
+          line-height: 48px;
+          white-space: normal;
 
-      mat-form-field.mat-form-field {
-        margin-top: 20px;
-        max-width: 440px;
-        min-width: 240px;
+          span {
+            display: inline-block;
+          }
+        }
 
-        .mat-form-field-wrapper {
-          padding: 0;
+        mat-form-field.mat-form-field {
+          margin-top: 20px;
+          max-width: 440px;
+          min-width: 240px;
 
-          .mat-form-field-flex {
-            .mat-form-field-prefix {
-              mat-icon.mat-icon {
-                border-radius: 4px 0 0 4px;
-                min-height: 30px !important;
-                padding: 19px;
+          .mat-form-field-wrapper {
+            padding: 0;
+
+            .mat-form-field-flex {
+              .mat-form-field-prefix {
+                mat-icon.mat-icon {
+                  border-radius: 4px 0 0 4px;
+                  min-height: 30px !important;
+                  padding: 19px;
+                }
               }
-            }
 
-            .mat-form-field-infix {
-              border: none !important;
-              color: #717171 !important;
-              flex: none;
-              font-size: 16px;
-              font-weight: lighter;
-              line-height: 46px;
-              margin: 0;
-              padding: 6px 0 0 !important;
-              width: calc(100% - 68px);
-
-              input {
-                border-radius: 0 4px 4px 0;
-                box-sizing: border-box;
+              .mat-form-field-infix {
+                border: none !important;
+                color: #717171 !important;
+                flex: none;
                 font-size: 16px;
                 font-weight: lighter;
-                line-height: 68px;
+                line-height: 46px;
                 margin: 0;
-                padding: 0 !important;
+                padding: 6px 0 0 !important;
+                width: calc(100% - 68px);
+
+                input {
+                  border-radius: 0 4px 4px 0;
+                  box-sizing: border-box;
+                  font-size: 16px;
+                  font-weight: lighter;
+                  line-height: 68px;
+                  margin: 0;
+                  padding: 0 !important;
+                }
               }
             }
           }
@@ -84,7 +93,19 @@ mat-toolbar.mat-toolbar {
 
     &.breadcumb {
       background: #FFF;
+      display: inline-block;
+      height: auto;
+      white-space: normal;
+
+      span {
+        display: inline-block;
+        white-space: nowrap;
+      }
     }
+  }
+
+  &.mat-primary {
+    background-color: #FFF;
   }
 }
 
@@ -103,7 +124,7 @@ mat-accordion {
     }
 
     &:first-child {
-      border-top: 2px solid #f7f7f7;
+      border-top: 1px solid #E7E7E7 !important;
     }
   }
 }
@@ -160,6 +181,8 @@ mat-accordion {
       border-bottom: 2px solid #0279C5;
       color: #0279C5;
       text-decoration: none;
+      word-break: break-all;
+      overflow-wrap: break-word;
     }
   }
 }
@@ -217,6 +240,7 @@ mat-tab-group {
     width: 100%;
 
     #sidenav {
+      box-sizing: border-box;
       margin: auto;
       max-width: 350px;
       min-width: 280px;
@@ -226,7 +250,42 @@ mat-tab-group {
     #content {
       max-width: 100% !important;
       padding: 30px 10px !important;
+    }
+  }
+}
 
+@media (max-width: 620px) {
+  mat-toolbar.mat-toolbar {
+    mat-toolbar-row {
+      &.navbar {
+        min-height: 200px;
+
+        form.example-form {
+          h1 {
+            font-size: 24px !important;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  mat-toolbar.mat-toolbar {
+    mat-toolbar-row {
+      &.navbar {
+        form.example-form {
+          mat-form-field.mat-form-field {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    #content {
       img {
         width: 100% !important;
       }
