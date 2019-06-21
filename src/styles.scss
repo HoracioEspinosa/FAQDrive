@@ -25,7 +25,63 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 mat-toolbar.mat-toolbar {
-  mat-toolbar-row {
+  mat-toolbar-row.navbar {
+    form.example-form {
+      max-width: 100% !important;
+      min-width: 100% !important;
+      text-align: center;
+
+      h1 {
+        color: #333 !important;
+        font-size: 35px !important;
+        font-weight: lighter;
+        line-height: 48px;
+        white-space: normal;
+      }
+
+      mat-form-field.mat-form-field {
+        margin-top: 20px;
+        max-width: 440px;
+        min-width: 240px;
+
+        .mat-form-field-wrapper {
+          padding: 0;
+
+          .mat-form-field-flex {
+            .mat-form-field-prefix {
+              mat-icon.mat-icon {
+                border-radius: 4px 0 0 4px;
+                min-height: 30px !important;
+                padding: 19px;
+              }
+            }
+
+            .mat-form-field-infix {
+              border: none !important;
+              color: #717171 !important;
+              flex: none;
+              font-size: 16px;
+              font-weight: lighter;
+              line-height: 46px;
+              margin: 0;
+              padding: 6px 0 0 !important;
+              width: calc(100% - 68px);
+
+              input {
+                border-radius: 0 4px 4px 0;
+                box-sizing: border-box;
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 68px;
+                margin: 0;
+                padding: 0 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
     &.breadcumb {
       background: #FFF;
     }
@@ -93,6 +149,16 @@ mat-accordion {
   text-decoration: none;
 }
 
+.container {
+  #content {
+    a {
+      border-bottom: 2px solid #0279C5;
+      color: #0279C5;
+      text-decoration: none;
+    }
+  }
+}
+
 mat-tab-group {
   mat-tab-header.mat-tab-header {
     border: none;
@@ -129,14 +195,36 @@ mat-tab-group {
   }
 }
 
+@media (max-width: 1023px) {
+  mat-toolbar.mat-toolbar {
+    mat-toolbar-row.navbar {
+      form.example-form {
+        h1 {
+        }
+      }
+    }
+  }
 
+  .container {
+    display: block !important;
+    margin: auto;
+    max-width: 720px;
+    width: 100%;
 
-.container {
-  .content {
-    a {
-      border-bottom: 2px solid #0279C5;
-      color: #0279C5;
-      text-decoration: none;
+    #sidenav {
+      margin: auto;
+      max-width: 350px;
+      min-width: 280px;
+      width: 100% !important;
+    }
+
+    #content {
+      max-width: 100% !important;
+      padding: 30px 10px !important;
+
+      img {
+        width: 100% !important;
+      }
     }
   }
 }
