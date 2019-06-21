@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "icon": "/icons/ic-mobile.svg",
       "parent": "centro-de-ayuda",
       "path": "movil",
       "title": {
@@ -244,7 +245,7 @@
                     }
                   },{
                     "option": {
-                      "text": "Selecciona el menú de opciones marcado con <img src=\"/puntos\"> localizado en la parte inferior derecha del archivo.",
+                      "text": "Selecciona el menú de opciones marcado con <img src=\"/assets/img/android/14-puntos@3x.png\" height=\"37\" width=\"35\"> localizado en la parte inferior derecha del archivo.",
                       "color": "#333333",
                       "size": "16px",
                       "weight": "normal"
@@ -304,7 +305,7 @@
                     }
                   },{
                     "option": {
-                      "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                      "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/android/25-opcion-configuraciones@3x.png\" height=\"28\" width=\"222\">",
                       "color": "#333333",
                       "size": "16px",
                       "weight": "normal"
@@ -312,11 +313,35 @@
                   },
                   {
                     "option": {
-                      "text": "Deshabilitar la opción “Cargar solo mediante wifi” y tus datos móviles también los tendrán que tener apagados para evitar el consumo.",
+                      "text": "Dentro de las opciones de sincronización activar:",
                       "color": "#333333",
                       "size": "16px",
                       "weight": "normal"
-                    }
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "decimal"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Sincroniza fotos. Al activar esta opción deberás de dar permisos a Claro drive para acceder al contenido de tu carrete. Posteriormente se iniciará la carga de tus fotos.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },{
+                        "option": {
+                          "text": "Sincronizar videos:  Al activar esta opción deberás de dar permisos a Claro drive para acceder al contenido de tu carrete. Posteriormente se iniciará la carga de tus videos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                          }
+                        }
+                      ]
+
+                    }]
                   }
                 ]
 
@@ -324,38 +349,69 @@
             },
             {
               "name": "Android",
-              "content": [{
-                "type": {
-                  "name": "list",
-                  "style": "disc"
-                },
-                "options": [
-                  {
-                    "option": {
-                      "text": "Desplázate al archivo o carpeta que deseas ver sin conexión.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },{
-                    "option": {
-                      "text": "Selecciona el menú de opciones marcado con <img src=\"/puntos\"> localizado en la parte inferior derecha del archivo.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
                   },
-                  {
+                  "options": [{
                     "option": {
-                      "text": "Selecciona deshabilitar sin conexión.",
+                      "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos Android:",
                       "color": "#333333",
                       "size": "16px",
                       "weight": "normal"
                     }
-                  }
-                ]
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra superior <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/android/25-opcion-configuraciones@3x.png\" height=\"28\" width=\"222\">",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de carga automática  selecciona la opción \"Configuración de carpetas\".",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Selecciona las carpetas de tu dispositivo que desees que se sincronicen automáticamente",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Las carpetas seleccionadas se marcarán con un icono",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    }
+                  ]
 
-              }]
+                }]
             }]
         }
       ]
