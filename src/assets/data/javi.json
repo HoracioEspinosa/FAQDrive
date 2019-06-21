@@ -587,6 +587,231 @@
             }]
         }
       ]
+    },
+    {
+      "icon": "/icons/ic-file.svg",
+      "parent": "centro-de-ayuda",
+      "path": "propiedades-de-los-archivos",
+      "title": {
+        "text": "Propiedades de los archivos",
+        "size": "35px",
+        "color": "#333333"
+      },
+      "items": [
+        {
+          "parent": "propiedades-de-los-archivos",
+          "path": "etiquetas-de-archivo",
+          "title": {
+            "text": "Etiquetas de archivo",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "WEB",
+              "content": [{
+                "type": {
+                  "name": "list",
+                  "style": "none"
+                },
+                "options": [{
+                  "option": {
+                    "text": "La opción Etiquetas de archivo permite colocar palabras clave y significativas al archivo para su fácil identificación.",
+                    "color": "#333333",
+                    "size": "20px",
+                    "weight": "normal"
+                  }
+                },
+                  {
+                    "option": {
+                      "text": "¿Cómo crear etiquetas?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "disc"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Seleccionar el archivo",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },{
+                          "option": {
+                            "text": "Seleccionar la opción Detalles ",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [{
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-detalles-archivo@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }]
+                        },
+                        {
+                          "option": {
+                            "text": "Del lado derecho de la pantalla se desplegará  el detalle del archivo  para poder dar clic  en la opción Etiqueta y poder escribir palabras clave.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [
+                          {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/tags/28-pasos-generar-etiquetas-1@3x.png",
+                          "parentStyle": {
+                            "text-align": "center",
+                            "heigth": "239px",
+                            "width": "191px",
+                            "display": "inline-flex"
+                          },
+                          "style": {
+                            "width": "100%",
+                            "margin-bottom": "27px"
+                          }
+                        },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-2@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "267px",
+                              "width": "193px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-3@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "261px",
+                              "width": "191px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }
+                        ]
+                        }
+                      ]
+                    }]
+                  },
+                  {
+                    "option": {
+                      "text": "¿Cómo editar o eliminar una etiqueta?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "disc"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Selecciona la caja de texto donde escribes etiquetas y se desplegaran todas las opciones  de etiquetas.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-4@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "263px",
+                              "width": "191px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-5@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "100px",
+                              "width": "125px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }
+                        ]
+                        },
+                        {
+                          "option": {
+                            "text": "Para editar, selecciona el Lápiz.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Para eliminar; seleccionar el Bote de basura.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                      ]
+                    }]
+                  }]
+              },{
+                "type": {
+                  "name": "list",
+                  "style": "none"
+                },
+                "options": [{
+                  "option": {
+                    "text": "<strong>Nota:</strong> En dispositivos IOS y Android: no se muestra la opción Detalles para poder etiquetar. El etiquetado se tendría que realizar desde la página web <a href=\"www.clarodrive.com\">www. clarodrive.com</a>",
+                    "color": "#333333",
+                    "size": "16px",
+                    "weight": "normal"
+                  }
+                }]}]
+            }]
+        }
+      ]
     }
+
   ]
 }
