@@ -84,8 +84,9 @@ mat-accordion {
 
 
 .textBlue {
-  color: #0279cb;
-  text-decoration: underline;
+  border-bottom: 2px solid #0279C5;
+  color: #0279C5;
+  text-decoration: none;
 }
 
 mat-tab-group {
@@ -122,15 +123,16 @@ mat-tab-group {
     background-color: #0078BF !important;
     height: 3px;
   }
+}
 
-  .mat-tab-body-wrapper {
-    mat-tab-body.mat-tab-body {
-      a {
-        border-bottom: 2px solid #0279C5;
-        color: #0279C5;
-        padding-bottom: 2px;
-        text-decoration: none;
-      }
+
+
+.container {
+  .content {
+    a {
+      border-bottom: 2px solid #0279C5;
+      color: #0279C5;
+      text-decoration: none;
     }
   }
 }
