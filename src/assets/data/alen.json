@@ -1,0 +1,189 @@
+{
+  "items": [
+    {
+      "icon":"/icons/ic-familyspace.svg",
+      "parent": "centro-de-ayuda",
+      "path": "espacio-familiar",
+      "title": {
+        "text": "Espacio Familiar",
+        "size": "35px",
+        "color": "#333333"
+      },
+      "items": [
+        {
+          "parent": "espacio-familiar",
+          "path": "como-crear-un-plan-familiar",
+          "title": {
+            "text": "¿Cómo crear un plan familiar?",
+            "custom": "Espacio Familiar",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices":[
+            {
+          "name": "WEB",
+              "content": [
+                {
+                  "type": {
+                    "name": "text"
+                  },
+                  "text": {
+                    "text": "Con Espacio Familiar, comparte hasta cinco personas un plan de almacenamiento de <a href='https://cp.cloud.telmex.com'>https://cp.cloud.telmex.com.</a>",
+                    "color": "#333333",
+                    "size": "20px",
+                    "weight": "bold"
+                  }
+              }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon":"/icons/ic-shared.svg",
+      "parent": "centro-de-ayuda",
+      "path": "almacenamiento",
+      "title": {
+        "text": "Almacentamiento",
+        "size": "35px",
+        "color": "#333333"
+      },
+      "items": [
+        {
+          "parent": "almacenamiento",
+          "path": "uso-actual-de-almacenamiento",
+          "title": {
+            "text": "Uso actual de almacenamiento",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "WEB",
+              "content": []
+            }]
+        },
+        {
+          "parent": "almacenamiento",
+          "path": "commo-obtengo-mas-espacio",
+          "title": {
+            "text": "¿Cómo obtengo más espacio?",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "WEB",
+              "content": []
+            }]
+        },
+        {
+          "parent": "almacenamiento",
+          "path": "que-informacion-puedes-ver-dentro-de-tu-almacenamiento",
+          "title": {
+            "text": "¿Que información puedes ver dentro de tu almacenamiento?",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices":[
+            {
+              "name": "WEB",
+              "content": [
+                {
+                  "type": {
+                    "name": "text"
+                  },
+                  "text": {
+                    "text": "Las opciones a las que tienes acceso dentro de tu almacenamiento son:",
+                    "color": "#333333",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "<strong>Reciente:</strong> Visualización delos archivos vistos o modificados recientemente",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                    {
+                      "option": {
+                        "text": "<strong>Favoritos:</strong> carpetas o documentos identificados como “favoritos” o prioritarios.",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "<strong>Imágenes:</strong> Visualización de solo archivos de imagen",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "<strong>Videos:</strong> Visualización de solo archivos de video",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "<strong>Compartidos:</strong> Visualización de los archivos que otros usuarios han compartido y los que se han compartido desde la cuenta",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "<strong>Etiquetas:</strong> Muestra el nombre de cada etiqueta asignada a los archivos con posibilidad de filtraar el nombre de etiquetas",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "<strong>Ayuda:</strong> Redirección a pagina de preguntas y respuestas.",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "<strong>Legales:</strong> Legales: Redirección a pagina con los términos y condiciones del producto",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    }]
+                }
+              ]
+          }]
+
+        }
+      ]
+    },
+    {
+      "icon":"/icons/ic-desktop.svg",
+      "parent": "centro-de-ayuda",
+      "path": "cliente-de-escritorio",
+      "title": {
+        "text": "Cliente de escritorio",
+        "size": "35px",
+        "color": "#333333"
+      }
+    }
+  ]
+}

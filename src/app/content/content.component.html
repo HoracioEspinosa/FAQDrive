@@ -3,13 +3,12 @@
     <mat-tab [label]="device.name" *ngFor="let device of SelectedContent.devices">
       <h1 *ngIf="SelectedContent.title"
         [ngStyle]="{ 'font-size':  SelectedContent.title.size , 'color': SelectedContent.title.color , 'font-weight': 'lighter' }">
-        {{ SelectedContent.title.text }}</h1>
+        {{ (SelectedContent.title.custom) ? SelectedContent.title.custom : SelectedContent.title.text }}</h1>
       <div class="content" *ngIf="device.content">
         <div *ngFor="let content of device.content; let i = index">
           <ng-template [ngIf]="content.type.name == 'text'">
             <p
-              [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }">
-              {{ content.text.text }} </p>
+              [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }" [innerHTML]="content.text.text">
           </ng-template>
 
           <ng-template [ngIf]="content.type.name == 'list'">
@@ -37,13 +36,13 @@
 <ng-template [ngIf]="SelectedContent.content">
 <h1 *ngIf="SelectedContent.title"
   [ngStyle]="{ 'font-size':  SelectedContent.title.size , 'color': SelectedContent.title.color , 'font-weight': 'lighter' }">
-  {{ SelectedContent.title.text }}</h1>
+  {{ (SelectedContent.title.custom) ? SelectedContent.title.custom : SelectedContent.title.text }}</h1>
 <div class="content" *ngIf="SelectedContent.content">
   <div *ngFor="let content of SelectedContent.content; let i = index">
     <ng-template [ngIf]="content.type.name == 'text'">
       <p
-        [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }">
-        {{ content.text.text }} </p>
+        [ngStyle]="{ 'font-size':  content.text.size , 'color': content.text.color, 'font-weight': content.text.weight }" [innerHTML]="content.text.text">
+        </p>
     </ng-template>
 
     <ng-template [ngIf]="content.type.name == 'list'">
