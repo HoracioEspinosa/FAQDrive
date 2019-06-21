@@ -1,0 +1,460 @@
+{
+    "items": [
+    {
+        "parent": "centro-de-ayuda",
+        "path": "registro-e-inicio-de-sesion",
+        "title": {
+          "text": "Registro e Inicio de sesión",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [{
+          "parent": "plan-de-intercambio",
+          "path": "cuenta-telmex",
+          "title": {
+            "text": "Cuenta Telmex",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+              {
+                  "name": "WEB",
+                  "content": [
+                      {
+                        "type": {
+                            "name": "text"
+                        },
+                        "text": {
+                            "text": "¿Cómo me registro en Claro drive?",
+                            "color": "#333333",
+                            "size": "28px",
+                            "weight": "bold"
+                          }
+                      },
+                      {
+                        "type": {
+                            "name": "text"
+                        },
+                        "text": {
+                            "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                            "color": "#333333",
+                            "size": "20px",
+                            "weight": "500"
+                          }
+                      },
+                      {
+                        "type": {
+                          "name": "list",
+                          "style": "disc"
+                        },
+                        "options": [
+                            {
+                            "option": {
+                              "text": "Crea una cuenta en <a href='https://clarodrive.com'>clarodrive.com</a>",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Escribe tu número Telmex a 10 dígitos y tu dirección de correo electrónico (tu número Telmex es el nombre de usuario de tu cuenta Claro drive).",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                                "text": "Si estás conectado a la red de internet de ese número Telmex, la red realizara una validación automática de tus datos, o bien, sólo debes ingresar el número de teléfono para concluir tu registro.",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              }
+                          },
+                          {
+                            "option": {
+                                "text": "Ingresa una contraseña única.",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              }
+                          },
+                          {
+                            "option": {
+                                "text": "Da clic en Registrarme.",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              } 
+                          },
+                          {
+                            "option": {
+                                "text": "En la selección del plan sin costo por se cliente infinitum puede ser 25GB ó 75GB ó 150GB según el paquete contratado.",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              } 
+                          },
+                          {
+                            "option": {
+                                "text": "La selección del plan de 25GB llevará a concluir con la configuración de la cuenta, sin embargo, los usuarios Telmex pueden elegir un nuevo plan con cargo a su recibo Telmex.",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              } 
+                          }
+                        ]
+                      }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [{
+                  "type": {
+                    "name": "list",
+                    "style": "decimal"
+                  },
+                  "options": [{
+                      "option": {
+                        "text": "Iniciar sesión en el Panel de Control Cloud en la URL <a href='https://cp.cloud.telmex.com'>https://cp.cloud.telmex.com.</a> con usuario Partner.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/4-image@3x.png",
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "352px"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Realizar la búsqueda por ID de cuenta del usuario al que se desea realizar el ajuste de su actual Paquete Infinitum Negocio en la ruta:",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                          "type": {
+                            "name": "list",
+                            "style": "lower-alpha"
+                          },
+                          "options": [{
+                              "option": {
+                                "text": "Facturación",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              }
+                            },
+                            {
+                              "option": {
+                                "text": "Clientes",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              }
+                            },
+                            {
+                              "option": {
+                                "text": "ID de la Cuenta",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              }
+                            },
+                            {
+                              "option": {
+                                "text": "Hacer clic en Buscar",
+                                "color": "#333333",
+                                "size": "16px",
+                                "weight": "normal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/10-image@3x.png",
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "100%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "option": {
+                        "text": "Seleccionar el Nombre de la cuenta.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/11-image@3x.png",
+  
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "100%"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Seleccionar la pestaña Suscripciones.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/12-image@3x.png",
+  
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "100%"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Seleccionar la suscripción de Claro Drive Negocio.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/13-image@3x.png",
+  
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "100%"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Seleccionar Plan de intercambio.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/14-image@3x.png",
+  
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "100%"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Habilitar el plan de Claro Drive Negocio que le corresponda según el Paquete Infinitum Negocio contratado, hacer clic en Seleccionar plan de servicio.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/3-image@3x.png",
+  
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "100%"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Habilitar Desde la fecha de inicio de la suscripción actual y hacer clic en Siguiente.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "image"
+                        },
+                        "url": "/upsell-downsell/2-image@3x.png",
+  
+                        "parentStyle": {
+                          "text-align": "center"
+                        },
+                        "style": {
+                          "width": "100%"
+                        }
+                      }]
+                    },
+                    {
+                      "option": {
+                        "text": "Hacer clic en el botón Confirmar.",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Inmediatamente después aparecerá el UG confirmando el cambio realizado",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/1-image@3x.png",
+  
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "100%"
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "note"
+                          },
+                          "summary": {
+                            "text": "NOTA:",
+                            "style": {
+                              "color": "#333333",
+                              "font-size": "16px",
+                              "font-weight": "bold"
+                            }
+                          },
+                          "text": {
+                            "text": "Para que el usuario final vea reflejado este cambio en su usuario de Claro Drive, debe entrar al panel de control y realizar la actualización de la capacidad de almacenamiento, ver el manual de Claro Drive – Administrar licencias UPGRADE o DOWNGRADE según sea necesario.",
+                            "style": {
+                              "color": "#333333",
+                              "font-size": "16px",
+                              "font-weight": "lighter",
+                              "padding-bottom": "20px",
+                              "padding-top": "20px"
+                            }
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "text"
+                          },
+                          "text": {
+                            "text": "Anexo",
+                            "color": "#333333",
+                            "size": "20px",
+                            "weight": "bold"
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/5-image@3x.png",
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "60%",
+                            "padding-bottom": "20px"
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/6-image@3x.png",
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "60%",
+                            "padding-bottom": "20px"
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/7-image@3x.png",
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "60%",
+                            "padding-bottom": "20px"
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/8-image@3x.png",
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "60%",
+                            "padding-bottom": "20px"
+                          }
+                        },
+                        {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/upsell-downsell/9-image@3x.png",
+                          "parentStyle": {
+                            "text-align": "center"
+                          },
+                          "style": {
+                            "width": "60%",
+                            "padding-bottom": "20px"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }]
+              }
+          ]
+        }]
+    }
+    ]
+  }

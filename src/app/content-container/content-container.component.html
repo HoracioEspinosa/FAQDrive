@@ -18,6 +18,7 @@
 
           <ng-template [ngIf]="extra.type.name == 'text'">
               <p [ngStyle]="{ 'font-size':  extra.text.size , 'color': extra.text.color, 'font-weight': extra.text.weight }">{{ extra.text.text }} </p>
+              <app-content-container [ExtraOptions]="extra"></app-content-container>
             </ng-template>
         </ng-template>
       </li>
