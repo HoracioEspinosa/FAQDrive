@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./content-container.component.scss']
 })
 export class ContentContainerComponent implements OnInit {
-  @Input() ExtraOptions: {};
+  @Input() ExtraOptions: { options: []};
 
   constructor() { }
 
