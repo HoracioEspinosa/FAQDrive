@@ -285,7 +285,7 @@
                       "option": {
                         "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos iOS:",
                         "color": "#333333",
-                        "size": "16px",
+                        "size": "20px",
                         "weight": "normal"
                       }
                   }]
@@ -359,7 +359,7 @@
                     "option": {
                       "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos Android:",
                       "color": "#333333",
-                      "size": "16px",
+                      "size": "20px",
                       "weight": "normal"
                     }
                   }]
@@ -408,6 +408,178 @@
                         "size": "16px",
                         "weight": "normal"
                       }
+                    }
+                  ]
+
+                }]
+            }]
+        },
+        {
+          "parent": "movil",
+          "path": "respaldo-de-contactos",
+          "title": {
+            "text": "Respaldo de contactos",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "IOS",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos iOS: ",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra inferior",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuración\"",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "list",
+                          "style": "-"
+                        },
+                        "options": [
+                          {
+                            "option": {
+                              "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },{
+                            "option": {
+                              "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          }
+                        ]
+                      }]
+                    }
+                  ]
+
+                }]
+            },
+            {
+              "name": "Android",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos Android: ",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra inferior",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuración\"",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "list",
+                          "style": "-"
+                        },
+                        "options": [
+                          {
+                            "option": {
+                              "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },{
+                            "option": {
+                              "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          }
+                        ]
+                      }]
                     }
                   ]
 
