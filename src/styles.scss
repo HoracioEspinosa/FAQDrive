@@ -95,15 +95,13 @@ mat-expansion-panel {
   margin: 0 !important;
 }
 mat-accordion {
-  border:1px solid #f7f7f7 !important;
   mat-expansion-panel {
-    box-shadow: none !important;
-    border-radius: 4px !important;
-    border-left: 1px solid #f7f7f7 !important;
-    border-right: 1px solid #f7f7f7 !important;
+    border: none !important;
+
     &.mat-expanded {
         background: #f7f7f7 !important;
     }
+
     &:first-child {
       border-top: 2px solid #f7f7f7;
     }
@@ -111,29 +109,19 @@ mat-accordion {
 }
 
 .mat-expansion-panel-header {
-  display: flex;
-  flex-direction: row;
-  height: 48px !important;
-  align-items: center;
-  padding: 0 24px;
+  border: 1px solid #e7e7e7;
+  border-top: 0;
+  color: #333;
   font-family: Roboto;
   font-size: 16px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.23;
-  letter-spacing: normal;
-  color: #333333;
+  height: 53px;
 
   .mat-expansion-indicator::after {
     color: #0078bf !important;
   }
   
   &.mat-expanded {
-    height: 53px;
-    border-radius: 4px;
-    background-color: #f7f7f7;
-
     .mat-expansion-panel-header-title {
       color: #333333 !important;
       font-weight: 500 !important;
@@ -150,6 +138,23 @@ mat-accordion {
 }
 
 .container {
+  #sidenav {
+    .mat-accordion {
+      .mat-expansion-panel {
+        .mat-expansion-panel-header {
+          .mat-content {
+            .mat-expansion-panel-header-title {
+              .menuIcon {
+                height: 16px;
+                margin-right: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   #content {
     a {
       border-bottom: 2px solid #0279C5;
