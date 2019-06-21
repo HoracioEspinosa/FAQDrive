@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-width: 320px;
+}
 
 
 .example-form {
@@ -26,9 +29,84 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 mat-toolbar.mat-toolbar {
   mat-toolbar-row {
+    &.navbar {
+      form.example-form {
+        max-width: 100% !important;
+        min-width: 100% !important;
+        text-align: center;
+
+        h1 {
+          color: #333 !important;
+          font-size: 35px !important;
+          font-weight: lighter;
+          line-height: 48px;
+          white-space: normal;
+
+          span {
+            display: inline-block;
+          }
+        }
+
+        mat-form-field.mat-form-field {
+          margin-top: 20px;
+          max-width: 440px;
+          min-width: 240px;
+
+          .mat-form-field-wrapper {
+            padding: 0;
+
+            .mat-form-field-flex {
+              .mat-form-field-prefix {
+                mat-icon.mat-icon {
+                  border-radius: 4px 0 0 4px;
+                  min-height: 30px !important;
+                  padding: 19px;
+                }
+              }
+
+              .mat-form-field-infix {
+                border: none !important;
+                color: #717171 !important;
+                flex: none;
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 46px;
+                margin: 0;
+                padding: 6px 0 0 !important;
+                width: calc(100% - 68px);
+
+                input {
+                  border-radius: 0 4px 4px 0;
+                  box-sizing: border-box;
+                  font-size: 16px;
+                  font-weight: lighter;
+                  line-height: 68px;
+                  margin: 0;
+                  padding: 0 !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
     &.breadcumb {
       background: #FFF;
+      display: inline-block;
+      height: auto;
+      padding: 40px 16px 25px;
+      white-space: normal;
+
+      span {
+        display: inline-block;
+        white-space: nowrap;
+      }
     }
+  }
+
+  &.mat-primary {
+    background-color: #FFF;
   }
 }
 
@@ -39,45 +117,33 @@ mat-expansion-panel {
   margin: 0 !important;
 }
 mat-accordion {
-  border:1px solid #f7f7f7 !important;
   mat-expansion-panel {
-    box-shadow: none !important;
-    border-radius: 4px !important;
-    border-left: 1px solid #f7f7f7 !important;
-    border-right: 1px solid #f7f7f7 !important;
+    border: none !important;
+
     &.mat-expanded {
         background: #f7f7f7 !important;
     }
+
     &:first-child {
-      border-top: 2px solid #f7f7f7;
+      border-top: 1px solid #E7E7E7 !important;
     }
   }
 }
 
 .mat-expansion-panel-header {
-  display: flex;
-  flex-direction: row;
-  height: 48px !important;
-  align-items: center;
-  padding: 0 24px;
+  border: 1px solid #e7e7e7;
+  border-top: 0;
+  color: #333;
   font-family: Roboto;
   font-size: 16px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.23;
-  letter-spacing: normal;
-  color: #333333;
+  height: 53px;
 
   .mat-expansion-indicator::after {
     color: #0078bf !important;
   }
   
   &.mat-expanded {
-    height: 53px;
-    border-radius: 4px;
-    background-color: #f7f7f7;
-
     .mat-expansion-panel-header-title {
       color: #333333 !important;
       font-weight: 500 !important;
@@ -93,9 +159,47 @@ mat-accordion {
   text-decoration: none;
 }
 
+.container {
+  #sidenav {
+    .mat-accordion {
+      .mat-expansion-panel {
+        .mat-expansion-panel-header {
+          .mat-content {
+            .mat-expansion-panel-header-title {
+              .menuIcon {
+                height: 16px;
+                margin-right: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #content {
+    padding: 15px 24px !important;
+
+    app-content {
+     h1 {
+       margin-top: 0 !important;
+     }
+    }
+
+    a {
+      border-bottom: 2px solid #0279C5;
+      color: #0279C5;
+      text-decoration: none;
+      word-break: break-all;
+      overflow-wrap: break-word;
+    }
+  }
+}
+
 mat-tab-group {
   mat-tab-header.mat-tab-header {
     border: none;
+    margin-bottom: 30px;
 
     .mat-tab-label-container {
       .mat-tab-list {
@@ -129,14 +233,72 @@ mat-tab-group {
   }
 }
 
+@media (max-width: 1023px) {
+  mat-toolbar.mat-toolbar {
+    mat-toolbar-row.navbar {
+      form.example-form {
+        h1 {
+        }
+      }
+    }
+  }
 
+  .container {
+    display: block !important;
+    margin: auto;
+    max-width: 720px;
+    width: 100%;
 
-.container {
-  .content {
-    a {
-      border-bottom: 2px solid #0279C5;
-      color: #0279C5;
-      text-decoration: none;
+    #sidenav {
+      box-sizing: border-box;
+      margin: auto;
+      max-width: 350px;
+      min-width: 280px;
+      width: 100% !important;
+    }
+
+    #content {
+      max-width: 100% !important;
+      padding: 30px 10px !important;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  mat-toolbar.mat-toolbar {
+    mat-toolbar-row {
+      &.navbar {
+        min-height: 200px;
+
+        form.example-form {
+          h1 {
+            font-size: 24px !important;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  mat-toolbar.mat-toolbar {
+    mat-toolbar-row {
+      &.navbar {
+        form.example-form {
+          mat-form-field.mat-form-field {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    #content {
+      img {
+        width: 100% !important;
+      }
     }
   }
 }

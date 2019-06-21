@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./content.component.scss']
 })
 export class ContentComponent implements OnInit {
-  @Input() SelectedContent: {};
+  @Input() SelectedContent: { devices: [], content: []};
 
   constructor() {
   }

@@ -1,0 +1,817 @@
+{
+  "items": [
+    {
+      "icon": "/icons/ic-mobile.svg",
+      "parent": "centro-de-ayuda",
+      "path": "movil",
+      "title": {
+        "text": "Movíl",
+        "size": "35px",
+        "color": "#333333"
+      },
+      "items": [
+        {
+        "parent": "movil",
+        "path": "consumo-datos-moviles",
+        "title": {
+          "text": "Consumo de datos móviles",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "devices": [
+          {
+            "name": "MÓVIL",
+            "content": [{
+              "type": {
+                "name": "list",
+                "style": "none"
+              },
+              "options": [{
+                "option": {
+                  "text": "Subir tus archivos a  Claro drive conectado a la red de datos móviles puede representarte cargos elevados por el consumo de datos. Te  recomendamos subir archivos de mayor tamaño cuando el dispositivo esté conectado a una red Wifi.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "normal"
+                }
+              }]
+            }]
+          }]
+      },
+        {
+        "parent": "movil",
+        "path": "como-puedo-acceder-a-mis-archivos-sin-conexion",
+        "title": {
+          "text": "¿Como puedo acceder a mis archivos sin conexión?",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "devices": [
+          {
+            "name": "IOS",
+            "content": [{
+              "type": {
+                "name": "list",
+                "style": "none"
+              },
+              "options": [
+                {
+                  "option": {
+                    "text": "Puedes tener siempre acceso a tus archivos desde cualquier lugar a tus archivos sin necesidad de una conexión a internet <br><br> En dispositivos iOS:",
+                    "color": "#333333",
+                    "size": "20px",
+                    "weight": "normal"
+                  }
+                }
+              ]
+            },
+              {
+                "type": {
+                  "name": "list",
+                  "style": "disc"
+                },
+                "options": [
+                  {
+                    "option": {
+                      "text": "Basta con seleccionar el archivo que deses, al seleccionarlo se mostrará una barra de progreso.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "image"
+                      },
+                      "url": "/ios/25-progreso-ios@3x.png",
+                      "parentStyle": {
+                        "text-align": "center"
+                      },
+                      "style": {
+                        "width": "352px"
+                      }
+                    }]
+                  },{
+                    "option": {
+                      "text": "Posteriormente se mostrará un icono en el archivo que indica que se encuentra almacenado en tu dispositivo.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "image"
+                      },
+                      "url": "/ios/25-almacenado-ios@3x.png",
+                      "parentStyle": {
+                        "text-align": "center"
+                      },
+                      "style": {
+                        "width": "352px"
+                      }
+                    }]
+                  }
+
+                ]
+
+              }]
+          },
+          {
+            "name": "ANDROID",
+            "content": [{
+              "type": {
+                "name": "list",
+                "style": "none"
+              },
+              "options": [
+                {
+                  "option": {
+                    "text": "Puedes tener siempre acceso a tus archivos desde cualquier lugar a tus archivos sin necesidad de una conexión a internet <br><br> En dispositivos Android:",
+                    "color": "#333333",
+                    "size": "20px",
+                    "weight": "normal"
+                  }
+                }
+              ]
+            },
+              {
+                "type": {
+                  "name": "list",
+                  "style": "disc"
+                },
+                "options": [
+                  {
+                    "option": {
+                      "text": "Basta con seleccionar el archivo que deses, al seleccionarlo se mostrará una barra de progreso.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "image"
+                      },
+                      "url": "/android/25-progreso-android@3x.png",
+                      "parentStyle": {
+                        "text-align": "center"
+                      },
+                      "style": {
+                        "width": "352px"
+                      }
+                    }]
+                  },{
+                    "option": {
+                      "text": "Posteriormente se mostrará un icono en el archivo que indica que se encuentra almacenado en tu dispositivo.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "image"
+                      },
+                      "url": "/android/25-almacenado-android@3x.png",
+                      "parentStyle": {
+                        "text-align": "center"
+                      },
+                      "style": {
+                        "width": "352px"
+                      }
+                    }]
+                  }
+
+                ]
+
+              }]
+
+          }]
+      },
+        {
+          "parent": "movil",
+          "path": "como-deshabilito-sin-conexion",
+          "title": {
+            "text": "¿Cómo deshabilito sin conexión?",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "IOS",
+              "content": [{
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Seleccionar la opción de menú <a href=\"\">\"Más\"</a> <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Dar clic en la opción de <a href=\"\">\"Configuraciones\"</a>",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Deshabilitar la opción “Cargar solo mediante wifi” y tus datos móviles también los tendrán que tener apagados para evitar el consumo.",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    }
+                  ]
+
+                }]
+            },
+            {
+              "name": "Android",
+              "content": [{
+                "type": {
+                  "name": "list",
+                  "style": "disc"
+                },
+                "options": [
+                  {
+                    "option": {
+                      "text": "Desplázate al archivo o carpeta que deseas ver sin conexión.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },{
+                    "option": {
+                      "text": "Selecciona el menú de opciones marcado con <img src=\"/assets/img/android/14-puntos@3x.png\" height=\"37\" width=\"35\"> localizado en la parte inferior derecha del archivo.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "Selecciona deshabilitar sin conexión.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  }
+                ]
+
+              }]
+            }]
+        },
+        {
+          "parent": "movil",
+          "path": "sincronizar-fotos-automaticamente",
+          "title": {
+            "text": "Sincronizar fotos automáticamente",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "IOS",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                      "option": {
+                        "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos iOS:",
+                        "color": "#333333",
+                        "size": "20px",
+                        "weight": "normal"
+                      }
+                  }]
+                },
+                {
+                "type": {
+                  "name": "list",
+                  "style": "disc"
+                },
+                "options": [
+                  {
+                    "option": {
+                      "text": "Selecciona la opción de menú en la barra superior <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },{
+                    "option": {
+                      "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/android/25-opcion-configuraciones@3x.png\" height=\"28\" width=\"222\">",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "Dentro de las opciones de sincronización activar:",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "decimal"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Sincroniza fotos. Al activar esta opción deberás de dar permisos a Claro drive para acceder al contenido de tu carrete. Posteriormente se iniciará la carga de tus fotos.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },{
+                        "option": {
+                          "text": "Sincronizar videos:  Al activar esta opción deberás de dar permisos a Claro drive para acceder al contenido de tu carrete. Posteriormente se iniciará la carga de tus videos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                          }
+                        }
+                      ]
+
+                    }]
+                  }
+                ]
+
+              }]
+            },
+            {
+              "name": "Android",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos Android:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra superior <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/android/25-opcion-configuraciones@3x.png\" height=\"28\" width=\"222\">",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de carga automática  selecciona la opción \"Configuración de carpetas\".",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Selecciona las carpetas de tu dispositivo que desees que se sincronicen automáticamente",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Las carpetas seleccionadas se marcarán con un icono",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    }
+                  ]
+
+                }]
+            }]
+        },
+        {
+          "parent": "movil",
+          "path": "respaldo-de-contactos",
+          "title": {
+            "text": "Respaldo de contactos",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "IOS",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos iOS: ",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra inferior",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuración\"",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "list",
+                          "style": "-"
+                        },
+                        "options": [
+                          {
+                            "option": {
+                              "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },{
+                            "option": {
+                              "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          }
+                        ]
+                      }]
+                    }
+                  ]
+
+                }]
+            },
+            {
+              "name": "Android",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos Android: ",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra inferior",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuración\"",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "list",
+                          "style": "-"
+                        },
+                        "options": [
+                          {
+                            "option": {
+                              "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },{
+                            "option": {
+                              "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          }
+                        ]
+                      }]
+                    }
+                  ]
+
+                }]
+            }]
+        }
+      ]
+    },
+    {
+      "icon": "/icons/ic-file.svg",
+      "parent": "centro-de-ayuda",
+      "path": "propiedades-de-los-archivos",
+      "title": {
+        "text": "Propiedades de los archivos",
+        "size": "35px",
+        "color": "#333333"
+      },
+      "items": [
+        {
+          "parent": "propiedades-de-los-archivos",
+          "path": "etiquetas-de-archivo",
+          "title": {
+            "text": "Etiquetas de archivo",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "WEB",
+              "content": [{
+                "type": {
+                  "name": "list",
+                  "style": "none"
+                },
+                "options": [{
+                  "option": {
+                    "text": "La opción Etiquetas de archivo permite colocar palabras clave y significativas al archivo para su fácil identificación.",
+                    "color": "#333333",
+                    "size": "20px",
+                    "weight": "normal"
+                  }
+                },
+                  {
+                    "option": {
+                      "text": "¿Cómo crear etiquetas?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "disc"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Seleccionar el archivo",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },{
+                          "option": {
+                            "text": "Seleccionar la opción Detalles ",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [{
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-detalles-archivo@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }]
+                        },
+                        {
+                          "option": {
+                            "text": "Del lado derecho de la pantalla se desplegará  el detalle del archivo  para poder dar clic  en la opción Etiqueta y poder escribir palabras clave.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [
+                          {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/tags/28-pasos-generar-etiquetas-1@3x.png",
+                          "parentStyle": {
+                            "text-align": "center",
+                            "heigth": "239px",
+                            "width": "191px",
+                            "display": "inline-flex"
+                          },
+                          "style": {
+                            "width": "100%",
+                            "margin-bottom": "27px"
+                          }
+                        },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-2@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "267px",
+                              "width": "193px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-3@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "261px",
+                              "width": "191px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }
+                        ]
+                        }
+                      ]
+                    }]
+                  },
+                  {
+                    "option": {
+                      "text": "¿Cómo editar o eliminar una etiqueta?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "disc"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Selecciona la caja de texto donde escribes etiquetas y se desplegaran todas las opciones  de etiquetas.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-4@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "263px",
+                              "width": "191px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-5@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "100px",
+                              "width": "125px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }
+                        ]
+                        },
+                        {
+                          "option": {
+                            "text": "Para editar, selecciona el Lápiz.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Para eliminar; seleccionar el Bote de basura.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                      ]
+                    }]
+                  }]
+              },{
+                "type": {
+                  "name": "list",
+                  "style": "none"
+                },
+                "options": [{
+                  "option": {
+                    "text": "<strong>Nota:</strong> En dispositivos IOS y Android: no se muestra la opción Detalles para poder etiquetar. El etiquetado se tendría que realizar desde la página web <a href=\"www.clarodrive.com\">www. clarodrive.com</a>",
+                    "color": "#333333",
+                    "size": "16px",
+                    "weight": "normal"
+                  }
+                }]}]
+            }]
+        }
+      ]
+    }
+
+  ]
+}
