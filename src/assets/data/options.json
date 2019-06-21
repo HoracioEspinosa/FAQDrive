@@ -1,5 +1,7 @@
 {
-  "items": [{
+  "items": [
+      {
+        "icon":"/icons/ic-selfie.svg",
       "parent": "centro-de-ayuda",
       "path": "plan-de-intercambio",
       "title": {
@@ -7,15 +9,28 @@
         "size": "35px",
         "color": "#333333"
       },
-      "items": [{
+      "items": [
+          {
         "parent": "plan-de-intercambio",
         "path": "upsell-downsell",
         "title": {
           "text": "Upsell / Downsell",
           "size": "35px",
-          "color": "#333333"
+          "color": "#333"
         },
-         "content": [{
+         "content": [
+            {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "PRUEBA EXTRA",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+             {
            "type": {
              "name": "list",
              "style": "decimal"
@@ -1049,9 +1064,11 @@
               }]
             }
         ]
-      }]
+      }
+    ]
     },
     {
+        "icon":"/icons/ic-card.svg",
       "parent": "centro-de-ayuda",
       "path": "contratar-subscripcion",
       "title": {
@@ -1472,6 +1489,7 @@
       }]
     },
     {
+        "icon":"/icons/ic-contacts.svg",
       "parent": "centro-de-ayuda",
       "path": "administrar-licencias",
       "title": {

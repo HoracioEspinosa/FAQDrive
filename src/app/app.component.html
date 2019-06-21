@@ -35,6 +35,7 @@
         [attr.data-title]="item.path">
         <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" (click)="searchContent(item)">
           <mat-panel-title>
+            <img [src]="'/assets'+item.icon" alt="" class="menuIcon">
             {{ item.title.text }}
           </mat-panel-title>
         </mat-expansion-panel-header>
