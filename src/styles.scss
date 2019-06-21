@@ -4,26 +4,32 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-.example-form { 
-    .mat-form-field-appearance-legacy .mat-form-field-underline {
-        height: 0px !important;
-        width: 100% !important;
+.example-form {
+  .mat-form-field-appearance-legacy .mat-form-field-underline {
+    height: 0 !important;
+    width: 100% !important;
+  }
+}
+
+
+::ng-deep .mat-form-field-placeholder {
+  color:red;
+}
+
+::ng-deep .mat-focused .mat-form-field-placeholder {
+  color:red;
+}
+
+::ng-deep .mat-form-field-label {
+  color:#000 !important;
+}
+
+mat-toolbar.mat-toolbar {
+  mat-toolbar-row {
+    &.breadcumb {
+      background: #FFF;
     }
   }
-
-
-  ::ng-deep .mat-form-field-placeholder{
-
-    color:red;
-  }
-  
-  ::ng-deep .mat-focused .mat-form-field-placeholder{
-  
-    color:red;
-  }
-
-  ::ng-deep .mat-form-field-label{
-    color:#000 !important;
 }
 
 .mat-expansion-panel-body {
@@ -82,12 +88,55 @@ mat-accordion {
 
 
 .textBlue {
-  color: #0279cb;
-  text-decoration: underline;
+  border-bottom: 2px solid #0279C5;
+  color: #0279C5;
+  text-decoration: none;
 }
 
-.menuIcon {
-  width: 16px;
-  height: 16px;
-  padding: 0 15px 0 0;
+mat-tab-group {
+  mat-tab-header.mat-tab-header {
+    border: none;
+
+    .mat-tab-label-container {
+      .mat-tab-list {
+        .mat-tab-labels {
+          .mat-tab-label {
+            height: 26px;
+            min-width: 70px;
+            opacity: 1;
+            padding: 0 10px;
+
+            .mat-tab-label-content {
+              color: #717171;
+              font-size: 12px;
+              font-weight: normal;
+            }
+
+            &.mat-tab-label-active {
+              .mat-tab-label-content {
+                color: #0078BF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.mat-primary .mat-ink-bar {
+    background-color: #0078BF !important;
+    height: 3px;
+  }
+}
+
+
+
+.container {
+  .content {
+    a {
+      border-bottom: 2px solid #0279C5;
+      color: #0279C5;
+      text-decoration: none;
+    }
+  }
 }
