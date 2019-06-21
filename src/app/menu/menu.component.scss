@@ -56,10 +56,8 @@ mat-expansion-panel-header {
   flex-direction: row;
   font-family: Roboto;
   font-size: 16px;
-  height: 36px !important;
-  line-height: 1.23;
   margin: 0;
-  padding: 0 24px 0 55px;
+  padding: 7px 24px 7px 55px;
 
   &.active {
       background: #49abeb;
