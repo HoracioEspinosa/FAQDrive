@@ -285,7 +285,7 @@
                       "option": {
                         "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos iOS:",
                         "color": "#333333",
-                        "size": "16px",
+                        "size": "20px",
                         "weight": "normal"
                       }
                   }]
@@ -359,7 +359,7 @@
                     "option": {
                       "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos Android:",
                       "color": "#333333",
-                      "size": "16px",
+                      "size": "20px",
                       "weight": "normal"
                     }
                   }]
@@ -413,8 +413,405 @@
 
                 }]
             }]
+        },
+        {
+          "parent": "movil",
+          "path": "respaldo-de-contactos",
+          "title": {
+            "text": "Respaldo de contactos",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "IOS",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos iOS: ",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra inferior",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuración\"",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "list",
+                          "style": "-"
+                        },
+                        "options": [
+                          {
+                            "option": {
+                              "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },{
+                            "option": {
+                              "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          }
+                        ]
+                      }]
+                    }
+                  ]
+
+                }]
+            },
+            {
+              "name": "Android",
+              "content": [
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "none"
+                  },
+                  "options": [{
+                    "option": {
+                      "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos Android: ",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  }]
+                },
+                {
+                  "type": {
+                    "name": "list",
+                    "style": "disc"
+                  },
+                  "options": [
+                    {
+                      "option": {
+                        "text": "Selecciona la opción de menú en la barra inferior",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },{
+                      "option": {
+                        "text": "Selecciona la opción \"configuración\"",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                    {
+                      "option": {
+                        "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      },
+                      "extra": [{
+                        "type": {
+                          "name": "list",
+                          "style": "-"
+                        },
+                        "options": [
+                          {
+                            "option": {
+                              "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },{
+                            "option": {
+                              "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          },
+                          {
+                            "option": {
+                              "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                              "color": "#333333",
+                              "size": "16px",
+                              "weight": "normal"
+                            }
+                          }
+                        ]
+                      }]
+                    }
+                  ]
+
+                }]
+            }]
+        }
+      ]
+    },
+    {
+      "icon": "/icons/ic-file.svg",
+      "parent": "centro-de-ayuda",
+      "path": "propiedades-de-los-archivos",
+      "title": {
+        "text": "Propiedades de los archivos",
+        "size": "35px",
+        "color": "#333333"
+      },
+      "items": [
+        {
+          "parent": "propiedades-de-los-archivos",
+          "path": "etiquetas-de-archivo",
+          "title": {
+            "text": "Etiquetas de archivo",
+            "size": "35px",
+            "color": "#333333"
+          },
+          "devices": [
+            {
+              "name": "WEB",
+              "content": [{
+                "type": {
+                  "name": "list",
+                  "style": "none"
+                },
+                "options": [{
+                  "option": {
+                    "text": "La opción Etiquetas de archivo permite colocar palabras clave y significativas al archivo para su fácil identificación.",
+                    "color": "#333333",
+                    "size": "20px",
+                    "weight": "normal"
+                  }
+                },
+                  {
+                    "option": {
+                      "text": "¿Cómo crear etiquetas?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "disc"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Seleccionar el archivo",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },{
+                          "option": {
+                            "text": "Seleccionar la opción Detalles ",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [{
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-detalles-archivo@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }]
+                        },
+                        {
+                          "option": {
+                            "text": "Del lado derecho de la pantalla se desplegará  el detalle del archivo  para poder dar clic  en la opción Etiqueta y poder escribir palabras clave.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [
+                          {
+                          "type": {
+                            "name": "image"
+                          },
+                          "url": "/tags/28-pasos-generar-etiquetas-1@3x.png",
+                          "parentStyle": {
+                            "text-align": "center",
+                            "heigth": "239px",
+                            "width": "191px",
+                            "display": "inline-flex"
+                          },
+                          "style": {
+                            "width": "100%",
+                            "margin-bottom": "27px"
+                          }
+                        },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-2@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "267px",
+                              "width": "193px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-3@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "261px",
+                              "width": "191px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }
+                        ]
+                        }
+                      ]
+                    }]
+                  },
+                  {
+                    "option": {
+                      "text": "¿Cómo editar o eliminar una etiqueta?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "normal"
+                    },
+                    "extra": [{
+                      "type": {
+                        "name": "list",
+                        "style": "disc"
+                      },
+                      "options": [
+                        {
+                          "option": {
+                            "text": "Selecciona la caja de texto donde escribes etiquetas y se desplegaran todas las opciones  de etiquetas.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          },"extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-4@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "263px",
+                              "width": "191px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/tags/28-pasos-generar-etiquetas-5@3x.png",
+                            "parentStyle": {
+                              "text-align": "center",
+                              "heigth": "100px",
+                              "width": "125px",
+                              "display": "inline-flex"
+                            },
+                            "style": {
+                              "width": "100%",
+                              "margin-bottom": "27px"
+                            }
+                          }
+                        ]
+                        },
+                        {
+                          "option": {
+                            "text": "Para editar, selecciona el Lápiz.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        },
+                        {
+                          "option": {
+                            "text": "Para eliminar; seleccionar el Bote de basura.",
+                            "color": "#333333",
+                            "size": "16px",
+                            "weight": "normal"
+                          }
+                        }
+                      ]
+                    }]
+                  }]
+              },{
+                "type": {
+                  "name": "list",
+                  "style": "none"
+                },
+                "options": [{
+                  "option": {
+                    "text": "<strong>Nota:</strong> En dispositivos IOS y Android: no se muestra la opción Detalles para poder etiquetar. El etiquetado se tendría que realizar desde la página web <a href=\"www.clarodrive.com\">www. clarodrive.com</a>",
+                    "color": "#333333",
+                    "size": "16px",
+                    "weight": "normal"
+                  }
+                }]}]
+            }]
         }
       ]
     }
+
   ]
 }

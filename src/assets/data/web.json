@@ -1,7 +1,7 @@
 {
     "items": [
       {
-        "icon":"/icons/ic-user.svg",
+        "icon": "/icons/ic-user.svg",
         "parent": "centro-de-ayuda",
         "path": "registro-e-inicio-de-sesion",
         "title": {
@@ -47,7 +47,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -138,7 +139,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -240,7 +242,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -331,65 +334,66 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
-                        {
-                          "option": {
-                            "text": "Crea una cuenta en app Android o iOS.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Escribe tu número Telcel a 10 dígitos  (tu número Telcel es el nombre de usuario de tu cuenta Claro drive).",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Da clic en Siguiente.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Recibirás tu contraseña a través de un SMS.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Escribe la contraseña incluida en el SMS.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Da clic en Aceptar.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Se otorgarán 25GB de forma gratuita al concluir el registro; puedes aumentar el espacio de tu almacenamiento seleccionando uno de los planes Claro drive. El método de pago será con cargo directo a tu número Telcel.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
+                      {
+                        "option": {
+                          "text": "Crea una cuenta en app Android o iOS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
                         }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telcel a 10 dígitos  (tu número Telcel es el nombre de usuario de tu cuenta Claro drive).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Siguiente.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Recibirás tu contraseña a través de un SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe la contraseña incluida en el SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Aceptar.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se otorgarán 25GB de forma gratuita al concluir el registro; puedes aumentar el espacio de tu almacenamiento seleccionando uno de los planes Claro drive. El método de pago será con cargo directo a tu número Telcel.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
                     ]
                   }
                 ]
@@ -433,7 +437,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -484,25 +489,26 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
-                        {
-                          "option": {
-                            "text": "El registro se omite. Utiliza los accesos con los cuales ya cuentas para accesar a Claro video o Claro música (correo electrónico y contraseña).",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Al momento que inicies sesión, en automático se abrirá tu perfil Claro drive con un almacenamiento de 25 GB. No tendrás posibilidad de comprar ningún plan diferente.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
+                      {
+                        "option": {
+                          "text": "El registro se omite. Utiliza los accesos con los cuales ya cuentas para accesar a Claro video o Claro música (correo electrónico y contraseña).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
                         }
+                      },
+                      {
+                        "option": {
+                          "text": "Al momento que inicies sesión, en automático se abrirá tu perfil Claro drive con un almacenamiento de 25 GB. No tendrás posibilidad de comprar ningún plan diferente.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
                     ]
                   }
                 ]
@@ -546,7 +552,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -613,41 +620,42 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
-                        {
-                          "option": {
-                            "text": "Crea una cuenta en app Android o iOS.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Escribe tu dirección de correo electrónico.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Escribe una contraseña única.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Una vez creado el registro puedes ingresar tu número Telmex para poder obtener el almacenamiento gratuito de 25GB, si no cuentas con un número Telmex activo, podrás seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
+                      {
+                        "option": {
+                          "text": "Crea una cuenta en app Android o iOS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
                         }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu dirección de correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe una contraseña única.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Una vez creado el registro puedes ingresar tu número Telmex para poder obtener el almacenamiento gratuito de 25GB, si no cuentas con un número Telmex activo, podrás seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
                     ]
                   }
                 ]
@@ -691,7 +699,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -734,7 +743,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -777,7 +787,8 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -804,7 +815,9 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px",
+                      "padleft": "50px"
                     },
                     "options": [
                       {
@@ -822,6 +835,203 @@
                           "size": "16px",
                           "weight": "normal"
                         }
+                      },
+                      {
+                        "option": {
+                          "text": "Activar el captcha.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en botón enviar y te llegara un correo con la contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo cambiar tu contraseña de Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telmex",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en Configuración.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción perfil.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresa la nueva contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telcel",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en “Reenviar código”.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telcel a 10 digitos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Te enviaremos el nuevo código por SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Claro video | Claro música",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Si necesitas recuperar o modificar tu contraseña es necesario te pongas en contacto con tu proveedor Claro o escríbenos a <a href='mailto:soporte@clarodrive.com'>soporte@clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuenta con correo electrónico",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en ¿Olvidaste tu contraseña?",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresar el correo electrónico a donde te enviaran tu nueva contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Activar el captcha.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en botón enviar y te llegara un correo con la contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
                       }
                     ]
                   }
@@ -835,7 +1045,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "¿Cómo me registro en Claro drive?",
+                      "text": "¿Cómo restauro mi contraseña de Claro drive?",
                       "color": "#333333",
                       "size": "28px",
                       "weight": "bold"
@@ -846,7 +1056,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "Para registrarte y obtener una cuenta de Claro drive sigue estos pasos:",
+                      "text": "Para clientes Telmex",
                       "color": "#333333",
                       "size": "20px",
                       "weight": "500"
@@ -855,42 +1065,3124 @@
                   {
                     "type": {
                       "name": "list",
-                      "style": "disc", "padleft":"50px"
+                      "style": "disc",
+                      "padleft": "50px"
                     },
                     "options": [
-                        {
-                          "option": {
-                            "text": "Crea una cuenta en app Android o iOS.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Escribe tu dirección de correo electrónico.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Escribe una contraseña única.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
-                        },
-                        {
-                          "option": {
-                            "text": "Una vez creado el registro puedes ingresar tu número Telmex para poder obtener el almacenamiento gratuito de 25GB, si no cuentas con un número Telmex activo, podrás seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
-                            "color": "#333333",
-                            "size": "16px",
-                            "weight": "normal"
-                          }
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en ¿Olvidaste tu contraseña?",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
                         }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresará el correo registrado.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Te enviaremos un email con instrucciones para restablecer tu contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
                     ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telcel",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en “Reenviar código”.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telcel a 10 digitos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Te enviaremos el nuevo código por SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Claro video | Claro música",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Si necesitas recuperar o modificar tu contraseña es necesario te pongas en contacto con tu proveedor Claro o escríbenos a <a href='mailto:soporte@clarodrive.com'>soporte@clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuenta con correo electrónico",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en ¿Olvidaste tu contraseña?",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresar el correo electrónico a donde te enviaran tu nueva contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Activar el captcha.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en botón enviar y te llegara un correo con la contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo cambiar tu contraseña de Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telmex",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en Configuración.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción perfil.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresa la nueva contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telcel",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en “Reenviar código”.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe tu número Telcel a 10 digitos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Te enviaremos el nuevo código por SMS.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Claro video | Claro música",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Si necesitas recuperar o modificar tu contraseña es necesario te pongas en contacto con tu proveedor Claro o escríbenos a <a href='mailto:soporte@clarodrive.com'>soporte@clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuenta con correo electrónico",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el panel de ingreso haz clic en ¿Olvidaste tu contraseña?",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresar el correo electrónico a donde te enviaran tu nueva contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Activar el captcha.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en botón enviar y te llegara un correo con la contraseña.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-selfie.svg",
+        "parent": "centro-de-ayuda",
+        "path": "pagos-y-facturas",
+        "title": {
+          "text": "Pagos y Facturas",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "pagos-y-facturas",
+            "path": "metodo-de-pago",
+            "title": {
+              "text": "Método de pago",
+              "size": "35px",
+              "color": "#333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telmex",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "El cargo se realizará directo en tu recibo Telmex.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Si el usuario no cuenta con número TELMEX activo podrá seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telcel",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "El cargo se realizará directo en tu cuenta Telcel.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Si el usuario no cuenta con saldo suficiente en su línea Telcel no permitirá realizar el cambio de plan y le mandara un SMS notificando el rechazo del cambio",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telmex",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "El cargo se realizará directo en tu recibo Telmex.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Si el usuario no cuenta con número TELMEX activo podrá seleccionar alguno de los planes disponibles pagando con tarjeta de crédito.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para clientes Telcel",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "El cargo se realizará directo en tu cuenta Telcel.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Si el usuario no cuenta con saldo suficiente en su línea Telcel no permitirá realizar el cambio de plan y le mandara un SMS notificando el rechazo del cambio",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "pagos-y-facturas",
+            "path": "cambio-de-plan",
+            "title": {
+              "text": "Cambio de plan",
+              "size": "35px",
+              "color": "#333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para cambiar tu plan en clarodrive.com, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en <a href='https://clarodrive.com'>clarodrive.com</a>.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en tu avatar (imagen de perfil) en la esquina superior derecha.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Configuraciones.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en información de pago.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en el plan que requieras.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará un mensaje que estás a punto de cambiar de plan.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en confirmar.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/pagos-y-facturas/10-plan-almacenamiento@3x.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En dispositivos iOS no es posible cambiar tu plan, deberas de ingresar desde la plataforma WEB para poder realizar la cancelacion del servicio.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de informción no supere la cuota del plan seleccionado.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para cambiar tu plan en Android, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en la aplicación.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresa al menú de servicio.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Configuraciones",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en aumenta tu espacio.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona el plan que requieras.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará un mensaje de que estás apunto de cambiar de plan.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en confirmar.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "pagos-y-facturas",
+            "path": "cancelacion-de-plan",
+            "title": {
+              "custom": "¿Cómo cancelar tu suscripción?",
+              "text": "Cancelación de plan",
+              "size": "35px",
+              "color": "#333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para cancelar tu suscripción en <a href='https://clarodrive.com'>clarodrive.com</a>, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en clarodrive.com.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en tu imagen de perfil en la esquina superior derecha.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Configuraciones.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en información de pago.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "En la parte inferior del plan contratado, da clic en Cancelar plan.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará un mensaje para confirmar tu cancelación.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Confirmar.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Perderé mis archivos si cancelo mi suscripción a Claro drive?",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Sí. Todos los archivos y las carpetas se eliminan al cancelar tu suscripción.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/pagos-y-facturas/9-cancelar-suscripcion@3x.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "margin-bottom": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/pagos-y-facturas/9-cancelar-suscripcion-1@3x.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En dispositivos iOS no es posible cambiar tu plan, deberas de ingresar desde la plataforma WEB para poder realizar la cancelacion del servicio.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de informción no supere la cuota del plan seleccionado.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para cambiar tu plan en Android, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en la aplicación.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ingresa al menú de servicio.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Configuraciones",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en aumenta tu espacio.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona el plan que requieras.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará un mensaje de que estás apunto de cambiar de plan.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en confirmar.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-folder.svg",
+        "parent": "centro-de-ayuda",
+        "path": "compartir-archivos-y-carpetas",
+        "title": {
+          "text": "Compartir archivos y carpetas",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "compartir-archivos-y-carpetas",
+            "path": "compartir-archivos-y-carpetas-child",
+            "title": {
+              "text": "Compartir archivos y carpetas",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Hay varias formas de compartir archivos y carpetas de tu cuenta de Claro drive. Antes de compartir un elemento, debes determinar si los usuarios podrán editar el archivo, solo verlo, si deseas proteger el archivo con una contraseña o si deseas que la liga por la que se va a compartir puede tener una fecha de expiración.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Hay varias formas de compartir archivos y carpetas de tu cuenta de Claro drive. Antes de compartir un elemento, debes determinar si los usuarios podrán editar el archivo, solo verlo, si deseas proteger el archivo con una contraseña o si deseas que la liga por la que se va a compartir puede tener una fecha de expiración.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Hay varias formas de compartir archivos y carpetas de tu cuenta de Claro drive. Antes de compartir un elemento, debes determinar si los usuarios podrán editar el archivo, solo verlo, si deseas proteger el archivo con una contraseña o si deseas que la liga por la que se va a compartir puede tener una fecha de expiración.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "compartir-archivos-y-carpetas",
+            "path": "como-comparto-archivos-y-carpetas",
+            "title": {
+              "text": "¿Cómo comparto archivos y carpetas?",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en Claro drive.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Desplázate hasta el archivo o la carpeta que te interesa compartir. ",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en el símbolo de compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se desplegará una nueva ventana con las opciones para compartir o crear un enlace de acceso.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Compartir vía correo electrónico",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Para compartir por correo electrónico sólo debes ingresar una dirección valida de correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Puedes escribir un mensaje para el destinatario (opcional).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en el botón inferior derecho Compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se enviará un correo electrónico con el enlace para acceder al archivo o carpeta.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Compartir vía correo electrónico",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Seleccionar el archivo a compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona el icono Compartir en la parte inferior. ",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe el correo electrónico de la persona con quien deseas compartirlo.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Compartir Redes sociales",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Desplázate hasta el archivo o carpeta que te interesa compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Mantén presionado el archivo o carpeta y deslízalo hacia la izquierda.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Más. <img src='/assets/img/compartir-archivos-y-carpetas/14-desplazar@3x.png' width='86' height='21' />",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se desplegará en la parte inferior otro menú para que puedas compartir en las aplicaciones que quieras (WhatsApp, Drive, Facebook, etc.)",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Compartir vía correo electrónico",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Seleccionar el archivo a compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona el icono Compartir en la parte inferior. ",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Escribe el correo electrónico de la persona con quien deseas compartirlo.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Compartir Redes sociales",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Desplázate hasta el archivo o carpeta que te interesa compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Mantén presionado el archivo o carpeta y deslízalo hacia la izquierda.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Más.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se desplegará en la parte inferior otro menú para que puedas compartir en las aplicaciones que quieras (WhatsApp, Drive, Facebook, etc.)",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "compartir-archivos-y-carpetas",
+            "path": "compartir-mediante-una-liga-de-acceso",
+            "title": {
+              "text": "Compartir mediante una liga de acceso",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "El enlace de acceso es una liga que podrás compartir por cualquier medio. Cualquier persona que cuente con el enlace podrá tener acceso a los archivos o carpetas. Sigue los siguientes pasos para configurar un enlace de acceso:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En la parte inferior del recuadro se mostrará la opción para configurar el enlace o para solamente copiarla.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Si seleccionas Configurar enlace podrás realizar las siguientes acciones:",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "list",
+                              "style": "-"
+                            },
+                            "options": [
+                              {
+                                "option": {
+                                  "text": "Permitir editar: La persona que cuente con el enlace podrá guardar cambios en los archivos compartidos.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Proteger con contraseña: Las personas con las que compartas este enlace tendrán que ingresar la contraseña que tú designes para poder acceder al contenido. ",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Seleccionar vencimiento: La liga dejará de ser valida en el periodo de tiempo que tú decidas. ",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Una vez configurado el enlace, podrás copiarlo y enviarlo a los usuarios que desees.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Para compartir por correo electrónico sólo debes ingresar una dirección valida de correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Puedes escribir un mensaje para el destinatario (opcional).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en el botón inferior derecho Compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se enviará un correo electrónico con el enlace para acceder al archivo o carpeta.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en Claro drive.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Desplázate hasta el archivo o carpeta que te interesa compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Mantén presionado el archivo o carpeta y deslízalo hacia la izquierda.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Más <img src='/assets/img/compartir-archivos-y-carpetas/14-desplazar@3x.png' width='86' height='21' />",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona Crear liga para compartir. <img src='/assets/img/compartir-archivos-y-carpetas/14-swaip@3x.png' width='129' height='23' />",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se desplegará una nueva ventana con las opciones para compartir o crear un enlace de acceso.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en Claro drive.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Desplázate hasta el archivo o carpeta que te interesa compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona el menú de opciones marcado con <img src='/assets/img/compartir-archivos-y-carpetas/14-puntos@3x.png' width='35' height='37' />",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción Más",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona Crear liga para compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se desplegará una nueva ventana con las opciones para compartir o crear un enlace de acceso.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "compartir-archivos-y-carpetas",
+            "path": "como-se-de-que-forma-comparti-un-archivo-o-una-carpeta",
+            "title": {
+              "text": "¿Cómo sé de qué forma compartí un archivo o una carpeta?",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para verificar de qué forma compartiste un archivo o una carpeta, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Inicia sesión en Claro drive.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en Archivos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Desplázate hasta el archivo o la carpeta que te interesa.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en compartir sobre el archivo o la carpeta.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se muestra una lista de miembros que agregaste al archivo o a la carpeta y los permisos con los que cuenta (Edición, protegido por contraseña o archivo con vigencia) estos permisos se configuraron en el punto de “Compartir mediante una liga de acceso”.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Para compartir por correo electrónico sólo debes ingresar una dirección valida de correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Puedes escribir un mensaje para el destinatario (opcional).",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en el botón inferior derecho Compartir.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se enviará un correo electrónico con el enlace para acceder al archivo o carpeta.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "compartir-archivos-y-carpetas",
+            "path": "ver-archivos-compartidos",
+            "title": {
+              "text": "Ver archivos compartidos",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para visualizar tus archivo compartidos <br> <br> En Web:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el menú lateral de Claro drive, podrás visualizar la sección de compartidos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-35-45@3x.jpg",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "91px",
+                              "height": "295px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-25@3x.jpg' width='116' height='38' /> Esta opción  mostrará todos los archivos que otras personas te han compartido.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-35@3x.jpg' width='116' height='38' /> Esta opción mostrará todos archivos  que haz compartido con otras personas vía correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-40@3x.jpg' width='116' height='38' /> Esta opción mostrará todos los archivos que haz compartido mediante un enlace.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Dentro del menú en la parte inferior encontrarás la opción  <img src='/assets/img/compartir-archivos-y-carpetas/15-opci-n-ios@3x.jpg'>  al  seleccionar esta opción se desplegaran las siguientes opciones: <br> <br> En dispositivos iOS:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el menú lateral de Claro drive, podrás visualizar la sección de compartidos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-25@3x.jpg' width='116' height='38' /> Esta opción  mostrará todos los archivos que otras personas te han compartido.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-35@3x.jpg' width='116' height='38' /> Esta opción mostrará todos archivos  que haz compartido con otras personas vía correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-40@3x.jpg' width='116' height='38' /> Esta opción mostrará todos los archivos que haz compartido mediante un enlace.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Dentro del menú en la parte inferior encontrarás la opción  <img src='/assets/img/compartir-archivos-y-carpetas/15-opci-n-ios@3x.jpg'>  al  seleccionar esta opción se desplegaran las siguientes opciones: <br> <br> En dispositivos Android:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "En el menú lateral de Claro drive, podrás visualizar la sección de compartidos.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-25@3x.jpg' width='116' height='38' /> Esta opción  mostrará todos los archivos que otras personas te han compartido.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-35@3x.jpg' width='116' height='38' /> Esta opción mostrará todos archivos  que haz compartido con otras personas vía correo electrónico.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<img src='/assets/img/compartir-archivos-y-carpetas/captura-de-pantalla-2019-05-22-a-la-s-16-34-40@3x.jpg' width='116' height='38' /> Esta opción mostrará todos los archivos que haz compartido mediante un enlace.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-mobile.svg",
+        "parent": "centro-de-ayuda",
+        "path": "movil",
+        "title": {
+          "text": "Movíl",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "movil",
+            "path": "consumo-datos-moviles",
+            "title": {
+              "text": "Consumo de datos móviles",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Subir tus archivos a  Claro drive conectado a la red de datos móviles puede representarte cargos elevados por el consumo de datos. Te  recomendamos subir archivos de mayor tamaño cuando el dispositivo esté conectado a una red Wifi.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "movil",
+            "path": "como-puedo-acceder-a-mis-archivos-sin-conexion",
+            "title": {
+              "text": "¿Como puedo acceder a mis archivos sin conexión?",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Puedes tener siempre acceso a tus archivos desde cualquier lugar a tus archivos sin necesidad de una conexión a internet <br><br> En dispositivos iOS:",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Basta con seleccionar el archivo que deses, al seleccionarlo se mostrará una barra de progreso.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/ios/25-progreso-ios@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "352px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Posteriormente se mostrará un icono en el archivo que indica que se encuentra almacenado en tu dispositivo.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/ios/25-almacenado-ios@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "352px"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Puedes tener siempre acceso a tus archivos desde cualquier lugar a tus archivos sin necesidad de una conexión a internet <br><br> En dispositivos Android:",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Basta con seleccionar el archivo que deses, al seleccionarlo se mostrará una barra de progreso.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/android/25-progreso-android@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "352px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Posteriormente se mostrará un icono en el archivo que indica que se encuentra almacenado en tu dispositivo.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/android/25-almacenado-android@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "352px"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "movil",
+            "path": "como-deshabilito-sin-conexion",
+            "title": {
+              "text": "¿Cómo deshabilito sin conexión?",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Seleccionar la opción de menú <a href=\"\">\"Más\"</a> <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dar clic en la opción de <a href=\"\">\"Configuraciones\"</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Deshabilitar la opción “Cargar solo mediante wifi” y tus datos móviles también los tendrán que tener apagados para evitar el consumo.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Desplázate al archivo o carpeta que deseas ver sin conexión.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona el menú de opciones marcado con <img src=\"/assets/img/android/14-puntos@3x.png\" height=\"37\" width=\"35\"> localizado en la parte inferior derecha del archivo.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona deshabilitar sin conexión.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "movil",
+            "path": "sincronizar-fotos-automaticamente",
+            "title": {
+              "text": "Sincronizar fotos automáticamente",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos iOS:",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Selecciona la opción de menú en la barra superior <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/android/25-opcion-configuraciones@3x.png\" height=\"28\" width=\"222\">",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dentro de las opciones de sincronización activar:",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "list",
+                              "style": "decimal"
+                            },
+                            "options": [
+                              {
+                                "option": {
+                                  "text": "Sincroniza fotos. Al activar esta opción deberás de dar permisos a Claro drive para acceder al contenido de tu carrete. Posteriormente se iniciará la carga de tus fotos.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Sincronizar videos:  Al activar esta opción deberás de dar permisos a Claro drive para acceder al contenido de tu carrete. Posteriormente se iniciará la carga de tus videos.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Con esta opción puedes mantener tus fotos siempre a salvo y que se subirán automáticamente a tu cuenta Claro drive y se sincronizarán con todos los dispositivos que tengas conectados para activar esta opción sigue los siguientes pasos.<br><br> En dispositivos Android:",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Selecciona la opción de menú en la barra superior <img src=\"/assets/img/ios/15-opci-n-ios@3x.png\" height=\"29\" width=\"28\">",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción \"configuraciones\" <img src=\"/assets/img/android/25-opcion-configuraciones@3x.png\" height=\"28\" width=\"222\">",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dentro de las opciones de carga automática  selecciona la opción \"Configuración de carpetas\".",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona las carpetas de tu dispositivo que desees que se sincronicen automáticamente",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Las carpetas seleccionadas se marcarán con un icono",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "movil",
+            "path": "respaldo-de-contactos",
+            "title": {
+              "text": "Respaldo de contactos",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos iOS: ",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Selecciona la opción de menú en la barra inferior",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción \"configuración\"",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "list",
+                              "style": "-"
+                            },
+                            "options": [
+                              {
+                                "option": {
+                                  "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Con esta opción puedes tu libreta de contactos segura ya que Claro drive genera una copia de seguridad <br><br> En dispositivos Android: ",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Selecciona la opción de menú en la barra inferior",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Selecciona la opción \"configuración\"",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Dentro de las opciones de sincronización activar selecciona \"Contactos\" y tendrás las siguientes opciones:",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "list",
+                              "style": "-"
+                            },
+                            "options": [
+                              {
+                                "option": {
+                                  "text": "Respaldo de contactos automático: Cada vez que realices un cambio o generes un nuevo contacto se sincronizará de manera automática.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Respaldar ahora: Es la forma manual de realizar una copia de seguridad con esta opción se realizará la copia de seguridad cada vez que selecciones esta opción.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Restaurar contactos: Esta opción te permite exportar tus contactos a la agenda de tu dispositivo.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-folder.svg",
+        "parent": "centro-de-ayuda",
+        "path": "propiedades-de-los-archivos",
+        "title": {
+          "text": "Propiedades de los archivos",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "propiedades-de-los-archivos",
+            "path": "etiquetas-de-archivo",
+            "title": {
+              "text": "Etiquetas de archivo",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "La opción Etiquetas de archivo permite colocar palabras clave y significativas al archivo para su fácil identificación.",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "¿Cómo crear etiquetas?",
+                          "color": "#333333",
+                          "size": "28px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "list",
+                              "style": "disc"
+                            },
+                            "options": [
+                              {
+                                "option": {
+                                  "text": "Seleccionar el archivo",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Seleccionar la opción Detalles ",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                },
+                                "extra": [
+                                  {
+                                    "type": {
+                                      "name": "image"
+                                    },
+                                    "url": "/tags/28-detalles-archivo@3x.png",
+                                    "parentStyle": {
+                                      "text-align": "center"
+                                    },
+                                    "style": {
+                                      "width": "100%",
+                                      "margin-bottom": "27px"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "option": {
+                                  "text": "Del lado derecho de la pantalla se desplegará  el detalle del archivo  para poder dar clic  en la opción Etiqueta y poder escribir palabras clave.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                },
+                                "extra": [
+                                  {
+                                    "type": {
+                                      "name": "image"
+                                    },
+                                    "url": "/tags/28-pasos-generar-etiquetas-1@3x.png",
+                                    "parentStyle": {
+                                      "text-align": "center",
+                                      "heigth": "239px",
+                                      "width": "191px",
+                                      "display": "inline-flex"
+                                    },
+                                    "style": {
+                                      "width": "100%",
+                                      "margin-bottom": "27px"
+                                    }
+                                  },
+                                  {
+                                    "type": {
+                                      "name": "image"
+                                    },
+                                    "url": "/tags/28-pasos-generar-etiquetas-2@3x.png",
+                                    "parentStyle": {
+                                      "text-align": "center",
+                                      "heigth": "267px",
+                                      "width": "193px",
+                                      "display": "inline-flex"
+                                    },
+                                    "style": {
+                                      "width": "100%",
+                                      "margin-bottom": "27px"
+                                    }
+                                  },
+                                  {
+                                    "type": {
+                                      "name": "image"
+                                    },
+                                    "url": "/tags/28-pasos-generar-etiquetas-3@3x.png",
+                                    "parentStyle": {
+                                      "text-align": "center",
+                                      "heigth": "261px",
+                                      "width": "191px",
+                                      "display": "inline-flex"
+                                    },
+                                    "style": {
+                                      "width": "100%",
+                                      "margin-bottom": "27px"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "¿Cómo editar o eliminar una etiqueta?",
+                          "color": "#333333",
+                          "size": "28px",
+                          "weight": "normal"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "list",
+                              "style": "disc"
+                            },
+                            "options": [
+                              {
+                                "option": {
+                                  "text": "Selecciona la caja de texto donde escribes etiquetas y se desplegaran todas las opciones  de etiquetas.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                },
+                                "extra": [
+                                  {
+                                    "type": {
+                                      "name": "image"
+                                    },
+                                    "url": "/tags/28-pasos-generar-etiquetas-4@3x.png",
+                                    "parentStyle": {
+                                      "text-align": "center",
+                                      "heigth": "263px",
+                                      "width": "191px",
+                                      "display": "inline-flex"
+                                    },
+                                    "style": {
+                                      "width": "100%",
+                                      "margin-bottom": "27px"
+                                    }
+                                  },
+                                  {
+                                    "type": {
+                                      "name": "image"
+                                    },
+                                    "url": "/tags/28-pasos-generar-etiquetas-5@3x.png",
+                                    "parentStyle": {
+                                      "text-align": "center",
+                                      "heigth": "100px",
+                                      "width": "125px",
+                                      "display": "inline-flex"
+                                    },
+                                    "style": {
+                                      "width": "100%",
+                                      "margin-bottom": "27px"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "option": {
+                                  "text": "Para editar, selecciona el Lápiz.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              },
+                              {
+                                "option": {
+                                  "text": "Para eliminar; seleccionar el Bote de basura.",
+                                  "color": "#333333",
+                                  "size": "16px",
+                                  "weight": "normal"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "none"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "<strong>Nota:</strong> En dispositivos IOS y Android: no se muestra la opción Detalles para poder etiquetar. El etiquetado se tendría que realizar desde la página web <a href=\"www.clarodrive.com\">www. clarodrive.com</a>",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-editphoto.svg",
+        "parent": "centro-de-ayuda",
+        "path": "edicion-de-fotos",
+        "title": {
+          "text": "Edición de Fotos",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "edicion-de-fotos",
+            "path": "editar",
+            "title": {
+              "text": "Editar",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "La nueva funcionalidad incorporada en Claro drive, te permite la edición de fotos con 5 opciones principales:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Dibujar de manera libre",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Agregar texto",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Agregar filtros",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Ajustar el tamaño y orientación de la foto",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Incluir stickers",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para poder comenzar a editar una foto, debes seleccionar el icono que se encuentra a la derecha del nombre de la foto. Cuando termines de editarla, puedes guardar los cambios como una nueva imagen, o compartirla con quien quieras.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/edicion-de-fotos/edicion1.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "edicion-de-fotos",
+            "path": "dibujo",
+            "title": {
+              "text": "Dibujo",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Puedes dibujar de manera libre sobre la imagen, seleccionando color y grosor de la línea. Además puedes borrar las líneas dibujadas para hacer las modificaciones que necesites.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/edicion-de-fotos/edicion2.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "edicion-de-fotos",
+            "path": "texto",
+            "title": {
+              "text": "Texto",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Agrega uno o más cuadros de texto con esta herramienta. Puedes distribuirlos de manera libre sobre la imagen, definiendo color y tamaño.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/edicion-de-fotos/edicion3.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "edicion-de-fotos",
+            "path": "filtros",
+            "title": {
+              "text": "Filtros",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Elige entre 12 filtros diferentes para darle a tus imágenes un toque más divertido o profesional.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/edicion-de-fotos/edicion4.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "edicion-de-fotos",
+            "path": "ajustar",
+            "title": {
+              "text": "Ajustar",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En esta sección podrás rotar la imagen, así como ajustar el tamaño a dimensiones definidas o de manera libre.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/edicion-de-fotos/edicion5.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "edicion-de-fotos",
+            "path": "stickers",
+            "title": {
+              "text": "Stickers",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Agrégale más diversión a tus imágenes con stickers. Puedes ajustarlos y posicionarlos en donde quieras.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/edicion-de-fotos/edicion6.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
                   }
                 ]
               }
