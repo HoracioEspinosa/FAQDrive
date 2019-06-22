@@ -13,7 +13,7 @@ export class FaqService {
 
   public getJSON() {
     return new Promise(resolve => {
-      this.http.get('/assets/data/options.json').subscribe(data => {
+      this.http.get('/assets/data/web.json').subscribe(data => {
         if (data.hasOwnProperty('items')){
           try {
             resolve(data);

@@ -13,7 +13,7 @@ import { FaqService } from './faq.service';
 export class AppComponent implements OnInit{
   title = 'FAQ';
   myControl = new FormControl();
-  options: string[] = ['One', 'Two', 'Three'];
+  options: string[] = [];
   filteredOptions: Observable<string[]>;
   items: {};
   DATA: {};
@@ -31,7 +31,7 @@ export class AppComponent implements OnInit{
   }
 
   searchContent(content) {
-    if (content.content) {
+    if (content.content || content.devices)  {
       this.SelectedContent = content;
     }
   }
