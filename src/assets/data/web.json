@@ -5384,6 +5384,591 @@
         ]
       },
       {
+        "icon": "/icons/ic-settings.svg",
+        "parent": "centro-de-ayuda",
+        "path": "administrar-cuenta",
+        "title": {
+          "text": "Administrar Cuenta",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "administrar-cuenta",
+            "path": "configuración-de-la-cuenta",
+            "title": {
+              "text": "Configuración de la cuenta",
+              "size": "35px",
+              "color": "#333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En la parte superior derecha, en la imagen de tu perfil, selecciona la opción Configuraciones.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/administrar-cuentas/32-configuraciones-icono@3x.jpg",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "15%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En esta sección podemos modificar:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc",
+                      "padleft": "50px"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Foto de perfil",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Nombre",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Correo electrónico",
+                          "color": "#333333",
+                          "size": "20px",
+                          "weight": "normal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/administrar-cuentas/32-configuraciones-opciones@3x.jpg",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración. Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el Icono de Más / Configuraciones.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/administrar-cuentas/ios.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "50%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración. Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el Icono de Más / Configuraciones.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/administrar-cuentas/android.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "50%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-trash.svg",
+        "parent": "centro-de-ayuda",
+        "path": "papelera",
+        "title": {
+          "text": "Papelera",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "papelera",
+            "path": "borrar-un-archivo",
+            "title": {
+              "text": "Borrar un archivo",
+              "size": "35px",
+              "color": "#333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Seleccionar el archivo que deseas eliminar. <br> <br> Da clic en Bote de basura.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/borrar1.png",
+                    "parentStyle": {
+                      "text-align": "left"
+                    },
+                    "style": {
+                      "width": "70%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Si deseas eliminarlo de forma definitiva, dirígete a: <br> <br> Parte superior derecha de la barra de menús. <br><br> Da clic en Archivos borrados.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/borrar2.png",
+                    "parentStyle": {
+                      "text-align": "left"
+                    },
+                    "style": {
+                      "width": "70%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Vuelve a seleccionar el archivo y da clic  en el Bote de basura.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/borrar3.png",
+                    "parentStyle": {
+                      "text-align": "left"
+                    },
+                    "style": {
+                      "width": "70%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Mantén presionado el archivo o carpeta y deslízalo hacia la izquierda. Se desplegará la opción Eliminar.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/iosb.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "30%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Selecciona los tres puntos.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/androidb1.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Abrirá una pantalla. <br> <br> Selecciona la opción Eliminar..",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/androidb2.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Confirma la eliminación de archivo.",
+                      "color": "#333333",
+                      "size": "40px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/androidb3.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "papelera",
+            "path": "recuperar-un-archivo-borrado",
+            "title": {
+              "text": "Recuperar un archivo borrado",
+              "size": "35px",
+              "color": "#333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Dirígete a la parte superior derecha en la barra de menús y da clic en Archivos Borrados. <br><br> Selecciona el archivo que deseas recuperar y da clic en el botón Restaurar.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/recuperar1.png",
+                    "parentStyle": {
+                      "text-align": "left"
+                    },
+                    "style": {
+                      "width": "70%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Selecciona el icono Más en la parte inferior derecha. <br> <br> Se abrirá una ventana. Selecciona la opción Archivos eliminados.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/iosre1.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Selecciona el o los archivos que deseas recuperar.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/iosre2.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Selecciona la opción Restaurar archivo.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/iosre3.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Observarás un mensaje de restauración exitosa.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/iosre4.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Se abrirá una ventana. Selecciona la opción Papelera.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/androidre1.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Selecciona el o los archivos que deseas recuperar. <br><br> Selecciona la opción Restaurar.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "500"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/papelera/androidre1.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "40%",
+                      "padding-bottom": "20px",
+                      "padding-top": "20px"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "icon": "/icons/ic-user.svg",
         "parent": "centro-de-ayuda",
         "path": "actividad",
