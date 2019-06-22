@@ -3000,6 +3000,1517 @@
         ]
       },
       {
+        "icon":"/icons/ic-familyspace.svg",
+        "parent": "centro-de-ayuda",
+        "path": "espacio-familiar",
+        "title": {
+          "text": "Espacio Familiar",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "espacio-familiar",
+            "path": "como-crear-un-plan-familiar",
+            "title": {
+              "text": "¿Cómo crear un plan familiar?",
+              "custom": "Espacio Familiar",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices":[
+              {
+            "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Con Espacio Familiar, comparte hasta cinco personas un plan de almacenamiento de Claro drive",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo crear un plan familiar?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                  "type": {
+                    "name": "text"
+                  },
+                  "text": {
+                    "text": "Para invitar a compartir tu espacio desde <a href='https://www.clarodrive.com/'>clarodrive.com</a>, sigue estos pasos:",
+                    "color": "#333333",
+                    "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                      "option": {
+                        "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en el botón Espacio familiar en la barra superior. <img src='/assets/img/family-plan/familyspace.svg'>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en Añadir usuario."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa una cuenta de correo electrónico válida"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Indica la cantidad de almacenamiento que tendrá disponible."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en el botón Confirmar"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Con Espacio Familiar, comparte hasta cinco familiares un plan de almacenamiento de Claro drive.",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo crear un plan familiar?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para invitar a compartir tu espacio desde ANDROID o IOS, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en la App de Claro drive",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa al menú <img src='/assets/img/family-plan/moreoptions.svg'>",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa a la sección espacio familiar",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona  añadir usuario",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa una cuenta de correo electrónico válida",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Indica la cantidad de almacenamiento que tendrá disponible.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona el botón confirmar",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Al terminar este proceso llegara un email de invitación al correo que ingresaste para que puede registrar su cuenta y empezar a compartir.",
+                      "color": "#333333",
+                      "size": "16px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent":  "espacio-familiar",
+            "path": "Estatus de cuentas adicionales",
+            "title":{
+            "text": "Estatus de cuentas adicionales",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices":[
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuando compartes tu espacio con otros usuarios siempre podrás administrar el acceso y el espacio asignado a ellos.",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Los estatus del espacio familiar son:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"<strong>Pendiente:</strong> Esto quiere decir que tu invitado aun no concluye el proceso de registro y aun no disfruta del espacio que le proporcionaste, en este caso podrás re-enviar nuevamente el correo de invitación. Este estatus tiene un tiempo de espera de 30 días, si excede dicho tiempo el espacio se libera."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"<strong>Activo:</strong> Cuando un invitado concluyo su registro podrá empezar a subir y compartir archivos en el espacio proporcionado"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "espacio-familiar",
+            "path": "modificar-el-espacio-asignado-a-un-invitado",
+            "title": {
+              "text": "Modificar el espacio asignado a un invitado",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices":[
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuando el espacio de un invitado este a punto de agotarse  podrás modificar la cuota de espacio compartida.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para editar el espacio desde <a href='https://www.clarodrive.com/'>clarodrive.com</a>, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en el botón espacio familiar en la barra superior <img src='/assets/img/family-plan/familyspace.svg'>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en administrar usuario"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona editar plan del invitado que desees modificar"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Indica la cantidad de almacenamiento que tendrá disponible."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona Guardar cambios."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuando el espacio de un invitado este a punto de agotarse  podrás modificar la cuota de espacio compartida.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para editar el espacio desde Android o IOS, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en la App de Claro drive"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa al menú <img src='/assets/img/family-plan/moreoptions.svg'>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa a la sección espacio familiar"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona editar plan del invitado que desees modificar"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Indica la cantidad de almacenamiento que tendrá disponible."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona Guardar cambios"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "espacio-familiar",
+            "path": "cancelar-el-espacio-asignado-a-un-nvitado",
+            "title": {
+              "text": "Cancelar el espacio asignado a un invitado",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices":[
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuando el espacio de un invitado este a punto de agotarse o podrás modificar la cuota de espacio compartida.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para editar el espacio desde <a href='https://www.clarodrive.com/'>clarodrive.com</a>, sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en el botón espacio familiar en la barra superior <img src='/assets/img/family-plan/familyspace.svg'>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en usuario"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona editar plan del invitado que desees modificar"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en el eliminar plan"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona Guardar cambios."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Cuando el espacio de un invitado este a punto de agotarse  podrás modificar la cuota de espacio compartida.",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para editar el espacio desde Android o IOS sigue estos pasos:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en la App de Claro drive"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa al menú <img src='/assets/img/family-plan/moreoptions.svg'>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa a la sección Espacio familiar"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona editar plan del invitado que desees modificar"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona Eliminar un archivo."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona Guardar cambios"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon":"/icons/ic-shared.svg",
+        "parent": "centro-de-ayuda",
+        "path": "almacenamiento",
+        "title": {
+          "text": "Almacentamiento",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "almacenamiento",
+            "path": "uso-actual-de-almacenamiento",
+            "title": {
+              "text": "Uso actual de almacenamiento",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En cualquier momento podrás ver el espacio que has consumido de tu plan contratado:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En <a href'https://www.clarodrive.com/'>clarodrive.com</a>:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Después de iniciar sesión en la parte superior izquierda encontrarás la barra de uso:",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/almacenamiento/19-almacenamiento-c-dweb@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "584px",
+                              "height": "208px"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MÓVIL",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En cualquier momento podrás ver el espacio que has consumido de tu plan contratado:",
+                      "size": "20px",
+                      "color": "#333333"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En dispositivos móviles:",
+                      "size": "20px",
+                      "color": "#333333"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Debes iniciar sesión en el app Claro drive."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona el menú. <img src='/assets/img/family-plan/moreoptions.svg'>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"En la parte superior izquierda encontrarás la barra de uso."
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/almacenamiento/19-almacenamiento-moviles@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "584px",
+                              "height": "153.7px"
+                            }
+                          }
+                        ]
+  
+                      }
+                    ]
+                  }
+  
+                ]
+              },
+              {
+                "name": "ESCRITORIO",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En cualquier momento podrás ver el espacio que has consumido de tu plan contratado:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "En cliente de escritorio:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Debes localizar el icono de Claro drive en la barra de menús.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic sobre el icono.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Encontrarás el reporte de uso actual.",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/almacenamiento/19-almacenamiento-escritorio@3x.png",
+                            "parentStyle": {
+                              "text-align": "center"
+                            },
+                            "style": {
+                              "width": "584px",
+                              "height": "169.3px"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "almacenamiento",
+            "path": "commo-obtengo-mas-espacio",
+            "title": {
+              "text": "¿Cómo obtengo más espacio?",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para cambiar tu plan en <a href='https://www.clarodrive.com/'>clarodrive.com</a> sigue estos pasos:",
+                      "size": "20px",
+                      "color": "#333333"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en tu imagen de perfil en la esquina superior derecha."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en Información de pago."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic el plan que requieras y sigue las indicaciones."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IOS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text":"En dispositivos IOS no es posible cambiar tu plan, deberas ingresar desde la plataforma web para poder realizar la cancelación del servicio.",
+                      "size": "16px",
+                      "color": "#333333"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text":"Si seleccionas un plan más bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de información no supere la cuota del plan seleccionado.",
+                      "size": "16px",
+                      "color": "#333333"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ANDROID",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para cambiar tu plan en Android sigue estos pasos:",
+                      "size": "20px",
+                      "color": "#333333"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text":"Inicia sesión en la aplicación."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Ingresa al menú."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Da clic en Aumenta tu espacio."
+                        }
+                      },
+                      {
+                        "option": {
+                          "text":"Selecciona el plan que requieras y sigue las indicaciones."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "almacenamiento",
+            "path": "que-informacion-puedes-ver-dentro-de-tu-almacenamiento",
+            "title": {
+              "text": "¿Que información puedes ver dentro de tu almacenamiento?",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices":[
+              {
+                "name": "WEB",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Las opciones a las que tienes acceso dentro de tu almacenamiento son:",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [{
+                      "option": {
+                        "text": "<strong>Reciente:</strong> Visualización delos archivos vistos o modificados recientemente",
+                        "color": "#333333",
+                        "size": "16px",
+                        "weight": "normal"
+                      }
+                    },
+                      {
+                        "option": {
+                          "text": "<strong>Favoritos:</strong> carpetas o documentos identificados como “favoritos” o prioritarios.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<strong>Imágenes:</strong> Visualización de solo archivos de imagen",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<strong>Videos:</strong> Visualización de solo archivos de video",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<strong>Compartidos:</strong> Visualización de los archivos que otros usuarios han compartido y los que se han compartido desde la cuenta",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<strong>Etiquetas:</strong> Muestra el nombre de cada etiqueta asignada a los archivos con posibilidad de filtraar el nombre de etiquetas",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },{
+                        "option": {
+                          "text": "<strong>Ayuda:</strong> Redirección a pagina de preguntas y respuestas.",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "<strong>Legales:</strong> Legales: Redirección a pagina con los términos y condiciones del producto",
+                          "color": "#333333",
+                          "size": "16px",
+                          "weight": "normal"
+                        }
+                      }]
+                  }
+                ]
+            }]
+          }
+        ]
+      },
+      {
+        "icon":"/icons/ic-desktop.svg",
+        "parent": "centro-de-ayuda",
+        "path": "cliente-de-escritorio",
+        "title": {
+          "text": "Cliente de escritorio",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "cliente-de-escritorio",
+            "path": "barra-de-menus",
+            "title": {
+              "text": "Barra de menús",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "WINDOWS",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Nos referimos a las barras que se encuentran en la parte superior o inferior de la pantalla de tu computadora como bandeja del sistema. Tu bandeja del sistema contiene el icono de Claro drive,  desde donde accedes a la configuración de Claro drive.",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/cliente-escritorio/22-barra-menu-windows@3x.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "463px",
+                      "height": "229px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "La aplicación de Claro drive para escritorio está disponible para los sistemas operativos, macOS y Windows. Después de instalada, la aplicación crea una carpeta llamada Claro drive en tu computadora. La carpeta funciona como cualquier otra, pero con algunas diferencias importantes:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "De forma automática, se crea una copia de seguridad de los cambios que implementas en los archivos de la carpeta de Claro drive.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Los cambios que hagas aquí también se sincronizan con la cuenta de Claro drive de las personas con quienes compartiste archivos.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Puedes acceder a los archivos y a las carpetas que otras personas han compartido contigo.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MAC",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Nos referimos a las barras que se encuentran en la parte superior o inferior de la pantalla de tu computadora como barra de menús.Tu barra de menús contiene el icono de Claro drive, desde donde accedes a la configuración de Claro drive.",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/cliente-escritorio/22-barra-menu-mac@3x.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "684px",
+                      "height": "30px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "La aplicación de Claro drive para escritorio está disponible para los sistemas operativos, macOS y Windows. Después de instalada, la aplicación crea una carpeta llamada Claro drive en tu computadora. La carpeta funciona como cualquier otra, pero con algunas diferencias importantes:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "De forma automática, se crea una copia de seguridad de los cambios que implementas en los archivos de la carpeta de Claro drive.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Los cambios que hagas aquí también se sincronizan con la cuenta de Calro drive de las personas con quienes compartiste archivos.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Puedes acceder a los archivos y a las carpetas que otras personas han compartido contigo.  ",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "cliente-de-escritorio",
+            "path": "como-descargar-e-instalar-la-aplicacion-de-claro-drive-para-escritorio",
+            "title": {
+              "text": "Como descargar e instalar la aplicación de Claro drive para escritorio",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "ESCRITORIO",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Para instalar la aplicación de Claro drive escritorio en una computadora con Mac o Windows, sigue estos simples pasos:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "<a href='https://www.clarodrive.com/download'>Descarga la aplicación </a> para escritorio en tu computadora.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Los cambios que hagas aquí también se sincronizan con la cuenta de Claro drive de las personas con quienes compartiste archivos.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Puedes acceder a los archivos y a las carpetas que otras personas han compartido contigo.  ",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Instalación paso a paso:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Descarga la aplicación.",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/24-instalar-1@3x.png",
+                            "style": {
+                              "width": "256px",
+                              "height": "46px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en el programa descargado y aparecerá la ventana de configurar Claro drive y da clic en “Siguiente”.",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/24-instalar-2@3x.png",
+                            "parentStyle": {
+                              "float": "left"
+                            },
+                            "style": {
+                              "width": "274px",
+                              "height": "214px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/24-instalar-3@3x.png",
+                            "style": {
+                              "width": "274px",
+                              "height": "214px",
+                              "margin-left": "40px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará la ventana para seleccionar los componentes, da clic en “Siguiente”.",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/25-instalar-1@3x.png",
+                            "style": {
+                              "width": "274px",
+                              "height": "214px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará la ventana de atajos de Menú de Inicio, se dejan por default y da clic en “Siguiente”.",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/25-instalar-2@3x.png",
+                            "style": {
+                              "width": "274px",
+                              "height": "214px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Se mostrará la ventana de instalación, dar clic en “Instalar” y “Finalizar”.",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/25-instalar-3@3x.png",
+                            "parentStyle": {
+                              "float": "left"
+                            },
+                            "style": {
+                              "width": "274px",
+                              "height": "214px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/25-instalar-4@3x.png",
+                            "style": {
+                              "width": "274px",
+                              "height": "214px",
+                              "margin-left": "40px"
+                            }
+                          },
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/25-instalar-5@3x.png",
+                            "style": {
+                              "width": "274px",
+                              "height": "214px"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Importante:",
+                      "color": "#333333",
+                      "size": "20px",
+                      "weight": "bold"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Recuerda que la opción de No sincronizar archivos con un peso mayor a 500MB esta activa por default. Para poder subir todos tus archivos deshabilita esta opción.:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/cliente-escritorio/captura-de-pantalla-2019-06-06-a-la-s-15-16-29@3x.png",
+                    "style": {
+                      "width": "274px",
+                      "height": "214px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "cliente-de-escritorio",
+            "path": "forzar-sincronizacion",
+            "title": {
+              "text": "Forzar sincronización",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "ESCRITORIO",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "La aplicación de Claro drive para escritorio puede forzar la sincronización en caso de que alguna de las carpeteas que creaste no se vea refleja de en tu  equipo de escritorio  para esto sigue estos simples pasos:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "image"
+                    },
+                    "url": "/cliente-escritorio/22-barra-menu-windows@3x.png",
+                    "parentStyle": {
+                      "text-align": "center"
+                    },
+                    "style": {
+                      "width": "463px",
+                      "height": "229px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "La aplicación de Claro drive para escritorio está disponible para los sistemas operativos, macOS y Windows. Después de instalada, la aplicación crea una carpeta llamada Claro drive en tu computadora. La carpeta funciona como cualquier otra, pero con algunas diferencias importantes:",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Haz clic en el icono de  Claro drive en la barra de menús.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en configuraciones",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en el botón °°°",
+                          "color": "#333333",
+                          "size": "16px"
+                        },
+                        "extra": [
+                          {
+                            "type": {
+                              "name": "image"
+                            },
+                            "url": "/cliente-escritorio/group-20@3x.png",
+                            "style": {
+                              "width": "426px",
+                              "height": "188px"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "option": {
+                          "text": "Haz clic en la opción Forzar sincronización",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "parent": "cliente-de-escritorio",
+            "path": "boton-abrir-en-clarodrive.com",
+            "title": {
+              "text": "Botón abrir en clarodrive.com",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "devices": [
+              {
+                "name": "ESCRITORIO",
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "Siempre que desees puedes ingresar a <a href='https://www.clarodrive.com/'>clarodrive.com</a> desde tu aplicación de escritorio para ver tus archivos.",
+                      "color": "#333333",
+                      "size": "20px"
+                    }
+                  },
+                  {
+                    "type": {
+                      "name": "list",
+                      "style": "disc"
+                    },
+                    "options": [
+                      {
+                        "option": {
+                          "text": "Haz clic en el icono de  Claro drive en la barra de menús.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Da clic en Abrir claro drive en el navegador.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      },
+                      {
+                        "option": {
+                          "text": "Se abrirá una pantalla de tu navegador predefinido a la pagina <a href='https://www.clarodrive.com/'>clarodrive.com</a>.",
+                          "color": "#333333",
+                          "size": "16px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "icon": "/icons/ic-mobile.svg",
         "parent": "centro-de-ayuda",
         "path": "movil",
@@ -3873,6 +5384,240 @@
         ]
       },
       {
+        "icon": "/icons/ic-user.svg",
+        "parent": "centro-de-ayuda",
+        "path": "actividad",
+        "title": {
+          "text": "Actividad",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "devices": [
+          {
+            "name": "WEB",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "En la parte superior izquierda se tiene un icono en forma de rayo, el cual te permitirá ver todas las actividades dentro de tu perfil:",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/39-actividad@3x.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "100%",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "list",
+                  "style": "disc",
+                  "padleft": "50px"
+                },
+                "options": [
+                  {
+                    "option": {
+                      "text": "<b>Todas las actividades:</b> Muestra detalladamente las actividades realizadas.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Por usted:</b> La actividad que tú mismo realices en tus archivos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Por otros:</b> Muestra la actividad realizada por otros usuarios en los archivos compartidos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Favoritos:</b> Muestra los archivos marcados como favoritos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Cambios al archivo:</b> Muestra si se realizó alguna modificación en algún archivo.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Archivos compartidos:</b> Muestra la actividad realizada dentro de los archivos compartidos por nosotros.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Comentarios:</b> Muestra los comentarios realizados en los archivos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "IOS",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Selecciona el icono Más&nbsp;<img src='/assets/icons/more.png' width='19px'></img>&nbsp;en la parte inferior derecha.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Se abrirá una ventana. Selecciona la opción Actividad.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-iOS-1.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Observarás todas las actividades organizadas por fechas.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-iOS-2.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ANDROID",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Selecciona el icono Más&nbsp;<img src='/assets/icons/moreoptions.svg' width='32px'></img>&nbsp;en la parte inferior derecha.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Se abrirá una ventana. Selecciona la opción Actividad.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-Android-1.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Observarás todas las actividades organizadas por fechas.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-Android-2.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
         "icon": "/icons/ic-editphoto.svg",
         "parent": "centro-de-ayuda",
         "path": "edicion-de-fotos",
@@ -4185,240 +5930,6 @@
                     }
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": "/icons/ic-user.svg",
-        "parent": "centro-de-ayuda",
-        "path": "actividad",
-        "title": {
-          "text": "Actividad",
-          "size": "35px",
-          "color": "#333333"
-        },
-        "devices": [
-          {
-            "name": "WEB",
-            "content": [
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "En la parte superior izquierda se tiene un icono en forma de rayo, el cual te permitirá ver todas las actividades dentro de tu perfil:",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "bold"
-                }
-              },
-              {
-                "type": {
-                  "name": "image"
-                },
-                "url": "/actividad/39-actividad@3x.png",
-                "parentStyle": {
-                  "text-align": "center"
-                },
-                "style": {
-                  "width": "100%",
-                  "margin-bottom": "20px"
-                }
-              },
-              {
-                "type": {
-                  "name": "list",
-                  "style": "disc",
-                  "padleft": "50px"
-                },
-                "options": [
-                  {
-                    "option": {
-                      "text": "<b>Todas las actividades:</b> Muestra detalladamente las actividades realizadas.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },
-                  {
-                    "option": {
-                      "text": "<b>Por usted:</b> La actividad que tú mismo realices en tus archivos.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },
-                  {
-                    "option": {
-                      "text": "<b>Por otros:</b> Muestra la actividad realizada por otros usuarios en los archivos compartidos.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },
-                  {
-                    "option": {
-                      "text": "<b>Favoritos:</b> Muestra los archivos marcados como favoritos.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },
-                  {
-                    "option": {
-                      "text": "<b>Cambios al archivo:</b> Muestra si se realizó alguna modificación en algún archivo.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },
-                  {
-                    "option": {
-                      "text": "<b>Archivos compartidos:</b> Muestra la actividad realizada dentro de los archivos compartidos por nosotros.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  },
-                  {
-                    "option": {
-                      "text": "<b>Comentarios:</b> Muestra los comentarios realizados en los archivos.",
-                      "color": "#333333",
-                      "size": "16px",
-                      "weight": "normal"
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "IOS",
-            "content": [
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "Selecciona el icono Más&nbsp;<img src='/assets/img/actividad/more.svg'></img>&nbsp;en la parte inferior derecha.",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "bold"
-                }
-              },
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "Se abrirá una ventana. Selecciona la opción Actividad.",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "500"
-                }
-              },
-              {
-                "type": {
-                  "name": "image"
-                },
-                "url": "/actividad/Actividad-iOS-1.png",
-                "parentStyle": {
-                  "text-align": "center"
-                },
-                "style": {
-                  "width": "288px",
-                  "margin-bottom": "20px"
-                }
-              },
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "Observarás todas las actividades organizadas por fechas.",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "500"
-                }
-              },
-              {
-                "type": {
-                  "name": "image"
-                },
-                "url": "/actividad/Actividad-iOS-2.png",
-                "parentStyle": {
-                  "text-align": "center"
-                },
-                "style": {
-                  "width": "288px",
-                  "margin-bottom": "20px"
-                }
-              }
-            ]
-          },
-          {
-            "name": "ANDROID",
-            "content": [
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "Selecciona el icono Más&nbsp;<img src='/assets/img/actividad/more.svg'></img>&nbsp;en la parte inferior derecha.",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "bold"
-                }
-              },
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "Se abrirá una ventana. Selecciona la opción Actividad.",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "500"
-                }
-              },
-              {
-                "type": {
-                  "name": "image"
-                },
-                "url": "/actividad/Actividad-Android-1.png",
-                "parentStyle": {
-                  "text-align": "center"
-                },
-                "style": {
-                  "width": "288px",
-                  "margin-bottom": "20px"
-                }
-              },
-              {
-                "type": {
-                  "name": "text"
-                },
-                "text": {
-                  "text": "Observarás todas las actividades organizadas por fechas.",
-                  "color": "#333333",
-                  "size": "20px",
-                  "weight": "500"
-                }
-              },
-              {
-                "type": {
-                  "name": "image"
-                },
-                "url": "/actividad/Actividad-Android-2.png",
-                "parentStyle": {
-                  "text-align": "center"
-                },
-                "style": {
-                  "width": "288px",
-                  "margin-bottom": "20px"
-                }
               }
             ]
           }
