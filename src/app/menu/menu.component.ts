@@ -21,6 +21,7 @@ export class MenuComponent implements OnInit {
   }
 
   searchContent(item, $event) {
+    console.log(item);
     this.SelectedItem = item.path;
     this.SelectedContentEvent.emit(item);
     let parent = (this.filterTitle(this.DATA['items'], item.parent));

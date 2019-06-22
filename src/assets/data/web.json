@@ -4189,6 +4189,502 @@
             ]
           }
         ]
+      },
+      {
+        "icon": "/icons/ic-user.svg",
+        "parent": "centro-de-ayuda",
+        "path": "actividad",
+        "title": {
+          "text": "Actividad",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "devices": [
+          {
+            "name": "WEB",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "En la parte superior izquierda se tiene un icono en forma de rayo, el cual te permitirá ver todas las actividades dentro de tu perfil:",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/39-actividad@3x.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "100%",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "list",
+                  "style": "disc",
+                  "padleft": "50px"
+                },
+                "options": [
+                  {
+                    "option": {
+                      "text": "<b>Todas las actividades:</b> Muestra detalladamente las actividades realizadas.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Por usted:</b> La actividad que tú mismo realices en tus archivos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Por otros:</b> Muestra la actividad realizada por otros usuarios en los archivos compartidos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Favoritos:</b> Muestra los archivos marcados como favoritos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Cambios al archivo:</b> Muestra si se realizó alguna modificación en algún archivo.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Archivos compartidos:</b> Muestra la actividad realizada dentro de los archivos compartidos por nosotros.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  },
+                  {
+                    "option": {
+                      "text": "<b>Comentarios:</b> Muestra los comentarios realizados en los archivos.",
+                      "color": "#333333",
+                      "size": "16px",
+                      "weight": "normal"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "IOS",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Selecciona el icono Más&nbsp;<img src='/assets/img/actividad/more.svg'></img>&nbsp;en la parte inferior derecha.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Se abrirá una ventana. Selecciona la opción Actividad.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-iOS-1.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Observarás todas las actividades organizadas por fechas.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-iOS-2.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ANDROID",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Selecciona el icono Más&nbsp;<img src='/assets/img/actividad/more.svg'></img>&nbsp;en la parte inferior derecha.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "bold"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Se abrirá una ventana. Selecciona la opción Actividad.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-Android-1.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Observarás todas las actividades organizadas por fechas.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "500"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Actividad-Android-2.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "288px",
+                  "margin-bottom": "20px"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-user.svg",
+        "parent": "centro-de-ayuda",
+        "path": "escaner",
+        "title": {
+          "text": "Escáner",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "devices": [
+          {
+            "name": "IOS",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>La función Escáner te permite generar archivos PDF a partir de capturas de documentos físicos que desees digitalizar.</p>Una vez capturada la imagen, podrás seleccionar el área de archivo que quiera guardar. Puedes elegir entre el color original, blanco y negro, o escala de grises, así como cambiar la orientación y el orden de las imágenes. El archivo generado se almacenado directamente en tu cuenta Claro drive.<p>Da clic en el signo de (+) ubicado en la parte inferior central del dispositivo. Da clic en Escanear.</p>",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-iOS-1.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>Se abrirá la cámara para proceder a escanear el documento.</p>Da clic en Siguiente.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-iOS-2.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Cuando termines, da clic en Listo.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-iOS-3.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>Se abrirá una sección de edición de la imagen, si es que deseas aplicar algún filtro.</p>De ser el caso, da clic en Aplicar.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-iOS-4.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>Finalmente podrás ver la ruta de la carpeta en donde se guardará tu escaneo, el tipo de archivo (PDF o JPG). Puedes editar el nombre del archivo.</p>Da clic en Guardar.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-iOS-5.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ANDROID",
+            "content": [
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>La función Escáner te permite generar archivos PDF a partir de capturas de documentos físicos que desees digitalizar.</p>Una vez capturada la imagen, podrás seleccionar el área de archivo que quiera guardar. Puedes elegir entre el color original, blanco y negro, o escala de grises, así como cambiar la orientación y el orden de las imágenes. El archivo generado se almacenado directamente en tu cuenta Claro drive.<p>Da clic en el signo de (+) ubicado en la parte inferior central del dispositivo. Da clic en Escanear.</p>",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-Android-1.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>Se abrirá la cámara para proceder a escanear el documento.</p>Cuando termines, da clic en la Paloma para aprobar el documento.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-Android-2.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "Da clic en Siguiente.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-Android-3.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>Se abrirá una sección de edición de la imagen, si es que deseas aplicar algún filtro.</p>De ser el caso, da clic en Aplicar.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-Android-4.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              },
+              {
+                "type": {
+                  "name": "text"
+                },
+                "text": {
+                  "text": "<p>Finalmente podrás ver la ruta de la carpeta en donde se guardará tu escaneo. Puedes editar el nombre del archivo.</p>Da clic en Guardar.",
+                  "color": "#333333",
+                  "size": "20px",
+                  "weight": "regular"
+                }
+              },
+              {
+                "type": {
+                  "name": "image"
+                },
+                "url": "/actividad/Escaner-Android-5.png",
+                "parentStyle": {
+                  "text-align": "center"
+                },
+                "style": {
+                  "width": "249px",
+                  "margin-bottom": "20px"
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   }

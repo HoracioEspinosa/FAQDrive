@@ -31,7 +31,7 @@ export class AppComponent implements OnInit{
   }
 
   searchContent(content) {
-    if (content.content) {
+    if (content.content || content.devices)  {
       this.SelectedContent = content;
     }
   }
