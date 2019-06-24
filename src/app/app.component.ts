@@ -45,6 +45,10 @@ export class AppComponent implements OnInit{
     
   }
 
+  getBack() {
+      window.history.back();
+  }
+
   searchContent(content) {
     this.Breadcumb = [];
 

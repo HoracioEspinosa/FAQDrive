@@ -28,6 +28,33 @@ body {
 }
 
 mat-toolbar.mat-toolbar {
+  .btn-return {
+    background-color: #FFF;
+    color: #0078BF;
+    cursor: pointer;
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+    height: 24px;
+    line-height: 26px;
+    padding: 12px 8px;
+
+    .btn-return-icon {
+      border-color: #0078BF;
+      border-style: solid;
+      border-width: 0 0 2px 2px;
+      display: inline-block;
+      margin-top: -4px;
+      padding: 7px;
+      transform: rotate(45deg);
+      vertical-align: middle;
+    }
+
+    &:hover {
+      background-color: #F3F3F3;
+    }
+  }
+
   mat-toolbar-row {
     &.navbar {
       form.example-form {
@@ -235,6 +262,10 @@ mat-tab-group {
 
 @media (max-width: 1023px) {
   mat-toolbar.mat-toolbar {
+    .btn-return {
+      display: block;
+    }
+
     mat-toolbar-row.navbar {
       form.example-form {
         h1 {
