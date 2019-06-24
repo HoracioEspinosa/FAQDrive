@@ -1703,7 +1703,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de informción no supere la cuota del plan seleccionado.",
+                      "text": "Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de información no supere la cuota del plan seleccionado.",
                       "color": "#333333",
                       "size": "20px",
                       "weight": "500"
@@ -1712,7 +1712,7 @@
                 ]
               },
               {
-                "name": "WEB",
+                "name": "ANDROID",
                 "content": [
                   {
                     "type": {
@@ -1960,7 +1960,7 @@
                 ]
               },
               {
-                "name": "WEB",
+                "name": "ANDROID",
                 "content": [
                   {
                     "type": {
@@ -3775,7 +3775,7 @@
                     "options": [
                       {
                         "option": {
-                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>"
+                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>."
                         }
                       },
                       {
@@ -3871,7 +3871,7 @@
             "parent": "almacenamiento",
             "path": "que-informacion-puedes-ver-dentro-de-tu-almacenamiento",
             "title": {
-              "text": "¿Que información puedes ver dentro de tu almacenamiento?",
+              "text": "¿Qué información puedes ver dentro de tu almacenamiento?",
               "size": "35px",
               "color": "#333333"
             },
@@ -4515,7 +4515,7 @@
         "parent": "centro-de-ayuda",
         "path": "movil",
         "title": {
-          "text": "Movíl",
+          "text": "Móvil",
           "size": "35px",
           "color": "#333333"
         },
@@ -5498,7 +5498,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración. Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el Icono de Más / Configuraciones.",
+                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración.<br><br> Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el <img src='/assets/img/ios/15-opci-n-ios@3x.png' width='30' height='30'  />Icono de Más / Configuraciones.",
                       "color": "#333333",
                       "size": "20px",
                       "weight": "500"
@@ -5513,7 +5513,7 @@
                       "text-align": "center"
                     },
                     "style": {
-                      "width": "50%",
+                      "width": "100%",
                       "padding-bottom": "20px",
                       "padding-top": "20px"
                     }
@@ -5528,7 +5528,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración. Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el Icono de Más / Configuraciones.",
+                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración.<br><br> Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el <img src='/assets/img/ios/15-opci-n-ios@3x.png' width='30' height='30'  /> Icono de Más / Configuraciones.",
                       "color": "#333333",
                       "size": "20px",
                       "weight": "500"
@@ -5543,7 +5543,7 @@
                       "text-align": "center"
                     },
                     "style": {
-                      "width": "50%",
+                      "width": "100%",
                       "padding-bottom": "20px",
                       "padding-top": "20px"
                     }
@@ -5743,7 +5743,7 @@
                     "text": {
                       "text": "Confirma la eliminación de archivo.",
                       "color": "#333333",
-                      "size": "40px",
+                      "size": "20px",
                       "weight": "500"
                     }
                   },

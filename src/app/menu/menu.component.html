@@ -10,6 +10,6 @@
         {{ item.title.text }}
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <app-menu *ngIf="item.items" [items]="item.items" (SelectedContentEvent)="getSelectedContent($event)" (SelectedItemEvent)="setSelectedItemElement($event)"></app-menu>
+    <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
   </mat-expansion-panel>
 </ng-template>
