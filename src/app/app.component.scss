@@ -109,8 +109,8 @@
   }
 
   .container {
+    width: 100% !important;
     display: inline-flex;
-
     #content {
       padding: 30px 24px;
       max-width: 65%;
@@ -122,4 +122,15 @@
     font-weight: normal;
     color: #717171;
     background: #f1f1f1;
+  }
+
+  .centerSidenav {
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
+
+  .leftSidenav {
+    width: 350px !important;
   }

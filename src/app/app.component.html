@@ -2,7 +2,7 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row class="navbar">
     <form class="example-form">
-      <h1><span>Centro de ayuda</span></h1>
+      <h1><span>Centro de ayuda Claro drive Negocios</span></h1>
       <mat-form-field class="example-full-width" [floatLabel]="'never'">
         <mat-icon matPrefix>search</mat-icon>
         <input type="text" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto" class="searchInput" >
@@ -16,20 +16,21 @@
     </form>
   </mat-toolbar-row>
 
-  <mat-toolbar-row class="breadcumb">
+  <mat-toolbar-row class="breadcumb" *ngIf="((SelectedContent | json) !== '{}')">
     <span *ngFor="let bread of Breadcumb; let i = index" >
       <ng-template [ngIf]="((Breadcumb.length) > i) && (i !== 0)">&nbsp;>&nbsp;</ng-template>
       <ng-template
         [ngIf]="(((Breadcumb.length - 1) === i) && ((Breadcumb.length) !== 1)) && !(((Breadcumb.length) > i) && (i !== 0))">
-        &nbsp;>&nbsp;</ng-template>
-      {{ bread.name }}
+        &nbsp;>&nbsp;
+      </ng-template>
+      <span (click)="setBreadCumbContent(bread.content)">{{ bread.name }}</span>
     </span>
   </mat-toolbar-row>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 </mat-toolbar>
 <router-outlet></router-outlet>
-
 <div class="container">
-  <div id="sidenav">
+  <div id="sidenav" [ngClass]="{'centerSidenav': ((SelectedContent | json) === '{}'), 'leftSidenav': ((SelectedContent | json) != '{}')}">
+      <h1 *ngIf="((SelectedContent | json) === '{}')" [ngStyle]="{'font-size':'28px'}">Categoría</h1>
     <mat-accordion>
       <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items"
         [attr.data-title]="item.path">
@@ -40,7 +41,7 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
         <app-menu *ngIf="item.items" [items]="item.items" [DATA]="DATA"
-          (BreadcumbEvent)="setBreadcumbContent($event)" (SelectedContentEvent)="getSelectedContent($event)">
+          (BreadcumbEvent)="setBreadcumbContent($event)" (SelectedContentEvent)="getSelectedContent($event)" (SelectedItemEvent)="setSelectedItemElement($event)">
         </app-menu>
       </mat-expansion-panel>
     </mat-accordion>

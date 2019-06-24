@@ -11,6 +11,7 @@ export class MenuComponent implements OnInit {
   @Input() DATA: [];
   @Output() SelectedContentEvent = new EventEmitter<any>();
   @Output() BreadcumbEvent = new EventEmitter<any>();
+  @Output() SelectedItemEvent = new EventEmitter<any>();
   SelectedItem: string;
 
   constructor(
@@ -23,7 +24,9 @@ export class MenuComponent implements OnInit {
   searchContent(item, $event) {
     this.SelectedItem = item.path;
     this.SelectedContentEvent.emit(item);
+    this.SelectedItemEvent.emit(this.SelectedItem);
     let parent = (this.filterTitle(this.DATA['items'], item.parent));
+    console.log(parent);
     if(parent.length > 0) {
       parent = parent[0];
     }
@@ -33,11 +36,12 @@ export class MenuComponent implements OnInit {
     };
 
     if (parent['content']) {
-      breadParent['content'] = parent['content'];
+      breadParent['content'] = parent;
     }
 
     let breads = [];
     let current = { name: item.title.text, content: item };
+
     breads.push(breadParent);
     breads.push(current);
     this.BreadcumbEvent.emit(breads);

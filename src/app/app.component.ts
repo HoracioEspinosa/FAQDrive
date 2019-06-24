@@ -17,11 +17,10 @@ export class AppComponent implements OnInit{
   filteredOptions: Observable<string[]>;
   items: {};
   DATA: {};
-  SelectedContent = { name: "Horacio" };
+  SelectedContent = {};
+  SelectedItemElement = {};
+
   Breadcumb = [
-    {
-      name: 'Centro de ayuda'
-    }
   ];
 
   constructor(
@@ -30,9 +29,51 @@ export class AppComponent implements OnInit{
     this.getData();
   }
 
+  setBreadCumbContent(content) {
+    console.log(this.SelectedItemElement, content.path);
+    if (this.SelectedItemElement !== content.path) {
+      this.Breadcumb = [];
+      if (content) {
+        this.SelectedContent = content;
+        this.SelectedItemElement = content.path;
+        this.searchContent(content);
+      } else {
+        this.SelectedContent = this.SelectedContent;
+        this.searchContent(content);
+      }
+    }
+    
+  }
+
   searchContent(content) {
+    this.Breadcumb = [];
+
     if (content.content || content.devices)  {
       this.SelectedContent = content;
+      this.SelectedItemElement = content.path;
+      let parent = (this.filterTitle(this.DATA['items'], this.SelectedItemElement));
+
+      if(parent.length > 0) {
+        parent = parent[0];
+      }
+  
+      let breadParent = {
+        name: parent['title'].text
+      };
+  
+      if (parent['content']) {
+        breadParent['content'] = parent;
+      }
+  
+      let breads = [];
+      let current = { name: content.title.text, content: content };
+      breads.push({
+        name: 'Centro de ayuda',
+        content: {}
+      });
+      breads.push(breadParent);
+
+      this.Breadcumb = breads;
     }
   }
 
@@ -42,7 +83,12 @@ export class AppComponent implements OnInit{
     this.SelectedContent = $event;
   }
 
+  setSelectedItemElement($event) {
+    this.SelectedItemElement = $event;
+  }
+
   setBreadcumbContent($event) {
+    console.log($event);
     let bread = this.Breadcumb[0];
     let breads = [];
     breads.push(bread);
