@@ -21,6 +21,10 @@ export class AppComponent implements OnInit{
   SelectedItemElement = {};
 
   Breadcumb = [
+    {
+      name: 'Centro de ayuda',
+      content: {}
+    }
   ];
 
   constructor(
@@ -35,11 +39,8 @@ export class AppComponent implements OnInit{
       this.Breadcumb = [];
       if (content) {
         this.SelectedContent = content;
-        this.SelectedItemElement = content.path;
-        this.searchContent(content);
       } else {
-        this.SelectedContent = this.SelectedContent;
-        this.searchContent(content);
+        
       }
     }
     
