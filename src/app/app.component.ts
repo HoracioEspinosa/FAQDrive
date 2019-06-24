@@ -30,49 +30,52 @@ export class AppComponent implements OnInit{
   }
 
   setBreadCumbContent(content) {
-    if (this.SelectedItemElement !== content.path) {
-      this.Breadcumb = [];
-      if (content) {
-        this.SelectedContent = content;
-        this.SelectedItemElement = content.path;
-        this.searchContent(content);
-      } else {
-        this.SelectedContent = this.SelectedContent;
+    if(content) {
+      if (content.path) {
+        if (this.SelectedItemElement !== content.path) {
+          this.Breadcumb = [];
+          if (content) {
+            this.SelectedContent = content;
+            this.SelectedItemElement = content.path;
+            this.searchContent(content);
+          } else {
+            this.SelectedContent = this.SelectedContent;
+          }
+        }
       }
     }
-    
   }
 
   searchContent(content) {
-    this.Breadcumb = [];
-
-    console.log(content);
-    if ((content.content != undefined) || (content.devices != undefined))  {
+    if (content.content || content.devices)  {
+      this.Breadcumb = [];
       this.SelectedContent = content;
       this.SelectedItemElement = content.path;
       let parent = (this.filterTitle(this.DATA['items'], this.SelectedItemElement));
 
-      if(parent.length > 0) {
-        parent = parent[0];
+      if(parent) {
+        if(parent.length > 0) {
+          parent = parent[0];
+        }
+    
+        let breadParent = {
+          name: parent['title'].text
+        };
+    
+        if (parent['content']) {
+          breadParent['content'] = parent;
+        }
+    
+        let breads = [];
+        let current = { name: content.title.text, content: content };
+        breads.push({
+          name: 'Centro de ayuda',
+          content: {}
+        });
+        breads.push(breadParent);
+  
+        this.Breadcumb = breads;
       }
-  
-      let breadParent = {
-        name: parent['title'].text
-      };
-  
-      if (parent['content']) {
-        breadParent['content'] = parent;
-      }
-  
-      let breads = [];
-      let current = { name: content.title.text, content: content };
-      breads.push({
-        name: 'Centro de ayuda',
-        content: {}
-      });
-      breads.push(breadParent);
-
-      this.Breadcumb = breads;
     }
   }
 
