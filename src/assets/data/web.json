@@ -3871,7 +3871,7 @@
             "parent": "almacenamiento",
             "path": "que-informacion-puedes-ver-dentro-de-tu-almacenamiento",
             "title": {
-              "text": "¿Que información puedes ver dentro de tu almacenamiento?",
+              "text": "¿Qué información puedes ver dentro de tu almacenamiento?",
               "size": "35px",
               "color": "#333333"
             },
@@ -5498,7 +5498,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración. Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el Icono de Más / Configuraciones.",
+                      "text": "Una vez que ingresas a la cuenta se mostrará una ventana de configuración.<br><br> Si no muestra la ventana de configuración, te puedes dirigir a la parte inferior derecha del dispositivo en el <img src='/assets/img/ios/15-opci-n-ios@3x.png' width='50' height='50'  />Icono de Más / Configuraciones.",
                       "color": "#333333",
                       "size": "20px",
                       "weight": "500"
