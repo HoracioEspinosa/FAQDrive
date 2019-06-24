@@ -4556,7 +4556,7 @@
             "parent": "movil",
             "path": "como-puedo-acceder-a-mis-archivos-sin-conexion",
             "title": {
-              "text": "¿Como puedo acceder a mis archivos sin conexión?",
+              "text": "¿Cómo puedo acceder a mis archivos sin conexión?",
               "size": "35px",
               "color": "#333333"
             },
@@ -4572,7 +4572,7 @@
                     "options": [
                       {
                         "option": {
-                          "text": "Puedes tener siempre acceso a tus archivos desde cualquier lugar a tus archivos sin necesidad de una conexión a internet <br><br> En dispositivos iOS:",
+                          "text": "Puedes tener siempre acceso a tus archivos desde cualquier lugar sin necesidad de una conexión a internet <br><br> En dispositivos iOS:",
                           "color": "#333333",
                           "size": "20px",
                           "weight": "normal"
@@ -4588,7 +4588,7 @@
                     "options": [
                       {
                         "option": {
-                          "text": "Basta con seleccionar el archivo que deses, al seleccionarlo se mostrará una barra de progreso.",
+                          "text": "Basta con seleccionar el archivo que desees, al seleccionarlo se mostrará una barra de progreso.",
                           "color": "#333333",
                           "size": "16px",
                           "weight": "normal"
