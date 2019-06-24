@@ -1703,7 +1703,7 @@
                       "name": "text"
                     },
                     "text": {
-                      "text": "Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de informción no supere la cuota del plan seleccionado.",
+                      "text": "Si seleccionas un plan mas bajo y superas la cantidad máxima de espacio de almacenamiento para el plan nuevo, no podrá concluirse la solicitud hasta que la cantidad de información no supere la cuota del plan seleccionado.",
                       "color": "#333333",
                       "size": "20px",
                       "weight": "500"
@@ -1712,7 +1712,7 @@
                 ]
               },
               {
-                "name": "WEB",
+                "name": "ANDROID",
                 "content": [
                   {
                     "type": {
@@ -1960,7 +1960,7 @@
                 ]
               },
               {
-                "name": "WEB",
+                "name": "ANDROID",
                 "content": [
                   {
                     "type": {
@@ -3775,7 +3775,7 @@
                     "options": [
                       {
                         "option": {
-                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>"
+                          "text":"Inicia sesión en <a href='https://www.clarodrive.com/'>clarodrive.com</a>."
                         }
                       },
                       {
@@ -5743,7 +5743,7 @@
                     "text": {
                       "text": "Confirma la eliminación de archivo.",
                       "color": "#333333",
-                      "size": "40px",
+                      "size": "20px",
                       "weight": "500"
                     }
                   },
