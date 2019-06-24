@@ -21,10 +21,6 @@ export class AppComponent implements OnInit{
   SelectedItemElement = {};
 
   Breadcumb = [
-    {
-      name: 'Centro de ayuda',
-      content: {}
-    }
   ];
 
   constructor(
@@ -34,13 +30,14 @@ export class AppComponent implements OnInit{
   }
 
   setBreadCumbContent(content) {
-    console.log(this.SelectedItemElement, content.path);
     if (this.SelectedItemElement !== content.path) {
       this.Breadcumb = [];
       if (content) {
         this.SelectedContent = content;
+        this.SelectedItemElement = content.path;
+        this.searchContent(content);
       } else {
-        
+        this.SelectedContent = this.SelectedContent;
       }
     }
     
@@ -49,7 +46,8 @@ export class AppComponent implements OnInit{
   searchContent(content) {
     this.Breadcumb = [];
 
-    if (content.content || content.devices)  {
+    console.log(content);
+    if ((content.content != undefined) || (content.devices != undefined))  {
       this.SelectedContent = content;
       this.SelectedItemElement = content.path;
       let parent = (this.filterTitle(this.DATA['items'], this.SelectedItemElement));
@@ -89,10 +87,7 @@ export class AppComponent implements OnInit{
   }
 
   setBreadcumbContent($event) {
-    console.log($event);
-    let bread = this.Breadcumb[0];
     let breads = [];
-    breads.push(bread);
     $event.forEach(element => {
       breads.push(element);
     });

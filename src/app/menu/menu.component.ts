@@ -26,7 +26,6 @@ export class MenuComponent implements OnInit {
     this.SelectedContentEvent.emit(item);
     this.SelectedItemEvent.emit(this.SelectedItem);
     let parent = (this.filterTitle(this.DATA['items'], item.parent));
-    console.log(parent);
     if(parent.length > 0) {
       parent = parent[0];
     }
@@ -41,7 +40,10 @@ export class MenuComponent implements OnInit {
 
     let breads = [];
     let current = { name: item.title.text, content: item };
-
+    breads.push({
+      name: 'Centro de ayuda',
+      content: {}
+    });
     breads.push(breadParent);
     breads.push(current);
     this.BreadcumbEvent.emit(breads);
