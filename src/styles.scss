@@ -83,15 +83,28 @@ mat-toolbar.mat-toolbar {
             padding: 0;
 
             .mat-form-field-flex {
+              align-items: normal;
+              display: block;
+
+              & > div {
+                background-color: #333;
+                display: block;
+                float: left;
+                height: 68px;
+              }
+
               .mat-form-field-prefix {
+                border-radius: 4px 0 0 4px;
+
                 mat-icon.mat-icon {
-                  border-radius: 4px 0 0 4px;
+                  background: none;
                   min-height: 30px !important;
                   padding: 19px;
                 }
               }
 
               .mat-form-field-infix {
+                border-radius: 0 4px 4px 0;
                 border: none !important;
                 color: #717171 !important;
                 flex: none;
@@ -99,11 +112,11 @@ mat-toolbar.mat-toolbar {
                 font-weight: lighter;
                 line-height: 46px;
                 margin: 0;
-                padding: 6px 0 0 !important;
+                padding: 0;
                 width: calc(100% - 68px);
 
                 input {
-                  border-radius: 0 4px 4px 0;
+                  background: none;
                   box-sizing: border-box;
                   font-size: 16px;
                   font-weight: lighter;
@@ -111,7 +124,25 @@ mat-toolbar.mat-toolbar {
                   margin: 0;
                   padding: 0 !important;
                 }
+
+                .mat-form-field-label-wrapper {
+                  padding: 0;
+                  top: 0;
+
+                  label.mat-form-field-label {
+                    position: unset;
+                    line-height: 68px;
+
+                    .placeholder {
+                      margin: 0;
+                    }
+                  }
+                }
               }
+            }
+
+            .mat-form-field-underline {
+              display: none;
             }
           }
         }
@@ -313,18 +344,6 @@ mat-tab-group {
 }
 
 @media (max-width: 380px) {
-  mat-toolbar.mat-toolbar {
-    mat-toolbar-row {
-      &.navbar {
-        form.example-form {
-          mat-form-field.mat-form-field {
-            margin-top: 0;
-          }
-        }
-      }
-    }
-  }
-
   .container {
     #content {
       img {
