@@ -203,6 +203,30 @@
                   }
                 ]
               }
+            ],
+            "items": [
+              {
+                "parent": "cuenta-telmex",
+                "path": "cuenta-telmex-x",
+                "title": {
+                  "text": "Cuenta Telmexx",
+                  "size": "35px",
+                  "color": "#333333"
+                },
+                "content": [
+                  {
+                    "type": {
+                      "name": "text"
+                    },
+                    "text": {
+                      "text": "¿Cómo me registro en Claro drive?",
+                      "color": "#333333",
+                      "size": "28px",
+                      "weight": "bold"
+                    }
+                  }
+                ]
+              }
             ]
           },
           {

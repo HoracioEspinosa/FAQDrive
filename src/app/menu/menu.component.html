@@ -1,15 +1,17 @@
-<ng-template *ngFor="let item of items; let i = index" [ngIf]="!item.items">
-  <p [ngClass]="{'submenuElement': true, 'active': (SelectedItem === item.path)}" (click)="searchContent(item, $event)">{{ item.title.text }}</p>
-</ng-template>
-<ng-template *ngFor="let item of items; let i = index" [ngIf]="item.items">
-  <mat-expansion-panel [hideToggle]="!item.items"
-    [attr.data-title]="item.path" [@.disabled]="true">
-    <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" [attr.data-title]="item.path"
-      (click)="searchContent(item)">
-      <mat-panel-title [attr.data-title]="item.path">
-        {{ item.title.text }}
-      </mat-panel-title>
-    </mat-expansion-panel-header>
-    <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
-  </mat-expansion-panel>
-</ng-template>
+<div *ngFor="let item of items; let i = index">
+  <ng-template [ngIf]="!item.items">
+      <p [ngClass]="{'submenuElement': true, 'active': (SelectedItem === item.path)}" (click)="searchContent(item, $event)">{{ item.title.text }}</p>
+  </ng-template>
+  <ng-template [ngIf]="item.items">
+      <mat-expansion-panel [hideToggle]="!item.items"
+      [attr.data-title]="item.path" [@.disabled]="true">
+      <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" [attr.data-title]="item.path"
+        (click)="searchContent(item)">
+        <mat-panel-title [attr.data-title]="item.path">
+          {{ item.title.text }}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
+    </mat-expansion-panel>
+  </ng-template>
+</div>

@@ -27,34 +27,34 @@ body {
   color:#000 !important;
 }
 
-mat-toolbar.mat-toolbar {
-  .btn-return {
-    background-color: #FFF;
-    color: #0078BF;
-    cursor: pointer;
-    display: none;
-    font-size: 16px;
-    font-weight: normal;
-    height: 24px;
-    line-height: 26px;
-    padding: 12px 8px;
+.btn-return {
+  background-color: #FFF;
+  color: #0078BF;
+  cursor: pointer;
+  display: none;
+  font-size: 16px;
+  font-weight: normal;
+  height: 24px;
+  line-height: 26px;
+  padding: 12px 8px;
 
-    .btn-return-icon {
-      border-color: #0078BF;
-      border-style: solid;
-      border-width: 0 0 2px 2px;
-      display: inline-block;
-      margin-top: -4px;
-      padding: 7px;
-      transform: rotate(45deg);
-      vertical-align: middle;
-    }
-
-    &:hover {
-      background-color: #F3F3F3;
-    }
+  .btn-return-icon {
+    border-color: #0078BF;
+    border-style: solid;
+    border-width: 0 0 2px 2px;
+    display: inline-block;
+    margin-top: -4px;
+    padding: 7px;
+    transform: rotate(45deg);
+    vertical-align: middle;
   }
 
+  &:hover {
+    background-color: #F3F3F3;
+  }
+}
+
+mat-toolbar.mat-toolbar {
   mat-toolbar-row {
     &.navbar {
       form.example-form {
@@ -259,13 +259,26 @@ mat-tab-group {
     height: 3px;
   }
 }
-
+@media (min-width: 1024px) {
+  .CategoriesSearchMobil {
+    display: none;
+  }
+  .CategoriesSearchDesktop {
+    display: block;
+  }
+}
 @media (max-width: 1023px) {
-  mat-toolbar.mat-toolbar {
-    .btn-return {
-      display: block;
-    }
+  .CategoriesSearchMobil {
+    display: block;
+  }
+  .CategoriesSearchDesktop {
+    display: none;
+  }
 
+  .btn-return {
+    display: block;
+  }
+  mat-toolbar.mat-toolbar {
     mat-toolbar-row.navbar {
       form.example-form {
         h1 {
@@ -283,14 +296,14 @@ mat-tab-group {
     #sidenav {
       box-sizing: border-box;
       margin: auto;
-      max-width: 350px;
+      max-width: 100%;
       min-width: 280px;
       width: 100% !important;
     }
 
     #content {
       max-width: 100% !important;
-      padding: 30px 10px !important;
+      padding: 10px 10px !important;
     }
   }
 }
