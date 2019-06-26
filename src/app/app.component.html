@@ -4,7 +4,7 @@
   
   <mat-toolbar-row class="navbar">
     <form class="example-form">
-      <h1><span>Centro de ayuda</span>&nbsp;<span>Claro drive Negocios</span></h1>
+      <h1 [innerHTML]="HeaderTitle"></h1>
       <mat-form-field class="example-full-width" [floatLabel]="'never'">
         <mat-icon matPrefix>search</mat-icon>
         <input type="text" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto" class="searchInput" >
@@ -34,14 +34,14 @@
 <div class="container">
   <div id="sidenav" [ngClass]="{'centerSidenav': ((SelectedContent | json) === '{}'), 'leftSidenav': ((SelectedContent | json) != '{}')}">
       <h1 *ngIf="((SelectedContent | json) === '{}')" [ngStyle]="{'font-size':'28px'}" class="CategoriesSearchDesktop">Categoría</h1>
-      <mat-accordion class="CategoriesSearchMobil">
+      <mat-accordion class="CategoriesSearchMobil" #principalAccordionMobilePrincipal="matAccordion" multi>
         <mat-expansion-panel>
           <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*">
             <mat-panel-title>Categorías</mat-panel-title>
           </mat-expansion-panel-header>
-          <mat-accordion>
+          <mat-accordion #principalAccordionMobile="matAccordion" multi>
               <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items"
-                [attr.data-title]="item.path">
+                [attr.data-title]="item.path" [expanded]="((CollapseDropDowns && (SelectedItemElement != undefined)) ? ((SelectedItemElement === item.path) ? true : false) : false)">
                 <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" (click)="searchContent(item)">
                   <mat-panel-title>
                     <img [src]="'/assets'+item.icon" alt="" class="menuIcon">
@@ -56,17 +56,19 @@
         </mat-expansion-panel>
       </mat-accordion>
 
-      <mat-accordion class="CategoriesSearchDesktop">
+      <mat-accordion class="CategoriesSearchDesktop" #principalAccordion="matAccordion" multi>
           <mat-expansion-panel *ngFor="let item of items; let i = index" [hideToggle]="!item.items"
-            [attr.data-title]="item.path">
+            [attr.data-title]="item.path"
+            [ngClass]="{'activeItem': (SelectedItemElement === item.path)}"
+            >
             <mat-expansion-panel-header expandedHeight="*" collapsedHeight="*" (click)="searchContent(item)">
               <mat-panel-title>
-                <img [src]="'/assets'+item.icon" alt="" class="menuIcon">
+                <span class="menuIcon" aria-label="My icon" [inlineSVG]="'/assets'+item.icon"></span>
                 {{ item.title.text }}
               </mat-panel-title>
             </mat-expansion-panel-header>
             <app-menu *ngIf="item.items" [items]="item.items" [DATA]="DATA"
-              (BreadcumbEvent)="setBreadcumbContent($event)" (SelectedContentEvent)="getSelectedContent($event)" (SelectedItemEvent)="setSelectedItemElement($event)">
+              (BreadcumbEvent)="setBreadcumbContent($event)" (SelectedContentEvent)="getSelectedContent($event)" (SelectedItemEvent)="setSelectedItemElement($event)" [SelectedItem]="SelectedItemElement" (DropDownEvent)="setDropDownElement($event)">
             </app-menu>
           </mat-expansion-panel>
       </mat-accordion>

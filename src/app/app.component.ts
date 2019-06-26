@@ -1,9 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
-import { MatPlaceholder } from '@angular/material'
+import { MatAccordion } from '@angular/material'
 import { FaqService } from './faq.service';
+import { environment } from './../environments/environment';
+import { TouchSequence } from 'selenium-webdriver';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +20,13 @@ export class AppComponent implements OnInit{
   items: {};
   DATA: {};
   SelectedContent = {};
-  SelectedItemElement = {};
+  SelectedItemElement : string;
+  HeaderTitle: string;
+  CollapseDropDowns = 0;
+
+  @ViewChild('principalAccordion', { static: false }) principalMenu : MatAccordion;
+  @ViewChild('principalAccordionMobile', { static: false }) principalMenuMobile : MatAccordion;
+  @ViewChild('principalAccordionMobilePrincipal', { static: false }) principalMenuMobilePrincipal : MatAccordion;
 
   Breadcumb = [{
     name: 'Centro de ayuda',
@@ -30,14 +38,21 @@ export class AppComponent implements OnInit{
     private faqService: FaqService
   ) {
     this.getData();
+    this.HeaderTitle = environment.title;
   }
 
   setBreadCumbContent(content) {
     if(content) {
+      if (!content.path) {
+        this.principalMenu.closeAll();
+        this.principalMenuMobile.closeAll();
+        this.principalMenuMobilePrincipal.closeAll();
+      }
         if (this.SelectedItemElement !== content.path) {
           this.Breadcumb = [];
           if (content) {
             this.SelectedContent = content;
+            
             this.SelectedItemElement = content.path;
             this.searchContent(content);
           } else {
@@ -54,6 +69,11 @@ export class AppComponent implements OnInit{
   }
 
   searchContent(content) {
+    if(content.path) {
+      this.CollapseDropDowns = 1;
+    } else {
+      this.CollapseDropDowns = 0;
+    }
     if (content.content || content.devices)  {
       this.Breadcumb = [];
       this.SelectedContent = content;
@@ -94,6 +114,10 @@ export class AppComponent implements OnInit{
 
   setSelectedItemElement($event) {
     this.SelectedItemElement = $event;
+  }
+
+  setDropDownElement($event) {
+    this.CollapseDropDowns = $event;
   }
 
   setBreadcumbContent($event) {

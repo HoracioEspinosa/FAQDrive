@@ -11,7 +11,9 @@
           {{ item.title.text }}
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <app-menu *ngIf="item.items" [items]="item.items"></app-menu>
+      <ng-template [ngIf]="item.items">
+          <app-menu [items]="item.items" (BreadcumbEvent)="setBreadcumbContent($event)" (SelectedContentEvent)="getSelectedContent($event)" (SelectedItemEvent)="setSelectedItemElement($event)" [DATA]="DATA" [SelectedItem]="SelectedItem" [CollapseDropDown]="CollapseDropDown"></app-menu>
+      </ng-template>
     </mat-expansion-panel>
   </ng-template>
 </div>

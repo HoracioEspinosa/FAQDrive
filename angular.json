@@ -34,6 +34,22 @@
             "scripts": []
           },
           "configurations": {
+            "web": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.web.ts"
+                }
+              ]
+            },
+            "deal": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.deal.ts"
+                }
+              ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -68,6 +84,12 @@
           "configurations": {
             "production": {
               "browserTarget": "FAQ:build:production"
+            },
+            "web": {
+              "browserTarget": "FAQ:build:web"
+            },
+            "deal": {
+              "browserTarget": "FAQ:build:deal"
             }
           }
         },

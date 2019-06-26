@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { map, retry, catchError } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
+import { environment } from './../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +14,8 @@ export class FaqService {
 
   public getJSON() {
     return new Promise(resolve => {
-      this.http.get('/assets/data/web.json').subscribe(data => {
+      const file = environment.file;
+      this.http.get(`/assets/data/${file}`).subscribe(data => {
         if (data.hasOwnProperty('items')){
           try {
             resolve(data);

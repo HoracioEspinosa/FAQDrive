@@ -13,6 +13,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ContentComponent } from './content/content.component';
 import { ImageComponent } from './image/image.component';
 import { ContentContainerComponent } from './content-container/content-container.component';
+import { InlineSVGModule } from 'ng-inline-svg';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ContentContainerComponent } from './content-container/content-container
     FormsModule,
     HttpClientModule,
     MatExpansionModule,
-    MatTabsModule
+    MatTabsModule,
+    InlineSVGModule
   ],
   exports: [
     MatButtonModule

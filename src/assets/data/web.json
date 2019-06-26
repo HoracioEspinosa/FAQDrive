@@ -3,6 +3,56 @@
       {
         "icon": "/icons/ic-user.svg",
         "parent": "centro-de-ayuda",
+        "path": "prueba-submenu",
+        "title": {
+          "text": "Prueba submenu",
+          "size": "35px",
+          "color": "#333333"
+        },
+        "items": [
+          {
+            "parent": "prueba-submenu",
+            "path": "submenu",
+            "title": {
+              "text": "Submenu",
+              "size": "35px",
+              "color": "#333333"
+            },
+            "items": [
+              {
+                "parent": "submenu",
+                "path": "submenu-item",
+                "title": {
+                  "text": "Submenu item",
+                  "size": "35px",
+                  "color": "#333333"
+                },
+                "devices":[
+                  {
+                    "name": "WEB",
+                    "content":[
+                        {
+                          "type": {
+                            "name": "text"
+                          },
+                          "text": {
+                            "text": "¿Cómo me registro en Claro drive?",
+                            "color": "#333333",
+                            "size": "28px",
+                            "weight": "bold"
+                          }
+                        }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "/icons/ic-user.svg",
+        "parent": "centro-de-ayuda",
         "path": "registro-e-inicio-de-sesion",
         "title": {
           "text": "Registro e Inicio de sesión",
@@ -200,30 +250,6 @@
                         }
                       }
                     ]
-                  }
-                ]
-              }
-            ],
-            "items": [
-              {
-                "parent": "cuenta-telmex",
-                "path": "cuenta-telmex-x",
-                "title": {
-                  "text": "Cuenta Telmexx",
-                  "size": "35px",
-                  "color": "#333333"
-                },
-                "content": [
-                  {
-                    "type": {
-                      "name": "text"
-                    },
-                    "text": {
-                      "text": "¿Cómo me registro en Claro drive?",
-                      "color": "#333333",
-                      "size": "28px",
-                      "weight": "bold"
-                    }
                   }
                 ]
               }
