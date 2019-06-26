@@ -114,6 +114,9 @@ export class AppComponent implements OnInit{
 
   setSelectedItemElement($event) {
     this.SelectedItemElement = $event;
+
+    console.log($event);
+    this.principalMenuMobilePrincipal.closeAll();
   }
 
   setDropDownElement($event) {
