@@ -304,6 +304,11 @@ mat-tab-group {
     height: 3px;
   }
 }
+
+app-image div {
+  max-width: 800px;
+}
+
 @media (min-width: 1024px) {
   .CategoriesSearchMobil {
     display: none;
