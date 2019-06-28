@@ -13,7 +13,8 @@ import { MenuComponent } from './menu/menu.component';
 import { ContentComponent } from './content/content.component';
 import { ImageComponent } from './image/image.component';
 import { ContentContainerComponent } from './content-container/content-container.component';
-import { InlineSVGModule } from 'ng-inline-svg';
+import { InlineSVGModule, InlineSVGConfig } from 'ng-inline-svg';
+import { SVGonfig } from './svg-config';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,9 @@ import { InlineSVGModule } from 'ng-inline-svg';
   exports: [
     MatButtonModule
   ],
-  providers: [],
+  providers: [
+    { provide: InlineSVGConfig, useClass: SVGonfig }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

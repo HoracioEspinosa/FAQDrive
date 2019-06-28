@@ -9,7 +9,7 @@
           <ng-template [ngIf]="extra.type.name === 'note'">
             <div [ngStyle]="extra.text.style">
               <span [ngStyle]="extra.summary.style">{{ extra.summary.text }}</span> 
-              {{ extra.text.text }}
+              <span [innerHTML]='extra.text.text'></span>
             </div>
           </ng-template>
           <ng-template [ngIf]="extra.type.name === 'list'">

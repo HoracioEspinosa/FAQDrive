@@ -3,7 +3,13 @@
     <mat-tab [label]="device.name" *ngFor="let device of SelectedContent.devices">
       <h1 *ngIf="SelectedContent.title"
         [ngStyle]="{ 'font-size':  SelectedContent.title.size , 'color': SelectedContent.title.color , 'font-weight': 'lighter' }">
-        {{ (SelectedContent.title.custom) ? SelectedContent.title.custom : SelectedContent.title.text }}</h1>
+        <ng-template [ngIf]="device.custom">
+            {{ device.custom }}
+        </ng-template>
+        <ng-template [ngIf]="!device.custom">
+            {{ (SelectedContent.title.custom) ? SelectedContent.title.custom : SelectedContent.title.text }}
+        </ng-template>
+      </h1>
       <div class="content" *ngIf="device.content">
         <div *ngFor="let content of device.content; let i = index">
           <ng-template [ngIf]="content.type.name == 'text'">
@@ -20,7 +26,7 @@
           <ng-template [ngIf]="content.type.name === 'note'">
             <div [ngStyle]="content.text.style">
               <span [ngStyle]="content.summary.style">{{ content.summary.text }}</span>
-              {{ content.text.text }}
+              <span [innerHTML]='content.text.text'></span>
             </div>
           </ng-template>
 

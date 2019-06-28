@@ -28,6 +28,7 @@ export class AppComponent implements OnInit{
   @ViewChild('principalAccordionMobile', { static: false }) principalMenuMobile : MatAccordion;
   @ViewChild('principalAccordionMobilePrincipal', { static: false }) principalMenuMobilePrincipal : MatAccordion;
 
+  BASEPATH:string;
   Breadcumb = [{
     name: 'Centro de ayuda',
     content: {}
@@ -39,6 +40,7 @@ export class AppComponent implements OnInit{
   ) {
     this.getData();
     this.HeaderTitle = environment.title;
+    this.BASEPATH = window.location.host;
   }
 
   setBreadCumbContent(content) {
@@ -114,8 +116,6 @@ export class AppComponent implements OnInit{
 
   setSelectedItemElement($event) {
     this.SelectedItemElement = $event;
-
-    console.log($event);
     this.principalMenuMobilePrincipal.closeAll();
   }
 
